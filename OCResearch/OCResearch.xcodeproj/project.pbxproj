@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FBB171B20F48830001A7577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB171A20F48830001A7577 /* AppDelegate.m */; };
-		7FBB171E20F48830001A7577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB171D20F48830001A7577 /* ViewController.m */; };
-		7FBB172120F48830001A7577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB171F20F48830001A7577 /* Main.storyboard */; };
-		7FBB172320F48831001A7577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB172220F48831001A7577 /* Assets.xcassets */; };
-		7FBB172620F48831001A7577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FBB172420F48831001A7577 /* LaunchScreen.storyboard */; };
-		7FBB172920F48831001A7577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB172820F48831001A7577 /* main.m */; };
+		7FA9A6E320F5AAE0007B97E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A6E220F5AAE0007B97E4 /* main.m */; };
 		7FBB173620F48850001A7577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB173520F48850001A7577 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7FA9A6DE20F5AAE0007B97E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		7FBB173120F48850001A7577 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,22 +33,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FBB171620F48830001A7577 /* OCResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FBB171920F48830001A7577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7FBB171A20F48830001A7577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7FBB171C20F48830001A7577 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7FBB171D20F48830001A7577 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7FBB172020F48830001A7577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7FBB172220F48831001A7577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FBB172520F48831001A7577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7FBB172720F48831001A7577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FBB172820F48831001A7577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FA9A6E020F5AAE0007B97E4 /* 02-OC对象-class对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-OC对象-class对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA9A6E220F5AAE0007B97E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FBB173320F48850001A7577 /* 01-OC对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-OC对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBB173520F48850001A7577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FBB171320F48830001A7577 /* Frameworks */ = {
+		7FA9A6DD20F5AAE0007B97E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,11 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FA9A6E120F5AAE0007B97E4 /* 02-OC对象-class对象 */ = {
+			isa = PBXGroup;
+			children = (
+				7FA9A6E220F5AAE0007B97E4 /* main.m */,
+			);
+			path = "02-OC对象-class对象";
+			sourceTree = "<group>";
+		};
 		7FBB170D20F48830001A7577 = {
 			isa = PBXGroup;
 			children = (
-				7FBB171820F48830001A7577 /* OCResearch */,
 				7FBB173420F48850001A7577 /* 01-OC对象 */,
+				7FA9A6E120F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,26 +77,10 @@
 		7FBB171720F48830001A7577 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FBB171620F48830001A7577 /* OCResearch.app */,
 				7FBB173320F48850001A7577 /* 01-OC对象 */,
+				7FA9A6E020F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7FBB171820F48830001A7577 /* OCResearch */ = {
-			isa = PBXGroup;
-			children = (
-				7FBB171920F48830001A7577 /* AppDelegate.h */,
-				7FBB171A20F48830001A7577 /* AppDelegate.m */,
-				7FBB171C20F48830001A7577 /* ViewController.h */,
-				7FBB171D20F48830001A7577 /* ViewController.m */,
-				7FBB171F20F48830001A7577 /* Main.storyboard */,
-				7FBB172220F48831001A7577 /* Assets.xcassets */,
-				7FBB172420F48831001A7577 /* LaunchScreen.storyboard */,
-				7FBB172720F48831001A7577 /* Info.plist */,
-				7FBB172820F48831001A7577 /* main.m */,
-			);
-			path = OCResearch;
 			sourceTree = "<group>";
 		};
 		7FBB173420F48850001A7577 /* 01-OC对象 */ = {
@@ -106,22 +94,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FBB171520F48830001A7577 /* OCResearch */ = {
+		7FA9A6DF20F5AAE0007B97E4 /* 02-OC对象-class对象 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FBB172C20F48831001A7577 /* Build configuration list for PBXNativeTarget "OCResearch" */;
+			buildConfigurationList = 7FA9A6E420F5AAE0007B97E4 /* Build configuration list for PBXNativeTarget "02-OC对象-class对象" */;
 			buildPhases = (
-				7FBB171220F48830001A7577 /* Sources */,
-				7FBB171320F48830001A7577 /* Frameworks */,
-				7FBB171420F48830001A7577 /* Resources */,
+				7FA9A6DC20F5AAE0007B97E4 /* Sources */,
+				7FA9A6DD20F5AAE0007B97E4 /* Frameworks */,
+				7FA9A6DE20F5AAE0007B97E4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OCResearch;
-			productName = OCResearch;
-			productReference = 7FBB171620F48830001A7577 /* OCResearch.app */;
-			productType = "com.apple.product-type.application";
+			name = "02-OC对象-class对象";
+			productName = "02-OC对象-class对象";
+			productReference = 7FA9A6E020F5AAE0007B97E4 /* 02-OC对象-class对象 */;
+			productType = "com.apple.product-type.tool";
 		};
 		7FBB173220F48850001A7577 /* 01-OC对象 */ = {
 			isa = PBXNativeTarget;
@@ -146,10 +134,11 @@
 		7FBB170E20F48830001A7577 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = wangfh;
 				TargetAttributes = {
-					7FBB171520F48830001A7577 = {
+					7FA9A6DF20F5AAE0007B97E4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					7FBB173220F48850001A7577 = {
@@ -170,33 +159,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FBB171520F48830001A7577 /* OCResearch */,
 				7FBB173220F48850001A7577 /* 01-OC对象 */,
+				7FA9A6DF20F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		7FBB171420F48830001A7577 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FBB172620F48831001A7577 /* LaunchScreen.storyboard in Resources */,
-				7FBB172320F48831001A7577 /* Assets.xcassets in Resources */,
-				7FBB172120F48830001A7577 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		7FBB171220F48830001A7577 /* Sources */ = {
+		7FA9A6DC20F5AAE0007B97E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBB171E20F48830001A7577 /* ViewController.m in Sources */,
-				7FBB172920F48831001A7577 /* main.m in Sources */,
-				7FBB171B20F48830001A7577 /* AppDelegate.m in Sources */,
+				7FA9A6E320F5AAE0007B97E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,26 +184,29 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7FBB171F20F48830001A7577 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FBB172020F48830001A7577 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7FBB172420F48831001A7577 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FBB172520F48831001A7577 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		7FA9A6E520F5AAE0007B97E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FA9A6E620F5AAE0007B97E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		7FBB172A20F48831001A7577 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,38 +317,6 @@
 			};
 			name = Release;
 		};
-		7FBB172D20F48831001A7577 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OCResearch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qlk.CloudsOutpatient.OCResearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7FBB172E20F48831001A7577 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OCResearch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qlk.CloudsOutpatient.OCResearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		7FBB173820F48850001A7577 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -397,20 +342,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7FA9A6E420F5AAE0007B97E4 /* Build configuration list for PBXNativeTarget "02-OC对象-class对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA9A6E520F5AAE0007B97E4 /* Debug */,
+				7FA9A6E620F5AAE0007B97E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FBB171120F48830001A7577 /* Build configuration list for PBXProject "OCResearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FBB172A20F48831001A7577 /* Debug */,
 				7FBB172B20F48831001A7577 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7FBB172C20F48831001A7577 /* Build configuration list for PBXNativeTarget "OCResearch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FBB172D20F48831001A7577 /* Debug */,
-				7FBB172E20F48831001A7577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -27,16 +27,33 @@
 @implementation Student
 @end
 
-//----------------测试Person------------
+//----------------测试Person---------------------------------------------------------
 @interface Person : NSObject {
 @public
     int _age;
+    int _height;
+    double _source;
 }
 @property (nonatomic, assign) int height;
 @end
 
-@implementation Person
+//底层isa的实现
+struct NSObject_IMPL {
+    Class isa;
+};
 
+//Person其实转化成c++代码是这种形式的
+struct Person_IMPL {
+    struct NSObject_IMPL NSObject_IVARS; //8
+    int _age; //4
+    int _height; //4
+    double _source;//4
+    //12 + 8 = 20 因为内存对齐 会是8的倍数  也就是需要24个字节
+    //由此可以person对象创建出来之后,其实分配24个字节就够了,可以用sizeof去验证,也可用用class_getInstanceSize去验证
+    //但是系统真正分配可能不止24个字节,因为系统会考虑其性能,所以分配出来的会是32个字节
+};
+
+@implementation Person
 @end
 
 int main(int argc, const char * argv[]) {
@@ -57,6 +74,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"----------------测试Person------------");
         Person *per = [[Person alloc] init];
+        NSLog(@"%zd", sizeof(struct Person_IMPL));
         NSLog(@"%zd", class_getInstanceSize([Person class]));
         NSLog(@"%zd", malloc_size((__bridge const void *)per));
         
