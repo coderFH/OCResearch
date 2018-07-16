@@ -19,6 +19,13 @@
 		7FA9A74920F72549007B97E4 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A72D20F723D6007B97E4 /* FHPerson.m */; };
 		7FA9A74C20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A74B20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m */; };
 		7FBB173620F48850001A7577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB173520F48850001A7577 /* main.m */; };
+		8DE0A0A820FB3A80004CA173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A0A720FB3A80004CA173 /* AppDelegate.m */; };
+		8DE0A0AB20FB3A80004CA173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A0AA20FB3A80004CA173 /* ViewController.m */; };
+		8DE0A0AE20FB3A80004CA173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A0AC20FB3A80004CA173 /* Main.storyboard */; };
+		8DE0A0B020FB3A82004CA173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A0AF20FB3A82004CA173 /* Assets.xcassets */; };
+		8DE0A0B320FB3A82004CA173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0A0B120FB3A82004CA173 /* LaunchScreen.storyboard */; };
+		8DE0A0B620FB3A82004CA173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A0B520FB3A82004CA173 /* main.m */; };
+		8DE0A0BF20FB3AEB004CA173 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0A0BE20FB3AEB004CA173 /* FHPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -74,6 +81,18 @@
 		7FA9A74B20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_FHPerson.m; sourceTree = "<group>"; };
 		7FBB173320F48850001A7577 /* 01-OC对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-OC对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBB173520F48850001A7577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DE0A0A420FB3A80004CA173 /* 05-KVC底层.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-KVC底层.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE0A0A620FB3A80004CA173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DE0A0A720FB3A80004CA173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DE0A0A920FB3A80004CA173 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DE0A0AA20FB3A80004CA173 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DE0A0AD20FB3A80004CA173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DE0A0AF20FB3A82004CA173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE0A0B220FB3A82004CA173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DE0A0B420FB3A82004CA173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE0A0B520FB3A82004CA173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DE0A0BD20FB3AEB004CA173 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		8DE0A0BE20FB3AEB004CA173 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +118,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7FBB173020F48850001A7577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE0A0A120FB3A80004CA173 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,6 +179,7 @@
 				7FA9A6E120F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 				7FA9A71820F6F44E007B97E4 /* 03-OC对象-探究方法的调用 */,
 				7FA9A73420F72525007B97E4 /* 04-KVO底层 */,
+				8DE0A0A520FB3A80004CA173 /* 05-KVC底层 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,6 +191,7 @@
 				7FA9A6E020F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 				7FA9A71720F6F44E007B97E4 /* 03-OC对象-探究方法的调用 */,
 				7FA9A73320F72525007B97E4 /* 04-KVO底层.app */,
+				8DE0A0A420FB3A80004CA173 /* 05-KVC底层.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +202,24 @@
 				7FBB173520F48850001A7577 /* main.m */,
 			);
 			path = "01-OC对象";
+			sourceTree = "<group>";
+		};
+		8DE0A0A520FB3A80004CA173 /* 05-KVC底层 */ = {
+			isa = PBXGroup;
+			children = (
+				8DE0A0BD20FB3AEB004CA173 /* FHPerson.h */,
+				8DE0A0BE20FB3AEB004CA173 /* FHPerson.m */,
+				8DE0A0A620FB3A80004CA173 /* AppDelegate.h */,
+				8DE0A0A720FB3A80004CA173 /* AppDelegate.m */,
+				8DE0A0A920FB3A80004CA173 /* ViewController.h */,
+				8DE0A0AA20FB3A80004CA173 /* ViewController.m */,
+				8DE0A0AC20FB3A80004CA173 /* Main.storyboard */,
+				8DE0A0AF20FB3A82004CA173 /* Assets.xcassets */,
+				8DE0A0B120FB3A82004CA173 /* LaunchScreen.storyboard */,
+				8DE0A0B420FB3A82004CA173 /* Info.plist */,
+				8DE0A0B520FB3A82004CA173 /* main.m */,
+			);
+			path = "05-KVC底层";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +293,23 @@
 			productReference = 7FBB173320F48850001A7577 /* 01-OC对象 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8DE0A0A320FB3A80004CA173 /* 05-KVC底层 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE0A0B720FB3A82004CA173 /* Build configuration list for PBXNativeTarget "05-KVC底层" */;
+			buildPhases = (
+				8DE0A0A020FB3A80004CA173 /* Sources */,
+				8DE0A0A120FB3A80004CA173 /* Frameworks */,
+				8DE0A0A220FB3A80004CA173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-KVC底层";
+			productName = "05-KVC底层";
+			productReference = 8DE0A0A420FB3A80004CA173 /* 05-KVC底层.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -269,6 +332,9 @@
 					7FBB173220F48850001A7577 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					8DE0A0A320FB3A80004CA173 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 7FBB171120F48830001A7577 /* Build configuration list for PBXProject "OCResearch" */;
@@ -288,6 +354,7 @@
 				7FA9A6DF20F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 				7FA9A71620F6F44E007B97E4 /* 03-OC对象-探究方法的调用 */,
 				7FA9A73220F72525007B97E4 /* 04-KVO底层 */,
+				8DE0A0A320FB3A80004CA173 /* 05-KVC底层 */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +367,16 @@
 				7FA9A74220F72526007B97E4 /* LaunchScreen.storyboard in Resources */,
 				7FA9A73F20F72526007B97E4 /* Assets.xcassets in Resources */,
 				7FA9A73D20F72525007B97E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE0A0A220FB3A80004CA173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0A0B320FB3A82004CA173 /* LaunchScreen.storyboard in Resources */,
+				8DE0A0B020FB3A82004CA173 /* Assets.xcassets in Resources */,
+				8DE0A0AE20FB3A80004CA173 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +420,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DE0A0A020FB3A80004CA173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE0A0AB20FB3A80004CA173 /* ViewController.m in Sources */,
+				8DE0A0B620FB3A82004CA173 /* main.m in Sources */,
+				8DE0A0BF20FB3AEB004CA173 /* FHPerson.m in Sources */,
+				8DE0A0A820FB3A80004CA173 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -358,6 +446,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7FA9A74120F72526007B97E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8DE0A0AC20FB3A80004CA173 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE0A0AD20FB3A80004CA173 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DE0A0B120FB3A82004CA173 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE0A0B220FB3A82004CA173 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -575,6 +679,40 @@
 			};
 			name = Release;
 		};
+		8DE0A0B820FB3A82004CA173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "05-KVC底层/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wfh.-5-KVC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE0A0B920FB3A82004CA173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "05-KVC底层/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wfh.-5-KVC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -619,6 +757,15 @@
 			buildConfigurations = (
 				7FBB173820F48850001A7577 /* Debug */,
 				7FBB173920F48850001A7577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE0A0B720FB3A82004CA173 /* Build configuration list for PBXNativeTarget "05-KVC底层" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE0A0B820FB3A82004CA173 /* Debug */,
+				8DE0A0B920FB3A82004CA173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
