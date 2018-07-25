@@ -9,7 +9,7 @@
 /*
  block本质上也是一个OC对象，它内部也有个isa指针
  block是封装了函数调用以及函数调用环境的OC对象
-
+ 
  */
 #import <Foundation/Foundation.h>
 
@@ -22,10 +22,10 @@ int main(int argc, const char * argv[]) {
         
         /*
          局部变量:
-            auto:  会捕获到block内部  访问方式是值传递
-            static:会捕获到block内部  访问方式是指针传递
+         auto:  会捕获到block内部  访问方式是值传递
+         static:会捕获到block内部  访问方式是指针传递
          全局变量:
-                   不会捕获到block内部 访问方式是直接访问
+         不会捕获到block内部 访问方式是直接访问
          */
         //==================== auto:  会捕获到block内部  访问方式是值传递======================
         int age = 10;

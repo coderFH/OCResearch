@@ -17,6 +17,10 @@
 
 @implementation ViewController
 
+- (IBAction)fist:(id)sender {
+}
+- (IBAction)fist:(id)sender {
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.person = [[FHPerson alloc] init];

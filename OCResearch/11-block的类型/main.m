@@ -12,9 +12,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         /*
          block有3种类型，可以通过调用class方法或者isa指针查看具体类型，最终都是继承自NSBlock类型
-         __NSGlobalBlock__ （ _NSConcreteGlobalBlock ） 没有访问auto变量 程序的数据区域 复制效果:什么也不做
-         __NSStackBlock__ （ _NSConcreteStackBlock ） 访问了auto变量 栈 复制效果:从栈复制到堆
-         __NSMallocBlock__ （ _NSConcreteMallocBlock ）__NSStackBlock__调用了copy 堆 复制效果:引用计数增加
+         __NSGlobalBlock__ (_NSConcreteGlobalBlock) 全局 程序的数据区域 没有访问auto变量              复制效果:什么也不做
+         __NSStackBlock__  (_NSConcreteStackBlock ) 栈               访问了auto变量                复制效果:从栈复制到堆
+         __NSMallocBlock__ (_NSConcreteMallocBlock) 堆               __NSStackBlock__调用了copy   复制效果:引用计数增加
          */
         
         // 堆：动态分配内存,需要程序员申请申请，也需要程序员自己管理内存
