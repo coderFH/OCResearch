@@ -14,6 +14,19 @@
  编译器会将__block变量包装成一个对象
  */
 
+/*
+ __block的内存管理:
+    1.当block在栈上时，仅仅是使用了__block变量，并没有对__block变量产生强引用
+    2.当block被copy到堆时,
+      会调用block内部的copy函数,
+      copy函数内部会调用_Block_object_assign函数
+      _Block_object_assign函数会对__block变量产生强引用（仅当ARC时才有效,MRC时候并不会对__block变量产生强引用）
+    3.当block从堆中移除时
+      会调用block内部的dispose函数
+      dispose函数内部会调用_Block_object_dispose函数
+      _Block_object_dispose函数会自动释放引用的__block变量
+ */
+
 typedef void (^FHBlock)(void);
 
 int main(int argc, const char * argv[]) {
@@ -36,3 +49,25 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+/*
+ __block int age = 10;
+ ^{
+    NSLog(@"%d",age);
+ }();
+ //底层会转化为
+ struct __main_block_impl_0 {
+     struct __block_impl impl;
+     struct __main_block_desc_0* Desc;
+     __Block_byref_age_0 *age;
+ }
+ 
+ struct __Block_byref_age_0 {
+     void *__isa;
+     __Block_byref_age_0 *__forwarding;
+     int __flages;
+     int __size;
+     int age;
+ }
+ 编译器会将__block变量包装成一个对象,然后将age的地址值传递给该对象,通过修改该对象内部的age来达到目的
+ */
