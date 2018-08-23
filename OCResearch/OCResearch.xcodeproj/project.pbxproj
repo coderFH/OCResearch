@@ -29,6 +29,14 @@
 		7F992905212D391500F46174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992904212D391500F46174 /* main.m */; };
 		7F99290B212D39AD00F46174 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99290A212D39AD00F46174 /* FHPerson.m */; };
 		7F99290E212D3A6800F46174 /* FHGoodPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99290D212D3A6800F46174 /* FHGoodPerson.m */; };
+		7F992911212E60AB00F46174 /* FHCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992910212E60AB00F46174 /* FHCat.m */; };
+		7F992919212E8C1900F46174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992918212E8C1900F46174 /* main.m */; };
+		7F99291F212E8C2600F46174 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99291E212E8C2600F46174 /* FHPerson.m */; };
+		7F992927212E970700F46174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992926212E970700F46174 /* main.m */; };
+		7F99292D212E971E00F46174 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99292C212E971E00F46174 /* FHPerson.m */; };
+		7F992935212E977A00F46174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992934212E977A00F46174 /* main.m */; };
+		7F99293B212E97A000F46174 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99293A212E97A000F46174 /* FHPerson.m */; };
+		7F99293E212E97AB00F46174 /* FHStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99293D212E97AB00F46174 /* FHStudent.m */; };
 		7F9A759120FD86CF003F638D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A759020FD86CF003F638D /* main.m */; };
 		7F9A759720FD86E8003F638D /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A759620FD86E8003F638D /* FHPerson.m */; };
 		7F9A75A020FD87D3003F638D /* FHStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A759F20FD87D3003F638D /* FHStudent.m */; };
@@ -124,6 +132,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F992900212D391500F46174 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F992914212E8C1900F46174 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F992922212E970700F46174 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F992930212E977A00F46174 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -257,6 +292,22 @@
 		7F99290A212D39AD00F46174 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7F99290C212D3A6800F46174 /* FHGoodPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHGoodPerson.h; sourceTree = "<group>"; };
 		7F99290D212D3A6800F46174 /* FHGoodPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHGoodPerson.m; sourceTree = "<group>"; };
+		7F99290F212E60AB00F46174 /* FHCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCat.h; sourceTree = "<group>"; };
+		7F992910212E60AB00F46174 /* FHCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCat.m; sourceTree = "<group>"; };
+		7F992916212E8C1900F46174 /* 19-runtime-@dynamic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-runtime-@dynamic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F992918212E8C1900F46174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F99291D212E8C2600F46174 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F99291E212E8C2600F46174 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
+		7F992924212E970700F46174 /* 20-runtime-消息转发的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20-runtime-消息转发的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F992926212E970700F46174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F99292B212E971E00F46174 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F99292C212E971E00F46174 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
+		7F992932212E977A00F46174 /* 21-runtime-super */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21-runtime-super"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F992934212E977A00F46174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F992939212E97A000F46174 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F99293A212E97A000F46174 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
+		7F99293C212E97AB00F46174 /* FHStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHStudent.h; sourceTree = "<group>"; };
+		7F99293D212E97AB00F46174 /* FHStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHStudent.m; sourceTree = "<group>"; };
 		7F9A758E20FD86CF003F638D /* 07-load */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-load"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9A759020FD86CF003F638D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F9A759520FD86E8003F638D /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
@@ -398,6 +449,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F9928FF212D391500F46174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F992913212E8C1900F46174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F992921212E970700F46174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F99292F212E977A00F46174 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,8 +634,42 @@
 				7F99290A212D39AD00F46174 /* FHPerson.m */,
 				7F99290C212D3A6800F46174 /* FHGoodPerson.h */,
 				7F99290D212D3A6800F46174 /* FHGoodPerson.m */,
+				7F99290F212E60AB00F46174 /* FHCat.h */,
+				7F992910212E60AB00F46174 /* FHCat.m */,
 			);
 			path = "18-runtime-msgSend";
+			sourceTree = "<group>";
+		};
+		7F992917212E8C1900F46174 /* 19-runtime-@dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				7F992918212E8C1900F46174 /* main.m */,
+				7F99291D212E8C2600F46174 /* FHPerson.h */,
+				7F99291E212E8C2600F46174 /* FHPerson.m */,
+			);
+			path = "19-runtime-@dynamic";
+			sourceTree = "<group>";
+		};
+		7F992925212E970700F46174 /* 20-runtime-消息转发的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				7F992926212E970700F46174 /* main.m */,
+				7F99292B212E971E00F46174 /* FHPerson.h */,
+				7F99292C212E971E00F46174 /* FHPerson.m */,
+			);
+			path = "20-runtime-消息转发的应用";
+			sourceTree = "<group>";
+		};
+		7F992933212E977A00F46174 /* 21-runtime-super */ = {
+			isa = PBXGroup;
+			children = (
+				7F992934212E977A00F46174 /* main.m */,
+				7F992939212E97A000F46174 /* FHPerson.h */,
+				7F99293A212E97A000F46174 /* FHPerson.m */,
+				7F99293C212E97AB00F46174 /* FHStudent.h */,
+				7F99293D212E97AB00F46174 /* FHStudent.m */,
+			);
+			path = "21-runtime-super";
 			sourceTree = "<group>";
 		};
 		7F9A758F20FD86CF003F638D /* 07-load */ = {
@@ -681,6 +787,9 @@
 				7F34D44B211400E500949BD0 /* 16-block循环引用 */,
 				8D399D38211B234600DA0C9B /* 17-runtime-isa详解 */,
 				7F992903212D391500F46174 /* 18-runtime-msgSend */,
+				7F992917212E8C1900F46174 /* 19-runtime-@dynamic */,
+				7F992925212E970700F46174 /* 20-runtime-消息转发的应用 */,
+				7F992933212E977A00F46174 /* 21-runtime-super */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -707,6 +816,9 @@
 				7F34D44A211400E500949BD0 /* 16-block循环引用.app */,
 				8D399D37211B234600DA0C9B /* 17-runtime-isa详解 */,
 				7F992902212D391500F46174 /* 18-runtime-msgSend */,
+				7F992916212E8C1900F46174 /* 19-runtime-@dynamic */,
+				7F992924212E970700F46174 /* 20-runtime-消息转发的应用 */,
+				7F992932212E977A00F46174 /* 21-runtime-super */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -908,6 +1020,57 @@
 			name = "18-runtime-msgSend";
 			productName = "18-runtime-msgSend";
 			productReference = 7F992902212D391500F46174 /* 18-runtime-msgSend */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F992915212E8C1900F46174 /* 19-runtime-@dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F99291A212E8C1900F46174 /* Build configuration list for PBXNativeTarget "19-runtime-@dynamic" */;
+			buildPhases = (
+				7F992912212E8C1900F46174 /* Sources */,
+				7F992913212E8C1900F46174 /* Frameworks */,
+				7F992914212E8C1900F46174 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-runtime-@dynamic";
+			productName = "19-runtime-@dynamic";
+			productReference = 7F992916212E8C1900F46174 /* 19-runtime-@dynamic */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F992923212E970700F46174 /* 20-runtime-消息转发的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F992928212E970700F46174 /* Build configuration list for PBXNativeTarget "20-runtime-消息转发的应用" */;
+			buildPhases = (
+				7F992920212E970700F46174 /* Sources */,
+				7F992921212E970700F46174 /* Frameworks */,
+				7F992922212E970700F46174 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20-runtime-消息转发的应用";
+			productName = "20-runtime-消息转发的应用";
+			productReference = 7F992924212E970700F46174 /* 20-runtime-消息转发的应用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F992931212E977A00F46174 /* 21-runtime-super */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F992936212E977A00F46174 /* Build configuration list for PBXNativeTarget "21-runtime-super" */;
+			buildPhases = (
+				7F99292E212E977A00F46174 /* Sources */,
+				7F99292F212E977A00F46174 /* Frameworks */,
+				7F992930212E977A00F46174 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21-runtime-super";
+			productName = "21-runtime-super";
+			productReference = 7F992932212E977A00F46174 /* 21-runtime-super */;
 			productType = "com.apple.product-type.tool";
 		};
 		7F9A758D20FD86CF003F638D /* 07-load */ = {
@@ -1132,6 +1295,15 @@
 					7F992901212D391500F46174 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F992915212E8C1900F46174 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F992923212E970700F46174 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F992931212E977A00F46174 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					7F9A758D20FD86CF003F638D = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1199,6 +1371,9 @@
 				7F34D449211400E500949BD0 /* 16-block循环引用 */,
 				8D399D36211B234600DA0C9B /* 17-runtime-isa详解 */,
 				7F992901212D391500F46174 /* 18-runtime-msgSend */,
+				7F992915212E8C1900F46174 /* 19-runtime-@dynamic */,
+				7F992923212E970700F46174 /* 20-runtime-消息转发的应用 */,
+				7F992931212E977A00F46174 /* 21-runtime-super */,
 			);
 		};
 /* End PBXProject section */
@@ -1313,9 +1488,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F992911212E60AB00F46174 /* FHCat.m in Sources */,
 				7F99290B212D39AD00F46174 /* FHPerson.m in Sources */,
 				7F99290E212D3A6800F46174 /* FHGoodPerson.m in Sources */,
 				7F992905212D391500F46174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F992912212E8C1900F46174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F99291F212E8C2600F46174 /* FHPerson.m in Sources */,
+				7F992919212E8C1900F46174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F992920212E970700F46174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F99292D212E971E00F46174 /* FHPerson.m in Sources */,
+				7F992927212E970700F46174 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F99292E212E977A00F46174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F99293B212E97A000F46174 /* FHPerson.m in Sources */,
+				7F99293E212E97AB00F46174 /* FHStudent.m in Sources */,
+				7F992935212E977A00F46174 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1696,6 +1900,72 @@
 			name = Debug;
 		};
 		7F992908212D391500F46174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F99291B212E8C1900F46174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F99291C212E8C1900F46174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F992929212E970700F46174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F99292A212E970700F46174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F992937212E977A00F46174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F992938212E977A00F46174 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
@@ -2153,6 +2423,33 @@
 			buildConfigurations = (
 				7F992907212D391500F46174 /* Debug */,
 				7F992908212D391500F46174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F99291A212E8C1900F46174 /* Build configuration list for PBXNativeTarget "19-runtime-@dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F99291B212E8C1900F46174 /* Debug */,
+				7F99291C212E8C1900F46174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F992928212E970700F46174 /* Build configuration list for PBXNativeTarget "20-runtime-消息转发的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F992929212E970700F46174 /* Debug */,
+				7F99292A212E970700F46174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F992936212E977A00F46174 /* Build configuration list for PBXNativeTarget "21-runtime-super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F992937212E977A00F46174 /* Debug */,
+				7F992938212E977A00F46174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

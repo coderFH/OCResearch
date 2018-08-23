@@ -1,8 +1,8 @@
 //
 //  FHPerson.h
-//  18-runtime-msgSend
+//  20-runtime-消息转发的应用
 //
-//  Created by wangfh on 2018/8/22.
+//  Created by wangfh on 2018/8/23.
 //  Copyright © 2018年 wangfh. All rights reserved.
 //
 
@@ -10,14 +10,8 @@
 
 @interface FHPerson : NSObject
 
-- (void)personTest;
-
-+ (void)dongTaiFangFa;
-
+- (void)run;
 - (void)test;
-
-- (void)xiaoXiZhuanFa;
-
-+ (void)leiTest;
+- (void)other;
 
 @end

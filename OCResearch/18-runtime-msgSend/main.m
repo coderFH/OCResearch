@@ -32,8 +32,14 @@ int main(int argc, const char * argv[]) {
         //================动态方法解析================
         [FHPerson dongTaiFangFa];
         
+        FHPerson *p1 = [[FHPerson alloc] init];
+        [p1 test];
         
-       
+        //================消息转发================
+        FHPerson *p2 = [[FHPerson alloc] init];
+        [p2 xiaoXiZhuanFa];
+        
+        [FHPerson leiTest];
     }
     return 0;
 }
