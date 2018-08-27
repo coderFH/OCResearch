@@ -26,6 +26,32 @@
 		7F8785872108270400D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785862108270400D7A953 /* main.m */; };
 		7F87858D2108272A00D7A953 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87858C2108272A00D7A953 /* FHPerson.m */; };
 		7F87859521082E5900D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87859421082E5900D7A953 /* main.m */; };
+		7F8A43D92134451B00AE0408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A43D82134451B00AE0408 /* AppDelegate.m */; };
+		7F8A43DC2134451B00AE0408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A43DB2134451B00AE0408 /* ViewController.m */; };
+		7F8A43DF2134451B00AE0408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43DD2134451B00AE0408 /* Main.storyboard */; };
+		7F8A43E12134451C00AE0408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43E02134451C00AE0408 /* Assets.xcassets */; };
+		7F8A43E42134451C00AE0408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43E22134451C00AE0408 /* LaunchScreen.storyboard */; };
+		7F8A43E72134451C00AE0408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A43E62134451C00AE0408 /* main.m */; };
+		7F8A43F3213445F800AE0408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A43F2213445F800AE0408 /* AppDelegate.m */; };
+		7F8A43F6213445F800AE0408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A43F5213445F800AE0408 /* ViewController.m */; };
+		7F8A43F9213445F800AE0408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43F7213445F800AE0408 /* Main.storyboard */; };
+		7F8A43FB213445F900AE0408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43FA213445F900AE0408 /* Assets.xcassets */; };
+		7F8A43FE213445F900AE0408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A43FC213445F900AE0408 /* LaunchScreen.storyboard */; };
+		7F8A4401213445F900AE0408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A4400213445F900AE0408 /* main.m */; };
+		7F8A440D2134474B00AE0408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A440C2134474B00AE0408 /* AppDelegate.m */; };
+		7F8A44102134474B00AE0408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A440F2134474B00AE0408 /* ViewController.m */; };
+		7F8A44132134474B00AE0408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A44112134474B00AE0408 /* Main.storyboard */; };
+		7F8A44152134474C00AE0408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A44142134474C00AE0408 /* Assets.xcassets */; };
+		7F8A44182134474C00AE0408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A44162134474C00AE0408 /* LaunchScreen.storyboard */; };
+		7F8A441B2134474C00AE0408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A441A2134474C00AE0408 /* main.m */; };
+		7F8A44212134490800AE0408 /* FHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A44202134490800AE0408 /* FHThread.m */; };
+		7F8A442A213449AF00AE0408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A4429213449AF00AE0408 /* AppDelegate.m */; };
+		7F8A442D213449AF00AE0408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A442C213449AF00AE0408 /* ViewController.m */; };
+		7F8A4430213449AF00AE0408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A442E213449AF00AE0408 /* Main.storyboard */; };
+		7F8A4432213449B000AE0408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A4431213449B000AE0408 /* Assets.xcassets */; };
+		7F8A4435213449B000AE0408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8A4433213449B000AE0408 /* LaunchScreen.storyboard */; };
+		7F8A4438213449B000AE0408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A4437213449B000AE0408 /* main.m */; };
+		7F8A443E213449C700AE0408 /* FHPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A443D213449C700AE0408 /* FHPermenantThread.m */; };
 		7F992905212D391500F46174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F992904212D391500F46174 /* main.m */; };
 		7F99290B212D39AD00F46174 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99290A212D39AD00F46174 /* FHPerson.m */; };
 		7F99290E212D3A6800F46174 /* FHGoodPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F99290D212D3A6800F46174 /* FHGoodPerson.m */; };
@@ -330,6 +356,50 @@
 		7F87858C2108272A00D7A953 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7F87859221082E5900D7A953 /* 15-block-__block */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-block-__block"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87859421082E5900D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A43D52134451B00AE0408 /* 26-runloop-添加observer监听runloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "26-runloop-添加observer监听runloop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A43D72134451B00AE0408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8A43D82134451B00AE0408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8A43DA2134451B00AE0408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F8A43DB2134451B00AE0408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F8A43DE2134451B00AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8A43E02134451C00AE0408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A43E32134451C00AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8A43E52134451C00AE0408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A43E62134451C00AE0408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A43EF213445F800AE0408 /* 27-runloop-NSTimer失效.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "27-runloop-NSTimer失效.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A43F1213445F800AE0408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8A43F2213445F800AE0408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8A43F4213445F800AE0408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F8A43F5213445F800AE0408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F8A43F8213445F800AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8A43FA213445F900AE0408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A43FD213445F900AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8A43FF213445F900AE0408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A4400213445F900AE0408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A44092134474B00AE0408 /* 28-runloop-线程保活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "28-runloop-线程保活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A440B2134474B00AE0408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8A440C2134474B00AE0408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8A440E2134474B00AE0408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F8A440F2134474B00AE0408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F8A44122134474B00AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8A44142134474C00AE0408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A44172134474C00AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8A44192134474C00AE0408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A441A2134474C00AE0408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A441F2134490800AE0408 /* FHThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHThread.h; sourceTree = "<group>"; };
+		7F8A44202134490800AE0408 /* FHThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHThread.m; sourceTree = "<group>"; };
+		7F8A4426213449AF00AE0408 /* 29-runloop-线程保活封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "29-runloop-线程保活封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8A4428213449AF00AE0408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8A4429213449AF00AE0408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8A442B213449AF00AE0408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F8A442C213449AF00AE0408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F8A442F213449AF00AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8A4431213449B000AE0408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8A4434213449B000AE0408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8A4436213449B000AE0408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8A4437213449B000AE0408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8A443C213449C700AE0408 /* FHPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPermenantThread.h; sourceTree = "<group>"; };
+		7F8A443D213449C700AE0408 /* FHPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPermenantThread.m; sourceTree = "<group>"; };
 		7F992902212D391500F46174 /* 18-runtime-msgSend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-runtime-msgSend"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F992904212D391500F46174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F992909212D39AD00F46174 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
@@ -518,6 +588,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F87858F21082E5900D7A953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43D22134451B00AE0408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43EC213445F800AE0408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A44062134474B00AE0408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A4423213449AF00AE0408 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -728,6 +826,74 @@
 				7F87859421082E5900D7A953 /* main.m */,
 			);
 			path = "15-block-__block";
+			sourceTree = "<group>";
+		};
+		7F8A43D62134451B00AE0408 /* 26-runloop-添加observer监听runloop */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A43D72134451B00AE0408 /* AppDelegate.h */,
+				7F8A43D82134451B00AE0408 /* AppDelegate.m */,
+				7F8A43DA2134451B00AE0408 /* ViewController.h */,
+				7F8A43DB2134451B00AE0408 /* ViewController.m */,
+				7F8A43DD2134451B00AE0408 /* Main.storyboard */,
+				7F8A43E02134451C00AE0408 /* Assets.xcassets */,
+				7F8A43E22134451C00AE0408 /* LaunchScreen.storyboard */,
+				7F8A43E52134451C00AE0408 /* Info.plist */,
+				7F8A43E62134451C00AE0408 /* main.m */,
+			);
+			path = "26-runloop-添加observer监听runloop";
+			sourceTree = "<group>";
+		};
+		7F8A43F0213445F800AE0408 /* 27-runloop-NSTimer失效 */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A43F1213445F800AE0408 /* AppDelegate.h */,
+				7F8A43F2213445F800AE0408 /* AppDelegate.m */,
+				7F8A43F4213445F800AE0408 /* ViewController.h */,
+				7F8A43F5213445F800AE0408 /* ViewController.m */,
+				7F8A43F7213445F800AE0408 /* Main.storyboard */,
+				7F8A43FA213445F900AE0408 /* Assets.xcassets */,
+				7F8A43FC213445F900AE0408 /* LaunchScreen.storyboard */,
+				7F8A43FF213445F900AE0408 /* Info.plist */,
+				7F8A4400213445F900AE0408 /* main.m */,
+			);
+			path = "27-runloop-NSTimer失效";
+			sourceTree = "<group>";
+		};
+		7F8A440A2134474B00AE0408 /* 28-runloop-线程保活 */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A440B2134474B00AE0408 /* AppDelegate.h */,
+				7F8A440C2134474B00AE0408 /* AppDelegate.m */,
+				7F8A440E2134474B00AE0408 /* ViewController.h */,
+				7F8A440F2134474B00AE0408 /* ViewController.m */,
+				7F8A44112134474B00AE0408 /* Main.storyboard */,
+				7F8A44142134474C00AE0408 /* Assets.xcassets */,
+				7F8A44162134474C00AE0408 /* LaunchScreen.storyboard */,
+				7F8A44192134474C00AE0408 /* Info.plist */,
+				7F8A441A2134474C00AE0408 /* main.m */,
+				7F8A441F2134490800AE0408 /* FHThread.h */,
+				7F8A44202134490800AE0408 /* FHThread.m */,
+			);
+			path = "28-runloop-线程保活";
+			sourceTree = "<group>";
+		};
+		7F8A4427213449AF00AE0408 /* 29-runloop-线程保活封装 */ = {
+			isa = PBXGroup;
+			children = (
+				7F8A4428213449AF00AE0408 /* AppDelegate.h */,
+				7F8A4429213449AF00AE0408 /* AppDelegate.m */,
+				7F8A442B213449AF00AE0408 /* ViewController.h */,
+				7F8A442C213449AF00AE0408 /* ViewController.m */,
+				7F8A442E213449AF00AE0408 /* Main.storyboard */,
+				7F8A4431213449B000AE0408 /* Assets.xcassets */,
+				7F8A4433213449B000AE0408 /* LaunchScreen.storyboard */,
+				7F8A4436213449B000AE0408 /* Info.plist */,
+				7F8A4437213449B000AE0408 /* main.m */,
+				7F8A443C213449C700AE0408 /* FHPermenantThread.h */,
+				7F8A443D213449C700AE0408 /* FHPermenantThread.m */,
+			);
+			path = "29-runloop-线程保活封装";
 			sourceTree = "<group>";
 		};
 		7F992903212D391500F46174 /* 18-runtime-msgSend */ = {
@@ -954,6 +1120,10 @@
 				7F992978212FD8AF00F46174 /* 23-runtime-API类 */,
 				7F99298C212FEB1900F46174 /* 24-runtime-方法 */,
 				7F9929A0212FFAF700F46174 /* 25-runtime-交换方法的案例 */,
+				7F8A43D62134451B00AE0408 /* 26-runloop-添加observer监听runloop */,
+				7F8A43F0213445F800AE0408 /* 27-runloop-NSTimer失效 */,
+				7F8A440A2134474B00AE0408 /* 28-runloop-线程保活 */,
+				7F8A4427213449AF00AE0408 /* 29-runloop-线程保活封装 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -987,6 +1157,10 @@
 				7F992977212FD8AF00F46174 /* 23-runtime-API类 */,
 				7F99298B212FEB1900F46174 /* 24-runtime-方法 */,
 				7F99299F212FFAF600F46174 /* 25-runtime-交换方法的案例.app */,
+				7F8A43D52134451B00AE0408 /* 26-runloop-添加observer监听runloop.app */,
+				7F8A43EF213445F800AE0408 /* 27-runloop-NSTimer失效.app */,
+				7F8A44092134474B00AE0408 /* 28-runloop-线程保活.app */,
+				7F8A4426213449AF00AE0408 /* 29-runloop-线程保活封装.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1172,6 +1346,74 @@
 			productName = "15-block-__block";
 			productReference = 7F87859221082E5900D7A953 /* 15-block-__block */;
 			productType = "com.apple.product-type.tool";
+		};
+		7F8A43D42134451B00AE0408 /* 26-runloop-添加observer监听runloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A43EA2134451C00AE0408 /* Build configuration list for PBXNativeTarget "26-runloop-添加observer监听runloop" */;
+			buildPhases = (
+				7F8A43D12134451B00AE0408 /* Sources */,
+				7F8A43D22134451B00AE0408 /* Frameworks */,
+				7F8A43D32134451B00AE0408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26-runloop-添加observer监听runloop";
+			productName = "26-runloop-添加observer监听runloop";
+			productReference = 7F8A43D52134451B00AE0408 /* 26-runloop-添加observer监听runloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8A43EE213445F800AE0408 /* 27-runloop-NSTimer失效 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A4402213445F900AE0408 /* Build configuration list for PBXNativeTarget "27-runloop-NSTimer失效" */;
+			buildPhases = (
+				7F8A43EB213445F800AE0408 /* Sources */,
+				7F8A43EC213445F800AE0408 /* Frameworks */,
+				7F8A43ED213445F800AE0408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "27-runloop-NSTimer失效";
+			productName = "27-runloop-NSTimer失效";
+			productReference = 7F8A43EF213445F800AE0408 /* 27-runloop-NSTimer失效.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8A44082134474B00AE0408 /* 28-runloop-线程保活 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A441C2134474C00AE0408 /* Build configuration list for PBXNativeTarget "28-runloop-线程保活" */;
+			buildPhases = (
+				7F8A44052134474B00AE0408 /* Sources */,
+				7F8A44062134474B00AE0408 /* Frameworks */,
+				7F8A44072134474B00AE0408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "28-runloop-线程保活";
+			productName = "28-runloop-线程保活";
+			productReference = 7F8A44092134474B00AE0408 /* 28-runloop-线程保活.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8A4425213449AF00AE0408 /* 29-runloop-线程保活封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8A4439213449B000AE0408 /* Build configuration list for PBXNativeTarget "29-runloop-线程保活封装" */;
+			buildPhases = (
+				7F8A4422213449AF00AE0408 /* Sources */,
+				7F8A4423213449AF00AE0408 /* Frameworks */,
+				7F8A4424213449AF00AE0408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "29-runloop-线程保活封装";
+			productName = "29-runloop-线程保活封装";
+			productReference = 7F8A4426213449AF00AE0408 /* 29-runloop-线程保活封装.app */;
+			productType = "com.apple.product-type.application";
 		};
 		7F992901212D391500F46174 /* 18-runtime-msgSend */ = {
 			isa = PBXNativeTarget;
@@ -1528,6 +1770,18 @@
 					7F87859121082E5900D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F8A43D42134451B00AE0408 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F8A43EE213445F800AE0408 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F8A44082134474B00AE0408 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F8A4425213449AF00AE0408 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					7F992901212D391500F46174 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1626,6 +1880,10 @@
 				7F992976212FD8AF00F46174 /* 23-runtime-API类 */,
 				7F99298A212FEB1900F46174 /* 24-runtime-方法 */,
 				7F99299E212FFAF600F46174 /* 25-runtime-交换方法的案例 */,
+				7F8A43D42134451B00AE0408 /* 26-runloop-添加observer监听runloop */,
+				7F8A43EE213445F800AE0408 /* 27-runloop-NSTimer失效 */,
+				7F8A44082134474B00AE0408 /* 28-runloop-线程保活 */,
+				7F8A4425213449AF00AE0408 /* 29-runloop-线程保活封装 */,
 			);
 		};
 /* End PBXProject section */
@@ -1648,6 +1906,46 @@
 				7F8785842108270400D7A953 /* LaunchScreen.storyboard in Resources */,
 				7F8785812108270400D7A953 /* Assets.xcassets in Resources */,
 				7F87857F2108270300D7A953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43D32134451B00AE0408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A43E42134451C00AE0408 /* LaunchScreen.storyboard in Resources */,
+				7F8A43E12134451C00AE0408 /* Assets.xcassets in Resources */,
+				7F8A43DF2134451B00AE0408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43ED213445F800AE0408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A43FE213445F900AE0408 /* LaunchScreen.storyboard in Resources */,
+				7F8A43FB213445F900AE0408 /* Assets.xcassets in Resources */,
+				7F8A43F9213445F800AE0408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A44072134474B00AE0408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A44182134474C00AE0408 /* LaunchScreen.storyboard in Resources */,
+				7F8A44152134474C00AE0408 /* Assets.xcassets in Resources */,
+				7F8A44132134474B00AE0408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A4424213449AF00AE0408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A4435213449B000AE0408 /* LaunchScreen.storyboard in Resources */,
+				7F8A4432213449B000AE0408 /* Assets.xcassets in Resources */,
+				7F8A4430213449AF00AE0408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1743,6 +2041,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F87859521082E5900D7A953 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43D12134451B00AE0408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A43DC2134451B00AE0408 /* ViewController.m in Sources */,
+				7F8A43E72134451C00AE0408 /* main.m in Sources */,
+				7F8A43D92134451B00AE0408 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A43EB213445F800AE0408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A43F6213445F800AE0408 /* ViewController.m in Sources */,
+				7F8A4401213445F900AE0408 /* main.m in Sources */,
+				7F8A43F3213445F800AE0408 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A44052134474B00AE0408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A44102134474B00AE0408 /* ViewController.m in Sources */,
+				7F8A441B2134474C00AE0408 /* main.m in Sources */,
+				7F8A440D2134474B00AE0408 /* AppDelegate.m in Sources */,
+				7F8A44212134490800AE0408 /* FHThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8A4422213449AF00AE0408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8A442D213449AF00AE0408 /* ViewController.m in Sources */,
+				7F8A4438213449B000AE0408 /* main.m in Sources */,
+				7F8A443E213449C700AE0408 /* FHPermenantThread.m in Sources */,
+				7F8A442A213449AF00AE0408 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1979,6 +2319,70 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F8A43DD2134451B00AE0408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A43DE2134451B00AE0408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A43E22134451C00AE0408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A43E32134451C00AE0408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A43F7213445F800AE0408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A43F8213445F800AE0408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A43FC213445F900AE0408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A43FD213445F900AE0408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A44112134474B00AE0408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A44122134474B00AE0408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A44162134474C00AE0408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A44172134474C00AE0408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A442E213449AF00AE0408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A442F213449AF00AE0408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8A4433213449B000AE0408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8A4434213449B000AE0408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F9929A7212FFAF700F46174 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2205,6 +2609,142 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F8A43E82134451C00AE0408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "26-runloop-添加observer监听runloop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-6-runloop---observer--runloop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8A43E92134451C00AE0408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "26-runloop-添加observer监听runloop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-6-runloop---observer--runloop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F8A4403213445F900AE0408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "27-runloop-NSTimer失效/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-7-runloop-NSTimer--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8A4404213445F900AE0408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "27-runloop-NSTimer失效/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-7-runloop-NSTimer--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F8A441D2134474C00AE0408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "28-runloop-线程保活/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-8-runloop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8A441E2134474C00AE0408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "28-runloop-线程保活/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-8-runloop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F8A443A213449B000AE0408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "29-runloop-线程保活封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-9-runloop-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8A443B213449B000AE0408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "29-runloop-线程保活封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-9-runloop-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -2834,6 +3374,42 @@
 			buildConfigurations = (
 				7F87859721082E5900D7A953 /* Debug */,
 				7F87859821082E5900D7A953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A43EA2134451C00AE0408 /* Build configuration list for PBXNativeTarget "26-runloop-添加observer监听runloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A43E82134451C00AE0408 /* Debug */,
+				7F8A43E92134451C00AE0408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A4402213445F900AE0408 /* Build configuration list for PBXNativeTarget "27-runloop-NSTimer失效" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A4403213445F900AE0408 /* Debug */,
+				7F8A4404213445F900AE0408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A441C2134474C00AE0408 /* Build configuration list for PBXNativeTarget "28-runloop-线程保活" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A441D2134474C00AE0408 /* Debug */,
+				7F8A441E2134474C00AE0408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8A4439213449B000AE0408 /* Build configuration list for PBXNativeTarget "29-runloop-线程保活封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8A443A213449B000AE0408 /* Debug */,
+				7F8A443B213449B000AE0408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
