@@ -14,6 +14,18 @@
 		7F34D459211400E600949BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F34D457211400E600949BD0 /* LaunchScreen.storyboard */; };
 		7F34D45C211400E600949BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34D45B211400E600949BD0 /* main.m */; };
 		7F34D4652114012100949BD0 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34D4642114012100949BD0 /* FHPerson.m */; };
+		7F4A63CC213637F2008E72D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63CB213637F2008E72D8 /* AppDelegate.m */; };
+		7F4A63CF213637F2008E72D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63CE213637F2008E72D8 /* ViewController.m */; };
+		7F4A63D2213637F2008E72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63D0213637F2008E72D8 /* Main.storyboard */; };
+		7F4A63D4213637F4008E72D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63D3213637F4008E72D8 /* Assets.xcassets */; };
+		7F4A63D7213637F4008E72D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63D5213637F4008E72D8 /* LaunchScreen.storyboard */; };
+		7F4A63DA213637F4008E72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63D9213637F4008E72D8 /* main.m */; };
+		7F4A63E721366CB8008E72D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63E621366CB8008E72D8 /* AppDelegate.m */; };
+		7F4A63EA21366CB8008E72D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63E921366CB8008E72D8 /* ViewController.m */; };
+		7F4A63ED21366CB9008E72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63EB21366CB8008E72D8 /* Main.storyboard */; };
+		7F4A63EF21366CB9008E72D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63EE21366CB9008E72D8 /* Assets.xcassets */; };
+		7F4A63F221366CB9008E72D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63F021366CB9008E72D8 /* LaunchScreen.storyboard */; };
+		7F4A63F521366CB9008E72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63F421366CB9008E72D8 /* main.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -334,6 +346,26 @@
 		7F34D45B211400E600949BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F34D4632114012100949BD0 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
 		7F34D4642114012100949BD0 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
+		7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30-多线程-面试题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A63CA213637F2008E72D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4A63CB213637F2008E72D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4A63CD213637F2008E72D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F4A63CE213637F2008E72D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F4A63D1213637F2008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4A63D3213637F4008E72D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A63D6213637F4008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A63D8213637F4008E72D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A63D9213637F4008E72D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31-多线程-group.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A63E521366CB8008E72D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4A63E621366CB8008E72D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4A63E821366CB8008E72D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F4A63E921366CB8008E72D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F4A63EC21366CB9008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4A63EE21366CB9008E72D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A63F121366CB9008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A63F321366CB9008E72D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A63F421366CB9008E72D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -559,6 +591,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F4A63C5213637F2008E72D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63E021366CB8008E72D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F87854021081E4F00D7A953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -774,6 +820,38 @@
 				7F34D4642114012100949BD0 /* FHPerson.m */,
 			);
 			path = "16-block循环引用";
+			sourceTree = "<group>";
+		};
+		7F4A63C9213637F2008E72D8 /* 30-多线程-面试题 */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A63CA213637F2008E72D8 /* AppDelegate.h */,
+				7F4A63CB213637F2008E72D8 /* AppDelegate.m */,
+				7F4A63CD213637F2008E72D8 /* ViewController.h */,
+				7F4A63CE213637F2008E72D8 /* ViewController.m */,
+				7F4A63D0213637F2008E72D8 /* Main.storyboard */,
+				7F4A63D3213637F4008E72D8 /* Assets.xcassets */,
+				7F4A63D5213637F4008E72D8 /* LaunchScreen.storyboard */,
+				7F4A63D8213637F4008E72D8 /* Info.plist */,
+				7F4A63D9213637F4008E72D8 /* main.m */,
+			);
+			path = "30-多线程-面试题";
+			sourceTree = "<group>";
+		};
+		7F4A63E421366CB8008E72D8 /* 31-多线程-group */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A63E521366CB8008E72D8 /* AppDelegate.h */,
+				7F4A63E621366CB8008E72D8 /* AppDelegate.m */,
+				7F4A63E821366CB8008E72D8 /* ViewController.h */,
+				7F4A63E921366CB8008E72D8 /* ViewController.m */,
+				7F4A63EB21366CB8008E72D8 /* Main.storyboard */,
+				7F4A63EE21366CB9008E72D8 /* Assets.xcassets */,
+				7F4A63F021366CB9008E72D8 /* LaunchScreen.storyboard */,
+				7F4A63F321366CB9008E72D8 /* Info.plist */,
+				7F4A63F421366CB9008E72D8 /* main.m */,
+			);
+			path = "31-多线程-group";
 			sourceTree = "<group>";
 		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
@@ -1124,6 +1202,8 @@
 				7F8A43F0213445F800AE0408 /* 27-runloop-NSTimer失效 */,
 				7F8A440A2134474B00AE0408 /* 28-runloop-线程保活 */,
 				7F8A4427213449AF00AE0408 /* 29-runloop-线程保活封装 */,
+				7F4A63C9213637F2008E72D8 /* 30-多线程-面试题 */,
+				7F4A63E421366CB8008E72D8 /* 31-多线程-group */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1161,6 +1241,8 @@
 				7F8A43EF213445F800AE0408 /* 27-runloop-NSTimer失效.app */,
 				7F8A44092134474B00AE0408 /* 28-runloop-线程保活.app */,
 				7F8A4426213449AF00AE0408 /* 29-runloop-线程保活封装.app */,
+				7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */,
+				7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1260,6 +1342,40 @@
 			name = "16-block循环引用";
 			productName = "16-block循环引用";
 			productReference = 7F34D44A211400E500949BD0 /* 16-block循环引用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4A63C7213637F2008E72D8 /* 30-多线程-面试题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A63DD213637F4008E72D8 /* Build configuration list for PBXNativeTarget "30-多线程-面试题" */;
+			buildPhases = (
+				7F4A63C4213637F2008E72D8 /* Sources */,
+				7F4A63C5213637F2008E72D8 /* Frameworks */,
+				7F4A63C6213637F2008E72D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "30-多线程-面试题";
+			productName = "30-多线程-面试题";
+			productReference = 7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4A63E221366CB8008E72D8 /* 31-多线程-group */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A63F621366CB9008E72D8 /* Build configuration list for PBXNativeTarget "31-多线程-group" */;
+			buildPhases = (
+				7F4A63DF21366CB8008E72D8 /* Sources */,
+				7F4A63E021366CB8008E72D8 /* Frameworks */,
+				7F4A63E121366CB8008E72D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "31-多线程-group";
+			productName = "31-多线程-group";
+			productReference = 7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
@@ -1755,6 +1871,12 @@
 					7F34D449211400E500949BD0 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F4A63C7213637F2008E72D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7F4A63E221366CB8008E72D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1884,6 +2006,8 @@
 				7F8A43EE213445F800AE0408 /* 27-runloop-NSTimer失效 */,
 				7F8A44082134474B00AE0408 /* 28-runloop-线程保活 */,
 				7F8A4425213449AF00AE0408 /* 29-runloop-线程保活封装 */,
+				7F4A63C7213637F2008E72D8 /* 30-多线程-面试题 */,
+				7F4A63E221366CB8008E72D8 /* 31-多线程-group */,
 			);
 		};
 /* End PBXProject section */
@@ -1896,6 +2020,26 @@
 				7F34D459211400E600949BD0 /* LaunchScreen.storyboard in Resources */,
 				7F34D456211400E600949BD0 /* Assets.xcassets in Resources */,
 				7F34D454211400E500949BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63C6213637F2008E72D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A63D7213637F4008E72D8 /* LaunchScreen.storyboard in Resources */,
+				7F4A63D4213637F4008E72D8 /* Assets.xcassets in Resources */,
+				7F4A63D2213637F2008E72D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63E121366CB8008E72D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A63F221366CB9008E72D8 /* LaunchScreen.storyboard in Resources */,
+				7F4A63EF21366CB9008E72D8 /* Assets.xcassets in Resources */,
+				7F4A63ED21366CB9008E72D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1997,6 +2141,26 @@
 				7F34D45C211400E600949BD0 /* main.m in Sources */,
 				7F34D4652114012100949BD0 /* FHPerson.m in Sources */,
 				7F34D44E211400E500949BD0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63C4213637F2008E72D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A63CF213637F2008E72D8 /* ViewController.m in Sources */,
+				7F4A63DA213637F4008E72D8 /* main.m in Sources */,
+				7F4A63CC213637F2008E72D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63DF21366CB8008E72D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A63EA21366CB8008E72D8 /* ViewController.m in Sources */,
+				7F4A63F521366CB9008E72D8 /* main.m in Sources */,
+				7F4A63E721366CB8008E72D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2303,6 +2467,38 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F4A63D0213637F2008E72D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A63D1213637F2008E72D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A63D5213637F4008E72D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A63D6213637F4008E72D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A63EB21366CB8008E72D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A63EC21366CB9008E72D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A63F021366CB9008E72D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A63F121366CB9008E72D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F87857D2108270300D7A953 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2485,6 +2681,74 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-6-block----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F4A63DB213637F4008E72D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "30-多线程-面试题/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-0--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A63DC213637F4008E72D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "30-多线程-面试题/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-0--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F4A63F721366CB9008E72D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "31-多线程-group/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-1-----group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A63F821366CB9008E72D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "31-多线程-group/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-1-----group";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3329,6 +3593,24 @@
 			buildConfigurations = (
 				7F34D45E211400E600949BD0 /* Debug */,
 				7F34D45F211400E600949BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A63DD213637F4008E72D8 /* Build configuration list for PBXNativeTarget "30-多线程-面试题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A63DB213637F4008E72D8 /* Debug */,
+				7F4A63DC213637F4008E72D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A63F621366CB9008E72D8 /* Build configuration list for PBXNativeTarget "31-多线程-group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A63F721366CB9008E72D8 /* Debug */,
+				7F4A63F821366CB9008E72D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
