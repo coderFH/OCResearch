@@ -26,6 +26,19 @@
 		7F4A63EF21366CB9008E72D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63EE21366CB9008E72D8 /* Assets.xcassets */; };
 		7F4A63F221366CB9008E72D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63F021366CB9008E72D8 /* LaunchScreen.storyboard */; };
 		7F4A63F521366CB9008E72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63F421366CB9008E72D8 /* main.m */; };
+		7F4A640221378D54008E72D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A640121378D54008E72D8 /* AppDelegate.m */; };
+		7F4A640821378D54008E72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A640621378D54008E72D8 /* Main.storyboard */; };
+		7F4A640A21378D55008E72D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A640921378D55008E72D8 /* Assets.xcassets */; };
+		7F4A640D21378D55008E72D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A640B21378D55008E72D8 /* LaunchScreen.storyboard */; };
+		7F4A641021378D55008E72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A640F21378D55008E72D8 /* main.m */; };
+		7F4A641721378DBB008E72D8 /* FHBaseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A641621378DBB008E72D8 /* FHBaseDemo.m */; };
+		7F4A641A2137920D008E72D8 /* FHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A64192137920D008E72D8 /* FHViewController.m */; };
+		7F4A641D213792D2008E72D8 /* FHOSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A641C213792D2008E72D8 /* FHOSSpinLockDemo.m */; };
+		7F4A64202137942F008E72D8 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A641F2137942F008E72D8 /* OSUnfairLockDemo.m */; };
+		7F4A642321379685008E72D8 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A642221379685008E72D8 /* MutexDemo.m */; };
+		7F4A6426213797D1008E72D8 /* MutexDemoDiGui.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A6425213797D1008E72D8 /* MutexDemoDiGui.m */; };
+		7F4A6429213798BE008E72D8 /* MutexDemoTiaoJian.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */; };
+		7F4A642C213799AB008E72D8 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A642B213799AB008E72D8 /* NSLockDemo.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -366,6 +379,30 @@
 		7F4A63F121366CB9008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4A63F321366CB9008E72D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A63F421366CB9008E72D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4A63FE21378D54008E72D8 /* 32-多线程-线程同步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "32-多线程-线程同步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A640021378D54008E72D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4A640121378D54008E72D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4A640721378D54008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4A640921378D55008E72D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A640C21378D55008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A640E21378D55008E72D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A640F21378D55008E72D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4A641521378DBB008E72D8 /* FHBaseDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHBaseDemo.h; sourceTree = "<group>"; };
+		7F4A641621378DBB008E72D8 /* FHBaseDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHBaseDemo.m; sourceTree = "<group>"; };
+		7F4A64182137920D008E72D8 /* FHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHViewController.h; sourceTree = "<group>"; };
+		7F4A64192137920D008E72D8 /* FHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHViewController.m; sourceTree = "<group>"; };
+		7F4A641B213792D2008E72D8 /* FHOSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHOSSpinLockDemo.h; sourceTree = "<group>"; };
+		7F4A641C213792D2008E72D8 /* FHOSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHOSSpinLockDemo.m; sourceTree = "<group>"; };
+		7F4A641E2137942F008E72D8 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
+		7F4A641F2137942F008E72D8 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
+		7F4A642121379685008E72D8 /* MutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
+		7F4A642221379685008E72D8 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
+		7F4A6424213797D1008E72D8 /* MutexDemoDiGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemoDiGui.h; sourceTree = "<group>"; };
+		7F4A6425213797D1008E72D8 /* MutexDemoDiGui.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemoDiGui.m; sourceTree = "<group>"; };
+		7F4A6427213798BE008E72D8 /* MutexDemoTiaoJian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemoTiaoJian.h; sourceTree = "<group>"; };
+		7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemoTiaoJian.m; sourceTree = "<group>"; };
+		7F4A642A213799AB008E72D8 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		7F4A642B213799AB008E72D8 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -599,6 +636,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F4A63E021366CB8008E72D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63FB21378D54008E72D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -852,6 +896,44 @@
 				7F4A63F421366CB9008E72D8 /* main.m */,
 			);
 			path = "31-多线程-group";
+			sourceTree = "<group>";
+		};
+		7F4A63FF21378D54008E72D8 /* 32-多线程-线程同步 */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A641421378D6A008E72D8 /* Lock */,
+				7F4A640021378D54008E72D8 /* AppDelegate.h */,
+				7F4A640121378D54008E72D8 /* AppDelegate.m */,
+				7F4A64182137920D008E72D8 /* FHViewController.h */,
+				7F4A64192137920D008E72D8 /* FHViewController.m */,
+				7F4A640621378D54008E72D8 /* Main.storyboard */,
+				7F4A640921378D55008E72D8 /* Assets.xcassets */,
+				7F4A640B21378D55008E72D8 /* LaunchScreen.storyboard */,
+				7F4A640E21378D55008E72D8 /* Info.plist */,
+				7F4A640F21378D55008E72D8 /* main.m */,
+			);
+			path = "32-多线程-线程同步";
+			sourceTree = "<group>";
+		};
+		7F4A641421378D6A008E72D8 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A641521378DBB008E72D8 /* FHBaseDemo.h */,
+				7F4A641621378DBB008E72D8 /* FHBaseDemo.m */,
+				7F4A641B213792D2008E72D8 /* FHOSSpinLockDemo.h */,
+				7F4A641C213792D2008E72D8 /* FHOSSpinLockDemo.m */,
+				7F4A641E2137942F008E72D8 /* OSUnfairLockDemo.h */,
+				7F4A641F2137942F008E72D8 /* OSUnfairLockDemo.m */,
+				7F4A642121379685008E72D8 /* MutexDemo.h */,
+				7F4A642221379685008E72D8 /* MutexDemo.m */,
+				7F4A6424213797D1008E72D8 /* MutexDemoDiGui.h */,
+				7F4A6425213797D1008E72D8 /* MutexDemoDiGui.m */,
+				7F4A6427213798BE008E72D8 /* MutexDemoTiaoJian.h */,
+				7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */,
+				7F4A642A213799AB008E72D8 /* NSLockDemo.h */,
+				7F4A642B213799AB008E72D8 /* NSLockDemo.m */,
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
@@ -1204,6 +1286,7 @@
 				7F8A4427213449AF00AE0408 /* 29-runloop-线程保活封装 */,
 				7F4A63C9213637F2008E72D8 /* 30-多线程-面试题 */,
 				7F4A63E421366CB8008E72D8 /* 31-多线程-group */,
+				7F4A63FF21378D54008E72D8 /* 32-多线程-线程同步 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1243,6 +1326,7 @@
 				7F8A4426213449AF00AE0408 /* 29-runloop-线程保活封装.app */,
 				7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */,
 				7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */,
+				7F4A63FE21378D54008E72D8 /* 32-多线程-线程同步.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1376,6 +1460,23 @@
 			name = "31-多线程-group";
 			productName = "31-多线程-group";
 			productReference = 7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4A63FD21378D54008E72D8 /* 32-多线程-线程同步 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A641321378D55008E72D8 /* Build configuration list for PBXNativeTarget "32-多线程-线程同步" */;
+			buildPhases = (
+				7F4A63FA21378D54008E72D8 /* Sources */,
+				7F4A63FB21378D54008E72D8 /* Frameworks */,
+				7F4A63FC21378D54008E72D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "32-多线程-线程同步";
+			productName = "32-多线程-线程同步";
+			productReference = 7F4A63FE21378D54008E72D8 /* 32-多线程-线程同步.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
@@ -1877,6 +1978,9 @@
 					7F4A63E221366CB8008E72D8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F4A63FD21378D54008E72D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -2008,6 +2112,7 @@
 				7F8A4425213449AF00AE0408 /* 29-runloop-线程保活封装 */,
 				7F4A63C7213637F2008E72D8 /* 30-多线程-面试题 */,
 				7F4A63E221366CB8008E72D8 /* 31-多线程-group */,
+				7F4A63FD21378D54008E72D8 /* 32-多线程-线程同步 */,
 			);
 		};
 /* End PBXProject section */
@@ -2040,6 +2145,16 @@
 				7F4A63F221366CB9008E72D8 /* LaunchScreen.storyboard in Resources */,
 				7F4A63EF21366CB9008E72D8 /* Assets.xcassets in Resources */,
 				7F4A63ED21366CB9008E72D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63FC21378D54008E72D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A640D21378D55008E72D8 /* LaunchScreen.storyboard in Resources */,
+				7F4A640A21378D55008E72D8 /* Assets.xcassets in Resources */,
+				7F4A640821378D54008E72D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2161,6 +2276,23 @@
 				7F4A63EA21366CB8008E72D8 /* ViewController.m in Sources */,
 				7F4A63F521366CB9008E72D8 /* main.m in Sources */,
 				7F4A63E721366CB8008E72D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A63FA21378D54008E72D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A642321379685008E72D8 /* MutexDemo.m in Sources */,
+				7F4A641721378DBB008E72D8 /* FHBaseDemo.m in Sources */,
+				7F4A641D213792D2008E72D8 /* FHOSSpinLockDemo.m in Sources */,
+				7F4A64202137942F008E72D8 /* OSUnfairLockDemo.m in Sources */,
+				7F4A642C213799AB008E72D8 /* NSLockDemo.m in Sources */,
+				7F4A641021378D55008E72D8 /* main.m in Sources */,
+				7F4A6426213797D1008E72D8 /* MutexDemoDiGui.m in Sources */,
+				7F4A640221378D54008E72D8 /* AppDelegate.m in Sources */,
+				7F4A641A2137920D008E72D8 /* FHViewController.m in Sources */,
+				7F4A6429213798BE008E72D8 /* MutexDemoTiaoJian.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2499,6 +2631,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F4A640621378D54008E72D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A640721378D54008E72D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A640B21378D55008E72D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A640C21378D55008E72D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F87857D2108270300D7A953 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2749,6 +2897,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-1-----group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F4A641121378D55008E72D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "32-多线程-线程同步/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-2---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A641221378D55008E72D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "32-多线程-线程同步/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-2---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3611,6 +3793,15 @@
 			buildConfigurations = (
 				7F4A63F721366CB9008E72D8 /* Debug */,
 				7F4A63F821366CB9008E72D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A641321378D55008E72D8 /* Build configuration list for PBXNativeTarget "32-多线程-线程同步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A641121378D55008E72D8 /* Debug */,
+				7F4A641221378D55008E72D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

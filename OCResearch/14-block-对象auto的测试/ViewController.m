@@ -13,10 +13,7 @@
 @end
 
 @implementation ViewController
-- (IBAction)btn1Click:(id)sender {
-}
-- (IBAction)btn1Click:(id)sender {
-}
+
 - (IBAction)btnClick:(id)sender {
     FHPerson *p = [[FHPerson alloc] init];
     

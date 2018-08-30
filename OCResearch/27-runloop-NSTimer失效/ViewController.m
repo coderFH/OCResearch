@@ -35,14 +35,6 @@
     // timer能在_commonModes数组中存放的模式下工作
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
 }
-- (IBAction)stop:(id)sender {
-}
-- (IBAction)stop:(id)sender {
-}
-- (IBAction)stop:(id)sender {
-}
-- (IBAction)stopThread:(id)sender {
-}
 
 
 @end
