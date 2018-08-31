@@ -39,6 +39,17 @@
 		7F4A6426213797D1008E72D8 /* MutexDemoDiGui.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A6425213797D1008E72D8 /* MutexDemoDiGui.m */; };
 		7F4A6429213798BE008E72D8 /* MutexDemoTiaoJian.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */; };
 		7F4A642C213799AB008E72D8 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A642B213799AB008E72D8 /* NSLockDemo.m */; };
+		7F4A642F2137B7E7008E72D8 /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A642E2137B7E7008E72D8 /* NSConditionDemo.m */; };
+		7F4A644F21390B5E008E72D8 /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A644E21390B5E008E72D8 /* NSConditionLockDemo.m */; };
+		7F4A645221390C52008E72D8 /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A645121390C52008E72D8 /* SerialQueueDemo.m */; };
+		7F4A645521390CBC008E72D8 /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A645421390CBC008E72D8 /* SemaphoreDemo.m */; };
+		7F4A645821390D5E008E72D8 /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A645721390D5E008E72D8 /* SynchronizedDemo.m */; };
+		7F4A646121390E97008E72D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A646021390E97008E72D8 /* AppDelegate.m */; };
+		7F4A646721390E98008E72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A646521390E98008E72D8 /* Main.storyboard */; };
+		7F4A646921390E98008E72D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A646821390E98008E72D8 /* Assets.xcassets */; };
+		7F4A646C21390E98008E72D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A646A21390E98008E72D8 /* LaunchScreen.storyboard */; };
+		7F4A646F21390E98008E72D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A646E21390E98008E72D8 /* main.m */; };
+		7F4A647521390F41008E72D8 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A647421390F41008E72D8 /* RWViewController.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -403,6 +414,26 @@
 		7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemoTiaoJian.m; sourceTree = "<group>"; };
 		7F4A642A213799AB008E72D8 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
 		7F4A642B213799AB008E72D8 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		7F4A642D2137B7E7008E72D8 /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		7F4A642E2137B7E7008E72D8 /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		7F4A644D21390B5E008E72D8 /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
+		7F4A644E21390B5E008E72D8 /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		7F4A645021390C52008E72D8 /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		7F4A645121390C52008E72D8 /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
+		7F4A645321390CBC008E72D8 /* SemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SemaphoreDemo.h; sourceTree = "<group>"; };
+		7F4A645421390CBC008E72D8 /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
+		7F4A645621390D5E008E72D8 /* SynchronizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
+		7F4A645721390D5E008E72D8 /* SynchronizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
+		7F4A645D21390E97008E72D8 /* 33-多线程-读写安全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "33-多线程-读写安全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4A645F21390E97008E72D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F4A646021390E97008E72D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F4A646621390E98008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4A646821390E98008E72D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4A646B21390E98008E72D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4A646D21390E98008E72D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4A646E21390E98008E72D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F4A647321390F41008E72D8 /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
+		7F4A647421390F41008E72D8 /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -643,6 +674,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F4A63FB21378D54008E72D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A645A21390E97008E72D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -932,8 +970,34 @@
 				7F4A6428213798BE008E72D8 /* MutexDemoTiaoJian.m */,
 				7F4A642A213799AB008E72D8 /* NSLockDemo.h */,
 				7F4A642B213799AB008E72D8 /* NSLockDemo.m */,
+				7F4A642D2137B7E7008E72D8 /* NSConditionDemo.h */,
+				7F4A642E2137B7E7008E72D8 /* NSConditionDemo.m */,
+				7F4A644D21390B5E008E72D8 /* NSConditionLockDemo.h */,
+				7F4A644E21390B5E008E72D8 /* NSConditionLockDemo.m */,
+				7F4A645021390C52008E72D8 /* SerialQueueDemo.h */,
+				7F4A645121390C52008E72D8 /* SerialQueueDemo.m */,
+				7F4A645321390CBC008E72D8 /* SemaphoreDemo.h */,
+				7F4A645421390CBC008E72D8 /* SemaphoreDemo.m */,
+				7F4A645621390D5E008E72D8 /* SynchronizedDemo.h */,
+				7F4A645721390D5E008E72D8 /* SynchronizedDemo.m */,
 			);
 			path = Lock;
+			sourceTree = "<group>";
+		};
+		7F4A645E21390E97008E72D8 /* 33-多线程-读写安全 */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A645F21390E97008E72D8 /* AppDelegate.h */,
+				7F4A646021390E97008E72D8 /* AppDelegate.m */,
+				7F4A647321390F41008E72D8 /* RWViewController.h */,
+				7F4A647421390F41008E72D8 /* RWViewController.m */,
+				7F4A646521390E98008E72D8 /* Main.storyboard */,
+				7F4A646821390E98008E72D8 /* Assets.xcassets */,
+				7F4A646A21390E98008E72D8 /* LaunchScreen.storyboard */,
+				7F4A646D21390E98008E72D8 /* Info.plist */,
+				7F4A646E21390E98008E72D8 /* main.m */,
+			);
+			path = "33-多线程-读写安全";
 			sourceTree = "<group>";
 		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
@@ -1287,6 +1351,7 @@
 				7F4A63C9213637F2008E72D8 /* 30-多线程-面试题 */,
 				7F4A63E421366CB8008E72D8 /* 31-多线程-group */,
 				7F4A63FF21378D54008E72D8 /* 32-多线程-线程同步 */,
+				7F4A645E21390E97008E72D8 /* 33-多线程-读写安全 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1327,6 +1392,7 @@
 				7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */,
 				7F4A63E321366CB8008E72D8 /* 31-多线程-group.app */,
 				7F4A63FE21378D54008E72D8 /* 32-多线程-线程同步.app */,
+				7F4A645D21390E97008E72D8 /* 33-多线程-读写安全.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1477,6 +1543,23 @@
 			name = "32-多线程-线程同步";
 			productName = "32-多线程-线程同步";
 			productReference = 7F4A63FE21378D54008E72D8 /* 32-多线程-线程同步.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4A645C21390E97008E72D8 /* 33-多线程-读写安全 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4A647021390E98008E72D8 /* Build configuration list for PBXNativeTarget "33-多线程-读写安全" */;
+			buildPhases = (
+				7F4A645921390E97008E72D8 /* Sources */,
+				7F4A645A21390E97008E72D8 /* Frameworks */,
+				7F4A645B21390E97008E72D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "33-多线程-读写安全";
+			productName = "33-多线程-读写安全";
+			productReference = 7F4A645D21390E97008E72D8 /* 33-多线程-读写安全.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
@@ -1981,6 +2064,9 @@
 					7F4A63FD21378D54008E72D8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F4A645C21390E97008E72D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -2113,6 +2199,7 @@
 				7F4A63C7213637F2008E72D8 /* 30-多线程-面试题 */,
 				7F4A63E221366CB8008E72D8 /* 31-多线程-group */,
 				7F4A63FD21378D54008E72D8 /* 32-多线程-线程同步 */,
+				7F4A645C21390E97008E72D8 /* 33-多线程-读写安全 */,
 			);
 		};
 /* End PBXProject section */
@@ -2155,6 +2242,16 @@
 				7F4A640D21378D55008E72D8 /* LaunchScreen.storyboard in Resources */,
 				7F4A640A21378D55008E72D8 /* Assets.xcassets in Resources */,
 				7F4A640821378D54008E72D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A645B21390E97008E72D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A646C21390E98008E72D8 /* LaunchScreen.storyboard in Resources */,
+				7F4A646921390E98008E72D8 /* Assets.xcassets in Resources */,
+				7F4A646721390E98008E72D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2284,15 +2381,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A642321379685008E72D8 /* MutexDemo.m in Sources */,
+				7F4A642F2137B7E7008E72D8 /* NSConditionDemo.m in Sources */,
 				7F4A641721378DBB008E72D8 /* FHBaseDemo.m in Sources */,
+				7F4A645221390C52008E72D8 /* SerialQueueDemo.m in Sources */,
 				7F4A641D213792D2008E72D8 /* FHOSSpinLockDemo.m in Sources */,
 				7F4A64202137942F008E72D8 /* OSUnfairLockDemo.m in Sources */,
+				7F4A645821390D5E008E72D8 /* SynchronizedDemo.m in Sources */,
 				7F4A642C213799AB008E72D8 /* NSLockDemo.m in Sources */,
+				7F4A644F21390B5E008E72D8 /* NSConditionLockDemo.m in Sources */,
 				7F4A641021378D55008E72D8 /* main.m in Sources */,
+				7F4A645521390CBC008E72D8 /* SemaphoreDemo.m in Sources */,
 				7F4A6426213797D1008E72D8 /* MutexDemoDiGui.m in Sources */,
 				7F4A640221378D54008E72D8 /* AppDelegate.m in Sources */,
 				7F4A641A2137920D008E72D8 /* FHViewController.m in Sources */,
 				7F4A6429213798BE008E72D8 /* MutexDemoTiaoJian.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4A645921390E97008E72D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4A646F21390E98008E72D8 /* main.m in Sources */,
+				7F4A647521390F41008E72D8 /* RWViewController.m in Sources */,
+				7F4A646121390E97008E72D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2647,6 +2759,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F4A646521390E98008E72D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A646621390E98008E72D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4A646A21390E98008E72D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4A646B21390E98008E72D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F87857D2108270300D7A953 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2931,6 +3059,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-2---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F4A647121390E98008E72D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "33-多线程-读写安全/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-3---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F4A647221390E98008E72D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "33-多线程-读写安全/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-3---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3802,6 +3964,15 @@
 			buildConfigurations = (
 				7F4A641121378D55008E72D8 /* Debug */,
 				7F4A641221378D55008E72D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4A647021390E98008E72D8 /* Build configuration list for PBXNativeTarget "33-多线程-读写安全" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4A647121390E98008E72D8 /* Debug */,
+				7F4A647221390E98008E72D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

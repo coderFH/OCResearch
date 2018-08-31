@@ -22,8 +22,7 @@
     self.thread = [[FHPermenantThread alloc] init];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.thread executeTask:^{
         NSLog(@"执行任务 - %@", [NSThread currentThread]);
     }];

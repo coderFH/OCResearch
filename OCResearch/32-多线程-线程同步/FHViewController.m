@@ -14,6 +14,11 @@
 #import "MutexDemoDiGui.h"
 #import "MutexDemoTiaoJian.h"
 #import "NSLockDemo.h"
+#import "NSConditionDemo.h"
+#import "NSConditionLockDemo.h"
+#import "SerialQueueDemo.h"
+#import "SemaphoreDemo.h"
+#import "SynchronizedDemo.h"
 
 @interface FHViewController ()
 
@@ -81,13 +86,43 @@
 }
 
 #pragma mark --NSCondition下存取钱,卖票的演示
-//=====================NSCondition下存取钱,卖票的演示=====================
+//=====================NSCondition-条件(其实是对pthread_mutex的封装)=====================
 - (IBAction)test8:(id)sender {
-    FHOSSpinLockDemo *demo = [[FHOSSpinLockDemo alloc] init];
+    NSConditionDemo *demo = [[NSConditionDemo alloc] init];
+    [demo otherTest];
+}
+
+#pragma mark --NSConditionLock实现线程同步
+//=====================NSConditionLock实现线程同步=====================
+- (IBAction)test9:(id)sender {
+    NSConditionLockDemo *demo = [[NSConditionLockDemo alloc] init];
+    [demo otherTest];
+}
+
+#pragma mark --串行队列实现线程同步
+//=====================串行队列实现线程同步=====================
+- (IBAction)test10:(id)sender {
+    SerialQueueDemo *demo = [[SerialQueueDemo alloc] init];
     [demo ticketTest];
     [demo moneyTest];
 }
 
+#pragma mark --信号量
+//=====================信号量=====================
+- (IBAction)test11:(id)sender {
+    SemaphoreDemo *demo = [[SemaphoreDemo alloc] init];
+    [demo otherTest];
+//    [demo ticketTest];
+//    [demo moneyTest];
+}
 
+#pragma mark --synchronized
+//=====================Synchronized(本质是对pthread_mutex递归锁的封装)=====================
+- (IBAction)test12:(id)sender {
+    SynchronizedDemo *demo = [[SynchronizedDemo alloc] init];
+//    [demo otherTest];
+    [demo ticketTest];
+    [demo moneyTest];
+}
 
 @end
