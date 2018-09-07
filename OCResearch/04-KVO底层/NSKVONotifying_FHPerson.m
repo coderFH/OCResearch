@@ -12,13 +12,13 @@
 
 - (void)setAge:(int)age
 {
-    _NSSetIntValueAndNotify();
+//    _NSSetIntValueAndNotify();
 }
 
-// 屏幕内部实现，隐藏了NSKVONotifying_MJPerson类的存在
+// 屏幕内部实现，隐藏了NSKVONotifying_FHPerson类的存在
 - (Class)class
 {
-    return [MJPerson class];
+    return [FHPerson class];
 }
 
 - (void)dealloc

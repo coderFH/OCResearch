@@ -6,7 +6,7 @@
 //  Copyright © 2018年 wangfh. All rights reserved.
 //
 
-#import "main.m"
+#import "FHPerson.h"
 
 @interface NSKVONotifying_FHPerson : FHPerson
 
