@@ -66,6 +66,8 @@
 		7F505E912142838000597973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F505E8F2142838000597973 /* LaunchScreen.storyboard */; };
 		7F505E942142838000597973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F505E932142838000597973 /* main.m */; };
 		7F505E9A2142839C00597973 /* FHTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F505E992142839C00597973 /* FHTimer.m */; };
+		7F61BE80215A2A91008C40B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61BE7F215A2A91008C40B0 /* main.m */; };
+		7F61BE89215A34BB008C40B0 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61BE88215A34BB008C40B0 /* FHPerson.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -205,6 +207,15 @@
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F61BE7B215A2A91008C40B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F87854121081E4F00D7A953 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -494,6 +505,10 @@
 		7F505E932142838000597973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F505E982142839C00597973 /* FHTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHTimer.h; sourceTree = "<group>"; };
 		7F505E992142839C00597973 /* FHTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHTimer.m; sourceTree = "<group>"; };
+		7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "37-内存管理-copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F61BE7F215A2A91008C40B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F61BE87215A34BB008C40B0 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F61BE88215A34BB008C40B0 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -765,6 +780,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F505E7F2142837F00597973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F61BE7A215A2A91008C40B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1131,6 +1153,16 @@
 			path = "35-内存管理-GCD定时器的封装";
 			sourceTree = "<group>";
 		};
+		7F61BE7E215A2A91008C40B0 /* 37-内存管理-copy */ = {
+			isa = PBXGroup;
+			children = (
+				7F61BE7F215A2A91008C40B0 /* main.m */,
+				7F61BE87215A34BB008C40B0 /* FHPerson.h */,
+				7F61BE88215A34BB008C40B0 /* FHPerson.m */,
+			);
+			path = "37-内存管理-copy";
+			sourceTree = "<group>";
+		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1486,6 +1518,7 @@
 				7F505E4C21427B4000597973 /* 34-内存管理-定时器 */,
 				7F505E832142837F00597973 /* 35-内存管理-GCD定时器的封装 */,
 				7FE86FFB21522FA90079ABF8 /* 36-TaggedPointer */,
+				7F61BE7E215A2A91008C40B0 /* 37-内存管理-copy */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1530,6 +1563,7 @@
 				7F505E4B21427B4000597973 /* 34-内存管理-定时器.app */,
 				7F505E822142837F00597973 /* 35-内存管理-GCD定时器的封装.app */,
 				7FE86FFA21522FA90079ABF8 /* 36-TaggedPointer.app */,
+				7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1748,6 +1782,23 @@
 			productName = "35-内存管理-GCD定时器的封装";
 			productReference = 7F505E822142837F00597973 /* 35-内存管理-GCD定时器的封装.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7F61BE7C215A2A91008C40B0 /* 37-内存管理-copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F61BE83215A2A91008C40B0 /* Build configuration list for PBXNativeTarget "37-内存管理-copy" */;
+			buildPhases = (
+				7F61BE79215A2A91008C40B0 /* Sources */,
+				7F61BE7A215A2A91008C40B0 /* Frameworks */,
+				7F61BE7B215A2A91008C40B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37-内存管理-copy";
+			productName = "37-内存管理-copy";
+			productReference = 7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */;
+			productType = "com.apple.product-type.tool";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
 			isa = PBXNativeTarget;
@@ -2278,6 +2329,9 @@
 					7F505E812142837F00597973 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					7F61BE7C215A2A91008C40B0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -2417,6 +2471,7 @@
 				7F505E4A21427B4000597973 /* 34-内存管理-定时器 */,
 				7F505E812142837F00597973 /* 35-内存管理-GCD定时器的封装 */,
 				7FE86FF921522FA90079ABF8 /* 36-TaggedPointer */,
+				7F61BE7C215A2A91008C40B0 /* 37-内存管理-copy */,
 			);
 		};
 /* End PBXProject section */
@@ -2676,6 +2731,15 @@
 				7F505E942142838000597973 /* main.m in Sources */,
 				7F505E862142837F00597973 /* AppDelegate.m in Sources */,
 				7F505E9A2142839C00597973 /* FHTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F61BE79215A2A91008C40B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F61BE89215A34BB008C40B0 /* FHPerson.m in Sources */,
+				7F61BE80215A2A91008C40B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3492,6 +3556,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-5------GCD------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F61BE81215A2A91008C40B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F61BE82215A2A91008C40B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -4425,6 +4514,15 @@
 			buildConfigurations = (
 				7F505E962142838000597973 /* Debug */,
 				7F505E972142838000597973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F61BE83215A2A91008C40B0 /* Build configuration list for PBXNativeTarget "37-内存管理-copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F61BE81215A2A91008C40B0 /* Debug */,
+				7F61BE82215A2A91008C40B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
