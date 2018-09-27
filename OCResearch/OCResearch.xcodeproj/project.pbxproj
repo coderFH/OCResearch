@@ -68,6 +68,26 @@
 		7F505E9A2142839C00597973 /* FHTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F505E992142839C00597973 /* FHTimer.m */; };
 		7F61BE80215A2A91008C40B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61BE7F215A2A91008C40B0 /* main.m */; };
 		7F61BE89215A34BB008C40B0 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F61BE88215A34BB008C40B0 /* FHPerson.m */; };
+		7F6BE8E4215CC54800C34D8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8E3215CC54800C34D8B /* AppDelegate.m */; };
+		7F6BE8E7215CC54800C34D8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8E6215CC54800C34D8B /* ViewController.m */; };
+		7F6BE8EA215CC54800C34D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE8E8215CC54800C34D8B /* Main.storyboard */; };
+		7F6BE8EC215CC54900C34D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE8EB215CC54900C34D8B /* Assets.xcassets */; };
+		7F6BE8EF215CC54900C34D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE8ED215CC54900C34D8B /* LaunchScreen.storyboard */; };
+		7F6BE8F2215CC54900C34D8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8F1215CC54900C34D8B /* main.m */; };
+		7F6BE8F8215CC5D300C34D8B /* FHAppPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8F7215CC5D300C34D8B /* FHAppPresenter.m */; };
+		7F6BE8FB215CC61400C34D8B /* FHApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8FA215CC61400C34D8B /* FHApp.m */; };
+		7F6BE8FE215CC62600C34D8B /* FHAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE8FD215CC62600C34D8B /* FHAppView.m */; };
+		7F6BE907215CC87C00C34D8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE906215CC87C00C34D8B /* AppDelegate.m */; };
+		7F6BE90A215CC87C00C34D8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE909215CC87C00C34D8B /* ViewController.m */; };
+		7F6BE90D215CC87C00C34D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE90B215CC87C00C34D8B /* Main.storyboard */; };
+		7F6BE90F215CC87D00C34D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE90E215CC87D00C34D8B /* Assets.xcassets */; };
+		7F6BE912215CC87D00C34D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6BE910215CC87D00C34D8B /* LaunchScreen.storyboard */; };
+		7F6BE915215CC87D00C34D8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE914215CC87D00C34D8B /* main.m */; };
+		7F6BE91F215CC90F00C34D8B /* FHAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE91A215CC90F00C34D8B /* FHAppView.m */; };
+		7F6BE920215CC90F00C34D8B /* FHApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE91C215CC90F00C34D8B /* FHApp.m */; };
+		7F6BE921215CC90F00C34D8B /* FHAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE91E215CC90F00C34D8B /* FHAppViewModel.m */; };
+		7F6BE92E215CCBE400C34D8B /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE92B215CCBE400C34D8B /* NSObject+FBKVOController.m */; };
+		7F6BE92F215CCBE400C34D8B /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE92C215CCBE400C34D8B /* FBKVOController.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -509,6 +529,42 @@
 		7F61BE7F215A2A91008C40B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F61BE87215A34BB008C40B0 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
 		7F61BE88215A34BB008C40B0 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
+		7F6BE8E0215CC54800C34D8B /* 38-MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "38-MVP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6BE8E2215CC54800C34D8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F6BE8E3215CC54800C34D8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F6BE8E5215CC54800C34D8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F6BE8E6215CC54800C34D8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F6BE8E9215CC54800C34D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F6BE8EB215CC54900C34D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F6BE8EE215CC54900C34D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F6BE8F0215CC54900C34D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6BE8F1215CC54900C34D8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F6BE8F6215CC5D300C34D8B /* FHAppPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHAppPresenter.h; sourceTree = "<group>"; };
+		7F6BE8F7215CC5D300C34D8B /* FHAppPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHAppPresenter.m; sourceTree = "<group>"; };
+		7F6BE8F9215CC61400C34D8B /* FHApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHApp.h; sourceTree = "<group>"; };
+		7F6BE8FA215CC61400C34D8B /* FHApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHApp.m; sourceTree = "<group>"; };
+		7F6BE8FC215CC62600C34D8B /* FHAppView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHAppView.h; sourceTree = "<group>"; };
+		7F6BE8FD215CC62600C34D8B /* FHAppView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHAppView.m; sourceTree = "<group>"; };
+		7F6BE903215CC87C00C34D8B /* 39-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "39-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6BE905215CC87C00C34D8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F6BE906215CC87C00C34D8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F6BE908215CC87C00C34D8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F6BE909215CC87C00C34D8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F6BE90C215CC87C00C34D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F6BE90E215CC87D00C34D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F6BE911215CC87D00C34D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F6BE913215CC87D00C34D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6BE914215CC87D00C34D8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F6BE919215CC90F00C34D8B /* FHApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHApp.h; sourceTree = "<group>"; };
+		7F6BE91A215CC90F00C34D8B /* FHAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHAppView.m; sourceTree = "<group>"; };
+		7F6BE91B215CC90F00C34D8B /* FHAppViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHAppViewModel.h; sourceTree = "<group>"; };
+		7F6BE91C215CC90F00C34D8B /* FHApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHApp.m; sourceTree = "<group>"; };
+		7F6BE91D215CC90F00C34D8B /* FHAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHAppView.h; sourceTree = "<group>"; };
+		7F6BE91E215CC90F00C34D8B /* FHAppViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHAppViewModel.m; sourceTree = "<group>"; };
+		7F6BE92A215CCBE400C34D8B /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		7F6BE92B215CCBE400C34D8B /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		7F6BE92C215CCBE400C34D8B /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		7F6BE92D215CCBE400C34D8B /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -787,6 +843,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F61BE7A215A2A91008C40B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE8DD215CC54800C34D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE900215CC87C00C34D8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1163,6 +1233,62 @@
 			path = "37-内存管理-copy";
 			sourceTree = "<group>";
 		};
+		7F6BE8E1215CC54800C34D8B /* 38-MVP */ = {
+			isa = PBXGroup;
+			children = (
+				7F6BE8E2215CC54800C34D8B /* AppDelegate.h */,
+				7F6BE8E3215CC54800C34D8B /* AppDelegate.m */,
+				7F6BE8E5215CC54800C34D8B /* ViewController.h */,
+				7F6BE8E6215CC54800C34D8B /* ViewController.m */,
+				7F6BE8F6215CC5D300C34D8B /* FHAppPresenter.h */,
+				7F6BE8F7215CC5D300C34D8B /* FHAppPresenter.m */,
+				7F6BE8F9215CC61400C34D8B /* FHApp.h */,
+				7F6BE8FA215CC61400C34D8B /* FHApp.m */,
+				7F6BE8FC215CC62600C34D8B /* FHAppView.h */,
+				7F6BE8FD215CC62600C34D8B /* FHAppView.m */,
+				7F6BE8E8215CC54800C34D8B /* Main.storyboard */,
+				7F6BE8EB215CC54900C34D8B /* Assets.xcassets */,
+				7F6BE8ED215CC54900C34D8B /* LaunchScreen.storyboard */,
+				7F6BE8F0215CC54900C34D8B /* Info.plist */,
+				7F6BE8F1215CC54900C34D8B /* main.m */,
+			);
+			path = "38-MVP";
+			sourceTree = "<group>";
+		};
+		7F6BE904215CC87C00C34D8B /* 39-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				7F6BE929215CCBE400C34D8B /* KVOController */,
+				7F6BE919215CC90F00C34D8B /* FHApp.h */,
+				7F6BE91C215CC90F00C34D8B /* FHApp.m */,
+				7F6BE91D215CC90F00C34D8B /* FHAppView.h */,
+				7F6BE91A215CC90F00C34D8B /* FHAppView.m */,
+				7F6BE91B215CC90F00C34D8B /* FHAppViewModel.h */,
+				7F6BE91E215CC90F00C34D8B /* FHAppViewModel.m */,
+				7F6BE905215CC87C00C34D8B /* AppDelegate.h */,
+				7F6BE906215CC87C00C34D8B /* AppDelegate.m */,
+				7F6BE908215CC87C00C34D8B /* ViewController.h */,
+				7F6BE909215CC87C00C34D8B /* ViewController.m */,
+				7F6BE90B215CC87C00C34D8B /* Main.storyboard */,
+				7F6BE90E215CC87D00C34D8B /* Assets.xcassets */,
+				7F6BE910215CC87D00C34D8B /* LaunchScreen.storyboard */,
+				7F6BE913215CC87D00C34D8B /* Info.plist */,
+				7F6BE914215CC87D00C34D8B /* main.m */,
+			);
+			path = "39-MVVM";
+			sourceTree = "<group>";
+		};
+		7F6BE929215CCBE400C34D8B /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				7F6BE92A215CCBE400C34D8B /* FBKVOController.h */,
+				7F6BE92C215CCBE400C34D8B /* FBKVOController.m */,
+				7F6BE92D215CCBE400C34D8B /* NSObject+FBKVOController.h */,
+				7F6BE92B215CCBE400C34D8B /* NSObject+FBKVOController.m */,
+			);
+			path = KVOController;
+			sourceTree = "<group>";
+		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1519,6 +1645,8 @@
 				7F505E832142837F00597973 /* 35-内存管理-GCD定时器的封装 */,
 				7FE86FFB21522FA90079ABF8 /* 36-TaggedPointer */,
 				7F61BE7E215A2A91008C40B0 /* 37-内存管理-copy */,
+				7F6BE8E1215CC54800C34D8B /* 38-MVP */,
+				7F6BE904215CC87C00C34D8B /* 39-MVVM */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1564,6 +1692,8 @@
 				7F505E822142837F00597973 /* 35-内存管理-GCD定时器的封装.app */,
 				7FE86FFA21522FA90079ABF8 /* 36-TaggedPointer.app */,
 				7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */,
+				7F6BE8E0215CC54800C34D8B /* 38-MVP.app */,
+				7F6BE903215CC87C00C34D8B /* 39-MVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1799,6 +1929,40 @@
 			productName = "37-内存管理-copy";
 			productReference = 7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */;
 			productType = "com.apple.product-type.tool";
+		};
+		7F6BE8DF215CC54800C34D8B /* 38-MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6BE8F5215CC54900C34D8B /* Build configuration list for PBXNativeTarget "38-MVP" */;
+			buildPhases = (
+				7F6BE8DC215CC54800C34D8B /* Sources */,
+				7F6BE8DD215CC54800C34D8B /* Frameworks */,
+				7F6BE8DE215CC54800C34D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "38-MVP";
+			productName = "38-MVP";
+			productReference = 7F6BE8E0215CC54800C34D8B /* 38-MVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F6BE902215CC87C00C34D8B /* 39-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6BE916215CC87D00C34D8B /* Build configuration list for PBXNativeTarget "39-MVVM" */;
+			buildPhases = (
+				7F6BE8FF215CC87C00C34D8B /* Sources */,
+				7F6BE900215CC87C00C34D8B /* Frameworks */,
+				7F6BE901215CC87C00C34D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "39-MVVM";
+			productName = "39-MVVM";
+			productReference = 7F6BE903215CC87C00C34D8B /* 39-MVVM.app */;
+			productType = "com.apple.product-type.application";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
 			isa = PBXNativeTarget;
@@ -2332,6 +2496,12 @@
 					7F61BE7C215A2A91008C40B0 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					7F6BE8DF215CC54800C34D8B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					7F6BE902215CC87C00C34D8B = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -2472,6 +2642,8 @@
 				7F505E812142837F00597973 /* 35-内存管理-GCD定时器的封装 */,
 				7FE86FF921522FA90079ABF8 /* 36-TaggedPointer */,
 				7F61BE7C215A2A91008C40B0 /* 37-内存管理-copy */,
+				7F6BE8DF215CC54800C34D8B /* 38-MVP */,
+				7F6BE902215CC87C00C34D8B /* 39-MVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -2544,6 +2716,26 @@
 				7F505E912142838000597973 /* LaunchScreen.storyboard in Resources */,
 				7F505E8E2142838000597973 /* Assets.xcassets in Resources */,
 				7F505E8C2142837F00597973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE8DE215CC54800C34D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6BE8EF215CC54900C34D8B /* LaunchScreen.storyboard in Resources */,
+				7F6BE8EC215CC54900C34D8B /* Assets.xcassets in Resources */,
+				7F6BE8EA215CC54800C34D8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE901215CC87C00C34D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6BE912215CC87D00C34D8B /* LaunchScreen.storyboard in Resources */,
+				7F6BE90F215CC87D00C34D8B /* Assets.xcassets in Resources */,
+				7F6BE90D215CC87C00C34D8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2740,6 +2932,34 @@
 			files = (
 				7F61BE89215A34BB008C40B0 /* FHPerson.m in Sources */,
 				7F61BE80215A2A91008C40B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE8DC215CC54800C34D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6BE8E7215CC54800C34D8B /* ViewController.m in Sources */,
+				7F6BE8FB215CC61400C34D8B /* FHApp.m in Sources */,
+				7F6BE8FE215CC62600C34D8B /* FHAppView.m in Sources */,
+				7F6BE8F2215CC54900C34D8B /* main.m in Sources */,
+				7F6BE8F8215CC5D300C34D8B /* FHAppPresenter.m in Sources */,
+				7F6BE8E4215CC54800C34D8B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BE8FF215CC87C00C34D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6BE92F215CCBE400C34D8B /* FBKVOController.m in Sources */,
+				7F6BE91F215CC90F00C34D8B /* FHAppView.m in Sources */,
+				7F6BE920215CC90F00C34D8B /* FHApp.m in Sources */,
+				7F6BE90A215CC87C00C34D8B /* ViewController.m in Sources */,
+				7F6BE915215CC87D00C34D8B /* main.m in Sources */,
+				7F6BE921215CC90F00C34D8B /* FHAppViewModel.m in Sources */,
+				7F6BE907215CC87C00C34D8B /* AppDelegate.m in Sources */,
+				7F6BE92E215CCBE400C34D8B /* NSObject+FBKVOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3148,6 +3368,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F505E902142838000597973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F6BE8E8215CC54800C34D8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6BE8E9215CC54800C34D8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F6BE8ED215CC54900C34D8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6BE8EE215CC54900C34D8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F6BE90B215CC87C00C34D8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6BE90C215CC87C00C34D8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F6BE910215CC87D00C34D8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6BE911215CC87D00C34D8B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3581,6 +3833,80 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F6BE8F3215CC54900C34D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "38-MVP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-8-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F6BE8F4215CC54900C34D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "38-MVP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-8-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F6BE917215CC87D00C34D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "39-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-9-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F6BE918215CC87D00C34D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "39-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-9-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -4523,6 +4849,24 @@
 			buildConfigurations = (
 				7F61BE81215A2A91008C40B0 /* Debug */,
 				7F61BE82215A2A91008C40B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6BE8F5215CC54900C34D8B /* Build configuration list for PBXNativeTarget "38-MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6BE8F3215CC54900C34D8B /* Debug */,
+				7F6BE8F4215CC54900C34D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6BE916215CC87D00C34D8B /* Build configuration list for PBXNativeTarget "39-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6BE917215CC87D00C34D8B /* Debug */,
+				7F6BE918215CC87D00C34D8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
