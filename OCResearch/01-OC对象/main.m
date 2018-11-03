@@ -25,6 +25,7 @@ OC的类信息存放在哪里？
 类方法，存放在meta-class对象中
 成员变量的具体值，存放在instance对象*/
 
+//----------------单纯的NSObject------------
 // NSObject Implementation
 //struct NSObject_IMPL {
 //    Class isa; // 8个字节

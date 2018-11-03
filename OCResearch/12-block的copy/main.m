@@ -56,12 +56,12 @@ int main(int argc, const char * argv[]) {
             FHBlock block = ^{
                 NSLog(@"---------%d", age);
             };
-            NSLog(@"%@", [block class]);
+            NSLog(@"%@", [block class]);//有强指针指向,自动调用了copy到堆区
         */
         int age = 10;
         NSLog(@"****%@", [^{
             NSLog(@"---------%d", age);
-        } class]);//__NSStackBlock__
+        } class]);//__NSStackBlock__  因为没有强指针指向  上边注释的有强指针指向  就是在堆区
         
         // 3.block作为Cocoa API中方法名含有usingBlock的方法参数时,也会进行一次copy操作
         NSArray *array = [NSArray array];
@@ -74,6 +74,9 @@ int main(int argc, const char * argv[]) {
         dispatch_once(&onceToken, ^{
             
         });
+        
+        
+        
     }
     return 0;
 }
