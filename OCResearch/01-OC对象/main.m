@@ -25,13 +25,22 @@ OC的类信息存放在哪里？
 类方法，存放在meta-class对象中
 成员变量的具体值，存放在instance对象*/
 
-//----------------单纯的NSObject------------
-// NSObject Implementation
-//struct NSObject_IMPL {
-//    Class isa; // 8个字节
-//};
+#pragma mark ----- 单纯的NSObject -----
+/*
+ 在OC中的定义
+ @interface NSObject <NSObject> {
+    Class isa  OBJC_ISA_AVAILABILITY;
+ }
+ 
+ xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc main.m -o main.cpp
+ 
+ 转成C++代码之后
+ struct NSObject_IMPL {
+     Class isa;  // 8个字节
+ };
+*/
 
-//----------------测试Student------------
+#pragma mark ----- 测试Student -----
 @interface Student : NSObject {
     @public
     int _no; //4
@@ -43,7 +52,7 @@ OC的类信息存放在哪里？
 @implementation Student
 @end
 
-//----------------测试Person---------------------------------------------------------
+#pragma mark ----- 测试Person -----
 @interface Person : NSObject {
 @public
     int _age;
@@ -72,11 +81,21 @@ struct Person_IMPL {
 @implementation Person
 @end
 
+/*
+创建一个实例对象，至少需要多少内存？
+#import <objc/runtime.h>
+class_getInstanceSize([NSObject class]);
+
+创建一个实例对象，实际上分配了多少内存？
+#import <malloc/malloc.h>
+malloc_size((__bridge const void *)obj);
+ */
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"----------------单纯的NSObject------------");
         NSObject *obj = [[NSObject alloc] init];
-        //获得NSObject实例对象的成员变量所占用的大小 >>8
+        
+        //获得NSObject实例对象的成员变量所占用的大小 >> 8
         NSLog(@"%zd",class_getInstanceSize([NSObject class]));
         
         //获取obj指针所指向内存的大小 >> 16
@@ -85,15 +104,14 @@ int main(int argc, const char * argv[]) {
         // 模拟器(i386)、32bit(armv7)、64bit（arm64）
         NSLog(@"----------------测试student------------");
         Student *stu = [[Student alloc] init];
-        NSLog(@"%zd", class_getInstanceSize([Student class]));
-        NSLog(@"%zd", malloc_size((__bridge const void *)stu));
+        NSLog(@"%zd", class_getInstanceSize([Student class])); //16
+        NSLog(@"%zd", malloc_size((__bridge const void *)stu)); //16
         
         NSLog(@"----------------测试Person------------");
         Person *per = [[Person alloc] init];
-        NSLog(@"%zd", sizeof(struct Person_IMPL));
-        NSLog(@"%zd", class_getInstanceSize([Person class]));
-        NSLog(@"%zd", malloc_size((__bridge const void *)per));
-        
+        NSLog(@"%zd", sizeof(struct Person_IMPL)); //24
+        NSLog(@"%zd", class_getInstanceSize([Person class]));//24
+        NSLog(@"%zd", malloc_size((__bridge const void *)per));//32
     }
     return 0;
 }
