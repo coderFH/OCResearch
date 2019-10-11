@@ -88,6 +88,15 @@
 		7F6BE921215CC90F00C34D8B /* FHAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE91E215CC90F00C34D8B /* FHAppViewModel.m */; };
 		7F6BE92E215CCBE400C34D8B /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE92B215CCBE400C34D8B /* NSObject+FBKVOController.m */; };
 		7F6BE92F215CCBE400C34D8B /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6BE92C215CCBE400C34D8B /* FBKVOController.m */; };
+		7F746C272350513B005D2549 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C262350513B005D2549 /* AppDelegate.m */; };
+		7F746C2A2350513B005D2549 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C292350513B005D2549 /* SceneDelegate.m */; };
+		7F746C2D2350513B005D2549 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C2C2350513B005D2549 /* ViewController.m */; };
+		7F746C302350513B005D2549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F746C2E2350513B005D2549 /* Main.storyboard */; };
+		7F746C322350513F005D2549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F746C312350513F005D2549 /* Assets.xcassets */; };
+		7F746C352350513F005D2549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F746C332350513F005D2549 /* LaunchScreen.storyboard */; };
+		7F746C382350513F005D2549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C372350513F005D2549 /* main.m */; };
+		7F746C3E23505169005D2549 /* FHViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C3D23505169005D2549 /* FHViewReusePool.m */; };
+		7F746C41235053E5005D2549 /* FHInexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F746C40235053E5005D2549 /* FHInexedTableView.m */; };
 		7F87854621081E4F00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87854521081E4F00D7A953 /* main.m */; };
 		7F8785512108224A00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8785502108224A00D7A953 /* main.m */; };
 		7F87855C210822DF00D7A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F87855B210822DF00D7A953 /* main.m */; };
@@ -565,6 +574,22 @@
 		7F6BE92B215CCBE400C34D8B /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
 		7F6BE92C215CCBE400C34D8B /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
 		7F6BE92D215CCBE400C34D8B /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		7F746C232350513B005D2549 /* 40-重用机制的运用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "40-重用机制的运用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F746C252350513B005D2549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F746C262350513B005D2549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F746C282350513B005D2549 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F746C292350513B005D2549 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F746C2B2350513B005D2549 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F746C2C2350513B005D2549 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F746C2F2350513B005D2549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F746C312350513F005D2549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F746C342350513F005D2549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F746C362350513F005D2549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F746C372350513F005D2549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F746C3C23505169005D2549 /* FHViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHViewReusePool.h; sourceTree = "<group>"; };
+		7F746C3D23505169005D2549 /* FHViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHViewReusePool.m; sourceTree = "<group>"; };
+		7F746C3F235053E5005D2549 /* FHInexedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHInexedTableView.h; sourceTree = "<group>"; };
+		7F746C40235053E5005D2549 /* FHInexedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHInexedTableView.m; sourceTree = "<group>"; };
 		7F87854321081E4F00D7A953 /* 12-block的copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-block的copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F87854521081E4F00D7A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F87854E2108224A00D7A953 /* 10-block的变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-block的变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -857,6 +882,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F6BE900215CC87C00C34D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F746C202350513B005D2549 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1289,6 +1321,28 @@
 			path = KVOController;
 			sourceTree = "<group>";
 		};
+		7F746C242350513B005D2549 /* 40-重用机制的运用 */ = {
+			isa = PBXGroup;
+			children = (
+				7F746C3C23505169005D2549 /* FHViewReusePool.h */,
+				7F746C3D23505169005D2549 /* FHViewReusePool.m */,
+				7F746C3F235053E5005D2549 /* FHInexedTableView.h */,
+				7F746C40235053E5005D2549 /* FHInexedTableView.m */,
+				7F746C252350513B005D2549 /* AppDelegate.h */,
+				7F746C262350513B005D2549 /* AppDelegate.m */,
+				7F746C282350513B005D2549 /* SceneDelegate.h */,
+				7F746C292350513B005D2549 /* SceneDelegate.m */,
+				7F746C2B2350513B005D2549 /* ViewController.h */,
+				7F746C2C2350513B005D2549 /* ViewController.m */,
+				7F746C2E2350513B005D2549 /* Main.storyboard */,
+				7F746C312350513F005D2549 /* Assets.xcassets */,
+				7F746C332350513F005D2549 /* LaunchScreen.storyboard */,
+				7F746C362350513F005D2549 /* Info.plist */,
+				7F746C372350513F005D2549 /* main.m */,
+			);
+			path = "40-重用机制的运用";
+			sourceTree = "<group>";
+		};
 		7F87854421081E4F00D7A953 /* 12-block的copy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1647,6 +1701,7 @@
 				7F61BE7E215A2A91008C40B0 /* 37-内存管理-copy */,
 				7F6BE8E1215CC54800C34D8B /* 38-MVP */,
 				7F6BE904215CC87C00C34D8B /* 39-MVVM */,
+				7F746C242350513B005D2549 /* 40-重用机制的运用 */,
 				7FBB171720F48830001A7577 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1694,6 +1749,7 @@
 				7F61BE7D215A2A91008C40B0 /* 37-内存管理-copy */,
 				7F6BE8E0215CC54800C34D8B /* 38-MVP.app */,
 				7F6BE903215CC87C00C34D8B /* 39-MVVM.app */,
+				7F746C232350513B005D2549 /* 40-重用机制的运用.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1962,6 +2018,23 @@
 			name = "39-MVVM";
 			productName = "39-MVVM";
 			productReference = 7F6BE903215CC87C00C34D8B /* 39-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F746C222350513B005D2549 /* 40-重用机制的运用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F746C3B2350513F005D2549 /* Build configuration list for PBXNativeTarget "40-重用机制的运用" */;
+			buildPhases = (
+				7F746C1F2350513B005D2549 /* Sources */,
+				7F746C202350513B005D2549 /* Frameworks */,
+				7F746C212350513B005D2549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "40-重用机制的运用";
+			productName = "40-重用机制的运用";
+			productReference = 7F746C232350513B005D2549 /* 40-重用机制的运用.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F87854221081E4F00D7A953 /* 12-block的copy */ = {
@@ -2502,6 +2575,9 @@
 					7F6BE902215CC87C00C34D8B = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					7F746C222350513B005D2549 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					7F87854221081E4F00D7A953 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -2644,6 +2720,7 @@
 				7F61BE7C215A2A91008C40B0 /* 37-内存管理-copy */,
 				7F6BE8DF215CC54800C34D8B /* 38-MVP */,
 				7F6BE902215CC87C00C34D8B /* 39-MVVM */,
+				7F746C222350513B005D2549 /* 40-重用机制的运用 */,
 			);
 		};
 /* End PBXProject section */
@@ -2736,6 +2813,16 @@
 				7F6BE912215CC87D00C34D8B /* LaunchScreen.storyboard in Resources */,
 				7F6BE90F215CC87D00C34D8B /* Assets.xcassets in Resources */,
 				7F6BE90D215CC87C00C34D8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F746C212350513B005D2549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F746C352350513F005D2549 /* LaunchScreen.storyboard in Resources */,
+				7F746C322350513F005D2549 /* Assets.xcassets in Resources */,
+				7F746C302350513B005D2549 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2960,6 +3047,19 @@
 				7F6BE921215CC90F00C34D8B /* FHAppViewModel.m in Sources */,
 				7F6BE907215CC87C00C34D8B /* AppDelegate.m in Sources */,
 				7F6BE92E215CCBE400C34D8B /* NSObject+FBKVOController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F746C1F2350513B005D2549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F746C41235053E5005D2549 /* FHInexedTableView.m in Sources */,
+				7F746C2D2350513B005D2549 /* ViewController.m in Sources */,
+				7F746C272350513B005D2549 /* AppDelegate.m in Sources */,
+				7F746C382350513F005D2549 /* main.m in Sources */,
+				7F746C2A2350513B005D2549 /* SceneDelegate.m in Sources */,
+				7F746C3E23505169005D2549 /* FHViewReusePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3400,6 +3500,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F6BE911215CC87D00C34D8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F746C2E2350513B005D2549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F746C2F2350513B005D2549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F746C332350513F005D2549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F746C342350513F005D2549 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3905,6 +4021,43 @@
 				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qlk.CloudsOutpatient.-9-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F746C392350513F005D2549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "40-重用机制的运用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-0--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F746C3A2350513F005D2549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "40-重用机制的运用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-0--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4867,6 +5020,15 @@
 			buildConfigurations = (
 				7F6BE917215CC87D00C34D8B /* Debug */,
 				7F6BE918215CC87D00C34D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F746C3B2350513F005D2549 /* Build configuration list for PBXNativeTarget "40-重用机制的运用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F746C392350513F005D2549 /* Debug */,
+				7F746C3A2350513F005D2549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
