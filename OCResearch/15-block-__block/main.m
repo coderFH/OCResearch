@@ -36,12 +36,12 @@ int main(int argc, const char * argv[]) {
         FHBlock block1 = ^{
             __strong int myage = age;
             age = 20;
-            NSLog(@"age is %d", age);
+            NSLog(@"age1 is %d", age);
         };
         
         FHBlock block2 = ^{
             age = 30;
-            NSLog(@"age is %d", age);
+            NSLog(@"age2 is %d", age);
         };
         
         block1();

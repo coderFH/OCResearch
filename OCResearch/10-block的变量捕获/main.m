@@ -9,7 +9,6 @@
 /*
  block本质上也是一个OC对象，它内部也有个isa指针
  block是封装了函数调用以及函数调用环境的OC对象
- 
  */
 #import <Foundation/Foundation.h>
 

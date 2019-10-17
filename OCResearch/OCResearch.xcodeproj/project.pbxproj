@@ -218,9 +218,7 @@
 		7FA9A73D20F72525007B97E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA9A73B20F72525007B97E4 /* Main.storyboard */; };
 		7FA9A73F20F72526007B97E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA9A73E20F72526007B97E4 /* Assets.xcassets */; };
 		7FA9A74220F72526007B97E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA9A74020F72526007B97E4 /* LaunchScreen.storyboard */; };
-		7FA9A74520F72526007B97E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A74420F72526007B97E4 /* main.m */; };
 		7FA9A74920F72549007B97E4 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A72D20F723D6007B97E4 /* FHPerson.m */; };
-		7FA9A74C20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A74B20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m */; };
 		7FAB8EE32107391300A99669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB8EE22107391300A99669 /* main.m */; };
 		7FBB173620F48850001A7577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB173520F48850001A7577 /* main.m */; };
 		7FE8700421522FA90079ABF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE8700221522FA90079ABF8 /* Main.storyboard */; };
@@ -229,6 +227,7 @@
 		7FE8700C21522FAB0079ABF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8700B21522FAB0079ABF8 /* main.m */; };
 		7FE8701221522FC40079ABF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8701021522FC40079ABF8 /* ViewController.m */; };
 		7FE8701321522FC40079ABF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8701121522FC40079ABF8 /* AppDelegate.m */; };
+		7FF489FA2358032D00A3BF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A74420F72526007B97E4 /* main.m */; };
 		7FF4A00E20FEDD1D00E2ED61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A00D20FEDD1D00E2ED61 /* main.m */; };
 		7FF4A01420FEDD4700E2ED61 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A01320FEDD4700E2ED61 /* FHPerson.m */; };
 		7FF4A01720FEDFFA00E2ED61 /* FHPerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A01620FEDFFA00E2ED61 /* FHPerson+Test.m */; };
@@ -3711,9 +3710,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF489FA2358032D00A3BF4E /* main.m in Sources */,
 				7FA9A73A20F72525007B97E4 /* ViewController.m in Sources */,
-				7FA9A74C20F72E7A007B97E4 /* NSKVONotifying_FHPerson.m in Sources */,
-				7FA9A74520F72526007B97E4 /* main.m in Sources */,
 				7FA9A74920F72549007B97E4 /* FHPerson.m in Sources */,
 				7FA9A73720F72525007B97E4 /* AppDelegate.m in Sources */,
 			);
@@ -3768,9 +3766,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA678DA20FCD9A00083AAED /* FHPerson.m in Sources */,
-				8DA678E620FCE68C0083AAED /* FHPerson+Test.m in Sources */,
 				8DA678D420FCD0C60083AAED /* main.m in Sources */,
 				8DA678E920FCE6C20083AAED /* FHPerson+Eat.m in Sources */,
+				8DA678E620FCE68C0083AAED /* FHPerson+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
