@@ -228,6 +228,7 @@
 		7FE8701221522FC40079ABF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8701021522FC40079ABF8 /* ViewController.m */; };
 		7FE8701321522FC40079ABF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8701121522FC40079ABF8 /* AppDelegate.m */; };
 		7FF489FA2358032D00A3BF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9A74420F72526007B97E4 /* main.m */; };
+		7FF489FD2358619500A3BF4E /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF489FC2358619500A3BF4E /* FHPerson.m */; };
 		7FF4A00E20FEDD1D00E2ED61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A00D20FEDD1D00E2ED61 /* main.m */; };
 		7FF4A01420FEDD4700E2ED61 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A01320FEDD4700E2ED61 /* FHPerson.m */; };
 		7FF4A01720FEDFFA00E2ED61 /* FHPerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4A01620FEDFFA00E2ED61 /* FHPerson+Test.m */; };
@@ -900,6 +901,8 @@
 		7FE8700B21522FAB0079ABF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FE8701021522FC40079ABF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7FE8701121522FC40079ABF8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FF489FB2358619500A3BF4E /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7FF489FC2358619500A3BF4E /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7FF4A00B20FEDD1C00E2ED61 /* 09-关联属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-关联属性"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF4A00D20FEDD1D00E2ED61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FF4A01220FEDD4700E2ED61 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
@@ -1596,6 +1599,8 @@
 			isa = PBXGroup;
 			children = (
 				7F8785502108224A00D7A953 /* main.m */,
+				7FF489FB2358619500A3BF4E /* FHPerson.h */,
+				7FF489FC2358619500A3BF4E /* FHPerson.m */,
 			);
 			path = "10-block的变量捕获";
 			sourceTree = "<group>";
@@ -3502,6 +3507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF489FD2358619500A3BF4E /* FHPerson.m in Sources */,
 				7F8785512108224A00D7A953 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

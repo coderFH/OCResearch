@@ -13,6 +13,12 @@
  */
 @interface FHPerson (Test)
 
+/*
+如果分类中这么写属性,只会生成以下两个方法的声明
+- (void)setWeight:(int)weight;
+- (int)weight;
+不会生成实现,并且不会生成一个成员变量_weight
+*/
 @property(nonatomic,assign) int weight;
 
 @end

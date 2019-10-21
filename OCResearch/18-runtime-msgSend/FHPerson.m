@@ -126,7 +126,7 @@ struct method_t {
     return [super methodSignatureForSelector:aSelector];
 }
 
-+ (void)forwardInvocation:(NSInvocation *)anInvocation  {
++ (void)forwardInvocation:(NSInvocation *)anInvocation {
     NSLog(@"===========");
 }
 
