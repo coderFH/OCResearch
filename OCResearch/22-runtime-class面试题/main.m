@@ -26,12 +26,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"=======================探索研究(对象方法)=============");
         id person = [[FHPerson alloc] init];
-        //本质就是 你 传进去的person的类对象 是不是 传进去的类对象
+        //isMemberOfClass : 本质就是 你 传进去的person的类对象 是不是 传进去的类对象
         //所以很明显  就是 1,0
         NSLog(@"%d",[person isMemberOfClass:[FHPerson class]]); //1
         NSLog(@"%d",[person isMemberOfClass:[NSObject class]]); //0
         
-        //本质就是 你 传进去的person的类对象 是不是 传进去的 类对象或者子类的对象
+        //isKindOfClass:本质就是 你 传进去的person的类对象 是不是 传进去的 类对象或者子类的对象
         //所以很明显  就是 1,1
         NSLog(@"%d",[person isKindOfClass:[FHPerson class]]); //1
         NSLog(@"%d",[person isKindOfClass:[NSObject class]]); //1
