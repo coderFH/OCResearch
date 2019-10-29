@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "FHThread.h"
 
+//如果一个程序需要频繁的创建线程,线程在使用完后,线程就销毁了,如果需要频繁的创建线程,其实是很耗费性能的,所以现在就做一个线程保活的程序,在线程执行完毕后,不销毁
+
 @interface ViewController ()
 
 @property (strong, nonatomic) FHThread *thread;

@@ -16,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     //查看队列的内存地址
     dispatch_queue_t queue1 = dispatch_get_global_queue(0, 0);
+    
+    /*
+     获取全局并发队列
+     第一个参数: DISPATCH_QUEUE_PRIORITY_DEFAULT  对应的值是0
+     第二个参数: 永远传0
+     */
     dispatch_queue_t queue2 = dispatch_get_global_queue(0, 0);
+    
+    /*
+     第一个参数:C语言字符串,标签
+     第二个参数:DISPATCH_QUEUE_CONCURRENT 并发队列
+              DISPATCH_QUEUE_SERIAL     串行队列
+     */
     dispatch_queue_t queue3 = dispatch_queue_create("queu3", DISPATCH_QUEUE_CONCURRENT);
     dispatch_queue_t queue4 = dispatch_queue_create("queu4", DISPATCH_QUEUE_CONCURRENT);
     dispatch_queue_t queue5 = dispatch_queue_create("queu5", DISPATCH_QUEUE_CONCURRENT);
