@@ -20,6 +20,24 @@
 #import "SemaphoreDemo.h"
 #import "SynchronizedDemo.h"
 
+/*
+ 实现线程同步的方案?
+ 
+ 自旋锁:等待锁的线程会处于忙等(busy-wait)状态,一直占用CPU资源
+ OSSpinLock
+ os_unfair_lock : 取代不安全的 OSSpinLock,从底层调用看,等待os_unfair_lock锁的线程会处于休眠状态,并非忙等
+ 
+ 互斥锁: 等待锁的线程会处于休眠状态
+ pthread_mutex pthread_mutex-递归  pthread_mutex-条件
+ NSLock 对mutex普通锁的封装
+ NSRecursiveLock 对 mutex-递归锁 的封装
+ NSCondition 对mutex和cond的封装 可以理解为对 'pthread_mutex-条件'的封装
+ NSConditionLock 对NSCondition的进一步封装,可以设置具体的条件值
+ @synchronized 对mutex递归锁的封装
+ 
+ dispatch_semaphore 信号量
+ dispatch_queue
+ */
 @interface FHViewController ()
 
 @end
@@ -28,7 +46,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 #pragma mark --未加锁下存取钱,卖票的演示

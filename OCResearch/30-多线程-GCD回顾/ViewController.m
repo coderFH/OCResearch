@@ -32,7 +32,7 @@
     [super viewDidLoad];
 }
 
-#pragma mark ---- 异步函数+并发队列:会开启新的线程,并发执行 -----
+#pragma mark ---- 异步函数+并发队列:会开启多个新的线程,并发执行 -----
 - (IBAction)asyncConcurrent:(id)sender {
     //创建并发队列
     /*
@@ -71,6 +71,7 @@
     dispatch_async(queue, ^{
         NSLog(@"---download4---%@",[NSThread currentThread]);
     });
+    NSLog(@"%@---主线程任务结束",[NSThread currentThread]);
 }
 
 #pragma mark ---- 异步函数+串行队列:会开启一条线程,任务串行执行 -----
@@ -98,6 +99,7 @@
     dispatch_async(queue, ^{
         NSLog(@"---download4---%@",[NSThread currentThread]);
     });
+    NSLog(@"%@---主线程任务结束",[NSThread currentThread]);
 }
 
 #pragma mark ---- 同步函数+并发队列:不会开线程,任务串行执行 ----
@@ -142,6 +144,7 @@
     dispatch_sync(queue, ^{
         NSLog(@"---download4---%@",[NSThread currentThread]);
     });
+    NSLog(@"%@---主线程任务结束",[NSThread currentThread]);
 }
 
 #pragma mark ---- 异步函数+主队列:不会开线程,任务串行执行 ----
@@ -170,6 +173,7 @@
     dispatch_async(queue, ^{
         NSLog(@"---download4---%@",[NSThread currentThread]);
     });
+    NSLog(@"%@---主线程任务结束",[NSThread currentThread]);
 }
 
 #pragma mark ---- 同步函数+主队列:死锁 ----
@@ -185,6 +189,7 @@
    
     //2.同步函数
     dispatch_sync(queue, ^{
+        NSLog(@"我是主队列任务,我需要马上执行,但是主线程的任务还没结束,我只能等待它结束,它在等待我结束,就互相等待形成死锁");
         NSLog(@"---download1---%@",[NSThread currentThread]);
     });
    
@@ -198,7 +203,7 @@
     dispatch_sync(queue, ^{
         NSLog(@"---download4---%@",[NSThread currentThread]);
     });
-   
+    NSLog(@"我是主线程的任务,我也在主队列中,我都没执行完毕,现在又要马上去执行你的任务");
 }
 
 #pragma mark ---- 全局队列 ----
