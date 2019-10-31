@@ -27,7 +27,7 @@
 //    self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(linkTest)];
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTest) userInfo:nil repeats:YES];
     //上边两行代码执行后,可以看到返回的时候并没有调用delloc方法,说明产生了相互吸引
-    //控制器拥有Timer对象或者link对象,而这两个对象中的target又引用控制,就形成了相互引用
+    //控制器拥有Timer对象或者link对象,而这两个对象中的target又引用控制器,就形成了相互引用
     
     //如何解决上边循环利用的问题
     //方式1:通过block

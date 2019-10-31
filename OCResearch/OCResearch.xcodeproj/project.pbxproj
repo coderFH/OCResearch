@@ -34,6 +34,14 @@
 		7F43E11F2368245200508C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E11E2368245200508C38 /* Assets.xcassets */; };
 		7F43E1222368245200508C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E1202368245200508C38 /* LaunchScreen.storyboard */; };
 		7F43E1252368245200508C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E1242368245200508C38 /* main.m */; };
+		7F43E131236A7DC000508C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E130236A7DC000508C38 /* AppDelegate.m */; };
+		7F43E134236A7DC000508C38 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E133236A7DC000508C38 /* SceneDelegate.m */; };
+		7F43E137236A7DC000508C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E136236A7DC000508C38 /* ViewController.m */; };
+		7F43E13A236A7DC000508C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E138236A7DC000508C38 /* Main.storyboard */; };
+		7F43E13C236A7DC300508C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E13B236A7DC300508C38 /* Assets.xcassets */; };
+		7F43E13F236A7DC300508C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E13D236A7DC300508C38 /* LaunchScreen.storyboard */; };
+		7F43E142236A7DC300508C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E141236A7DC300508C38 /* main.m */; };
+		7F43E148236A7DDE00508C38 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43E147236A7DDE00508C38 /* FHPerson.m */; };
 		7F4A63CC213637F2008E72D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63CB213637F2008E72D8 /* AppDelegate.m */; };
 		7F4A63CF213637F2008E72D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A63CE213637F2008E72D8 /* ViewController.m */; };
 		7F4A63D2213637F2008E72D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A63D0213637F2008E72D8 /* Main.storyboard */; };
@@ -557,6 +565,20 @@
 		7F43E1212368245200508C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F43E1232368245200508C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F43E1242368245200508C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F43E12D236A7DC000508C38 /* 37-内存管理-__weak原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "37-内存管理-__weak原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F43E12F236A7DC000508C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F43E130236A7DC000508C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F43E132236A7DC000508C38 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F43E133236A7DC000508C38 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F43E135236A7DC000508C38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F43E136236A7DC000508C38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F43E139236A7DC000508C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F43E13B236A7DC300508C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F43E13E236A7DC300508C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F43E140236A7DC300508C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F43E141236A7DC300508C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F43E146236A7DDE00508C38 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F43E147236A7DDE00508C38 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7F4A63C8213637F2008E72D8 /* 30-多线程-面试题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30-多线程-面试题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A63CA213637F2008E72D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F4A63CB213637F2008E72D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1007,6 +1029,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F43E12A236A7DC000508C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F4A63C5213637F2008E72D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1385,6 +1414,26 @@
 				7F43E1242368245200508C38 /* main.m */,
 			);
 			path = "30-多线程-GCD回顾";
+			sourceTree = "<group>";
+		};
+		7F43E12E236A7DC000508C38 /* 37-内存管理-__weak原理 */ = {
+			isa = PBXGroup;
+			children = (
+				7F43E12F236A7DC000508C38 /* AppDelegate.h */,
+				7F43E130236A7DC000508C38 /* AppDelegate.m */,
+				7F43E132236A7DC000508C38 /* SceneDelegate.h */,
+				7F43E133236A7DC000508C38 /* SceneDelegate.m */,
+				7F43E135236A7DC000508C38 /* ViewController.h */,
+				7F43E136236A7DC000508C38 /* ViewController.m */,
+				7F43E138236A7DC000508C38 /* Main.storyboard */,
+				7F43E13B236A7DC300508C38 /* Assets.xcassets */,
+				7F43E13D236A7DC300508C38 /* LaunchScreen.storyboard */,
+				7F43E140236A7DC300508C38 /* Info.plist */,
+				7F43E141236A7DC300508C38 /* main.m */,
+				7F43E146236A7DDE00508C38 /* FHPerson.h */,
+				7F43E147236A7DDE00508C38 /* FHPerson.m */,
+			);
+			path = "37-内存管理-__weak原理";
 			sourceTree = "<group>";
 		};
 		7F4A63C9213637F2008E72D8 /* 30-多线程-面试题 */ = {
@@ -2035,6 +2084,7 @@
 				7F505E832142837F00597973 /* 35-内存管理-GCD定时器的封装 */,
 				7FE86FFB21522FA90079ABF8 /* 36-TaggedPointer */,
 				7F61BE7E215A2A91008C40B0 /* 37-内存管理-copy */,
+				7F43E12E236A7DC000508C38 /* 37-内存管理-__weak原理 */,
 				7F6BE8E1215CC54800C34D8B /* 38-MVP */,
 				7F6BE904215CC87C00C34D8B /* 39-MVVM */,
 				7F746C242350513B005D2549 /* 40-重用机制的运用 */,
@@ -2098,6 +2148,7 @@
 				7F4B1F5F23559A6F00C204C0 /* 45-命令模式 */,
 				7F43E0F32368147300508C38 /* 25-runloop-使用.app */,
 				7F43E1102368245000508C38 /* 30-多线程-GCD回顾.app */,
+				7F43E12D236A7DC000508C38 /* 37-内存管理-__weak原理.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2264,6 +2315,23 @@
 			name = "30-多线程-GCD回顾";
 			productName = "30-多线程-GCD回顾";
 			productReference = 7F43E1102368245000508C38 /* 30-多线程-GCD回顾.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F43E12C236A7DC000508C38 /* 37-内存管理-__weak原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F43E145236A7DC300508C38 /* Build configuration list for PBXNativeTarget "37-内存管理-__weak原理" */;
+			buildPhases = (
+				7F43E129236A7DC000508C38 /* Sources */,
+				7F43E12A236A7DC000508C38 /* Frameworks */,
+				7F43E12B236A7DC000508C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37-内存管理-__weak原理";
+			productName = "37-内存管理-__weak原理";
+			productReference = 7F43E12D236A7DC000508C38 /* 37-内存管理-__weak原理.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7F4A63C7213637F2008E72D8 /* 30-多线程-面试题 */ = {
@@ -3024,6 +3092,9 @@
 					7F43E10F2368245000508C38 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					7F43E12C236A7DC000508C38 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					7F4A63C7213637F2008E72D8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -3216,6 +3287,7 @@
 				7F4B1F3F2355786100C204C0 /* 43-适配器模式 */,
 				7F4B1F5023557C6900C204C0 /* 44-单例模式 */,
 				7F4B1F5E23559A6F00C204C0 /* 45-命令模式 */,
+				7F43E12C236A7DC000508C38 /* 37-内存管理-__weak原理 */,
 			);
 		};
 /* End PBXProject section */
@@ -3248,6 +3320,16 @@
 				7F43E1222368245200508C38 /* LaunchScreen.storyboard in Resources */,
 				7F43E11F2368245200508C38 /* Assets.xcassets in Resources */,
 				7F43E11D2368245000508C38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F43E12B236A7DC000508C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43E13F236A7DC300508C38 /* LaunchScreen.storyboard in Resources */,
+				7F43E13C236A7DC300508C38 /* Assets.xcassets in Resources */,
+				7F43E13A236A7DC000508C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3496,6 +3578,18 @@
 				7F43E1142368245000508C38 /* AppDelegate.m in Sources */,
 				7F43E1252368245200508C38 /* main.m in Sources */,
 				7F43E1172368245000508C38 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F43E129236A7DC000508C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43E137236A7DC000508C38 /* ViewController.m in Sources */,
+				7F43E131236A7DC000508C38 /* AppDelegate.m in Sources */,
+				7F43E148236A7DDE00508C38 /* FHPerson.m in Sources */,
+				7F43E142236A7DC300508C38 /* main.m in Sources */,
+				7F43E134236A7DC000508C38 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4016,6 +4110,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7F43E138236A7DC000508C38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F43E139236A7DC000508C38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F43E13D236A7DC300508C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F43E13E236A7DC300508C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F4A63D0213637F2008E72D8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4473,6 +4583,43 @@
 				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-0-----GCD--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F43E143236A7DC300508C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "37-内存管理-__weak原理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-7--------weak--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F43E144236A7DC300508C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "37-内存管理-__weak原理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-7--------weak--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -5831,6 +5978,15 @@
 			buildConfigurations = (
 				7F43E1272368245200508C38 /* Debug */,
 				7F43E1282368245200508C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F43E145236A7DC300508C38 /* Build configuration list for PBXNativeTarget "37-内存管理-__weak原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F43E143236A7DC300508C38 /* Debug */,
+				7F43E144236A7DC300508C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
