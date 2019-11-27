@@ -13,6 +13,13 @@
 		7F06DCF4235474CC00866D85 /* BusinessObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06DCF3235474CC00866D85 /* BusinessObjectA.m */; };
 		7F06DCF7235474EA00866D85 /* BusinessObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06DCF6235474EA00866D85 /* BusinessObjectB.m */; };
 		7F06DCFA235474FA00866D85 /* BusinessObjectC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06DCF9235474FA00866D85 /* BusinessObjectC.m */; };
+		7F14125E238E0F9B00164906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14125D238E0F9B00164906 /* AppDelegate.m */; };
+		7F141261238E0F9B00164906 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F141260238E0F9B00164906 /* SceneDelegate.m */; };
+		7F141264238E0F9B00164906 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F141263238E0F9B00164906 /* ViewController.m */; };
+		7F141267238E0F9B00164906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F141265238E0F9B00164906 /* Main.storyboard */; };
+		7F141269238E0F9D00164906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F141268238E0F9D00164906 /* Assets.xcassets */; };
+		7F14126C238E0F9D00164906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F14126A238E0F9D00164906 /* LaunchScreen.storyboard */; };
+		7F14126F238E0F9D00164906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14126E238E0F9D00164906 /* main.m */; };
 		7F34D44E211400E500949BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34D44D211400E500949BD0 /* AppDelegate.m */; };
 		7F34D451211400E500949BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F34D450211400E500949BD0 /* ViewController.m */; };
 		7F34D454211400E500949BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F34D452211400E500949BD0 /* Main.storyboard */; };
@@ -528,6 +535,18 @@
 		7F06DCF6235474EA00866D85 /* BusinessObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessObjectB.m; sourceTree = "<group>"; };
 		7F06DCF8235474FA00866D85 /* BusinessObjectC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessObjectC.h; sourceTree = "<group>"; };
 		7F06DCF9235474FA00866D85 /* BusinessObjectC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessObjectC.m; sourceTree = "<group>"; };
+		7F14125A238E0F9B00164906 /* 04-NSNotification通知.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-NSNotification通知.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14125C238E0F9B00164906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F14125D238E0F9B00164906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F14125F238E0F9B00164906 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F141260238E0F9B00164906 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F141262238E0F9B00164906 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F141263238E0F9B00164906 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F141266238E0F9B00164906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F141268238E0F9D00164906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F14126B238E0F9D00164906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F14126D238E0F9D00164906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F14126E238E0F9D00164906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F34D43C2113FE1400949BD0 /* 16-block的循环引用问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-block的循环引用问题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F34D44A211400E500949BD0 /* 16-block循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16-block循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F34D44C211400E500949BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1001,6 +1020,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F141257238E0F9B00164906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F34D4392113FE1400949BD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1360,6 +1386,24 @@
 				7F4B1F3A2355738900C204C0 /* BridgeDemo.m */,
 			);
 			path = "42-桥接模式";
+			sourceTree = "<group>";
+		};
+		7F14125B238E0F9B00164906 /* 04-NSNotification通知 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14125C238E0F9B00164906 /* AppDelegate.h */,
+				7F14125D238E0F9B00164906 /* AppDelegate.m */,
+				7F14125F238E0F9B00164906 /* SceneDelegate.h */,
+				7F141260238E0F9B00164906 /* SceneDelegate.m */,
+				7F141262238E0F9B00164906 /* ViewController.h */,
+				7F141263238E0F9B00164906 /* ViewController.m */,
+				7F141265238E0F9B00164906 /* Main.storyboard */,
+				7F141268238E0F9D00164906 /* Assets.xcassets */,
+				7F14126A238E0F9D00164906 /* LaunchScreen.storyboard */,
+				7F14126D238E0F9D00164906 /* Info.plist */,
+				7F14126E238E0F9D00164906 /* main.m */,
+			);
+			path = "04-NSNotification通知";
 			sourceTree = "<group>";
 		};
 		7F34D44B211400E500949BD0 /* 16-block循环引用 */ = {
@@ -2048,6 +2092,7 @@
 				7FBB173420F48850001A7577 /* 01-OC对象 */,
 				7FA9A6E120F5AAE0007B97E4 /* 02-OC对象-class对象 */,
 				7FA9A71820F6F44E007B97E4 /* 03-OC对象-探究方法的调用 */,
+				7F14125B238E0F9B00164906 /* 04-NSNotification通知 */,
 				7FA9A73420F72525007B97E4 /* 04-KVO底层 */,
 				8DE0A0A520FB3A80004CA173 /* 05-KVC底层 */,
 				8DA678D220FCD0C60083AAED /* 06-Category */,
@@ -2149,6 +2194,7 @@
 				7F43E0F32368147300508C38 /* 25-runloop-使用.app */,
 				7F43E1102368245000508C38 /* 30-多线程-GCD回顾.app */,
 				7F43E12D236A7DC000508C38 /* 37-内存管理-__weak原理.app */,
+				7F14125A238E0F9B00164906 /* 04-NSNotification通知.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2248,6 +2294,23 @@
 			productName = "42-桥接模式";
 			productReference = 7F06DCE523546EA800866D85 /* 42-桥接模式 */;
 			productType = "com.apple.product-type.tool";
+		};
+		7F141259238E0F9B00164906 /* 04-NSNotification通知 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F141272238E0F9D00164906 /* Build configuration list for PBXNativeTarget "04-NSNotification通知" */;
+			buildPhases = (
+				7F141256238E0F9B00164906 /* Sources */,
+				7F141257238E0F9B00164906 /* Frameworks */,
+				7F141258238E0F9B00164906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-NSNotification通知";
+			productName = "04-NSNotification通知";
+			productReference = 7F14125A238E0F9B00164906 /* 04-NSNotification通知.app */;
+			productType = "com.apple.product-type.application";
 		};
 		7F34D43B2113FE1400949BD0 /* 16-block的循环引用问题 */ = {
 			isa = PBXNativeTarget;
@@ -3080,6 +3143,9 @@
 					7F06DCE423546EA800866D85 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					7F141259238E0F9B00164906 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					7F34D43B2113FE1400949BD0 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -3288,11 +3354,22 @@
 				7F4B1F5023557C6900C204C0 /* 44-单例模式 */,
 				7F4B1F5E23559A6F00C204C0 /* 45-命令模式 */,
 				7F43E12C236A7DC000508C38 /* 37-内存管理-__weak原理 */,
+				7F141259238E0F9B00164906 /* 04-NSNotification通知 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F141258238E0F9B00164906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14126C238E0F9D00164906 /* LaunchScreen.storyboard in Resources */,
+				7F141269238E0F9D00164906 /* Assets.xcassets in Resources */,
+				7F141267238E0F9B00164906 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F34D448211400E500949BD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3538,6 +3615,17 @@
 				7F4B1F32235571FF00C204C0 /* ObjectB2.m in Sources */,
 				7F4B1F38235572AC00C204C0 /* ObjectA2.m in Sources */,
 				7F4B1F2F235571EC00C204C0 /* ObjectB1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F141256238E0F9B00164906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F141264238E0F9B00164906 /* ViewController.m in Sources */,
+				7F14125E238E0F9B00164906 /* AppDelegate.m in Sources */,
+				7F14126F238E0F9D00164906 /* main.m in Sources */,
+				7F141261238E0F9B00164906 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4062,6 +4150,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7F141265238E0F9B00164906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F141266238E0F9B00164906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F14126A238E0F9D00164906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F14126B238E0F9D00164906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7F34D452211400E500949BD0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4455,6 +4559,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F141270238E0F9D00164906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-NSNotification通知/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-4-NSNotification--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F141271238E0F9D00164906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-NSNotification通知/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-4-NSNotification--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -5942,6 +6083,15 @@
 			buildConfigurations = (
 				7F06DCEA23546EA800866D85 /* Debug */,
 				7F06DCEB23546EA800866D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F141272238E0F9D00164906 /* Build configuration list for PBXNativeTarget "04-NSNotification通知" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F141270238E0F9D00164906 /* Debug */,
+				7F141271238E0F9D00164906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
