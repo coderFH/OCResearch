@@ -16,7 +16,7 @@
  */
 
 #define MyNotificationTestName @"NSNotificatonTestName"
-"
+
 @interface ViewController ()
 
 @end
@@ -33,9 +33,9 @@
 //    [[NSNotificationCenter defaultCenter] postNotificationName:MyNotificationTestName object:nil];
         
     //2.将发送通知的方法,放到子线程,这样process方法默认就在子线程中去处理操作
-    //    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-    //        [[NSNotificationCenter defaultCenter] postNotificationName:MyNotificationTestName object:nil];
-    //    });
+//        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//            [[NSNotificationCenter defaultCenter] postNotificationName:MyNotificationTestName object:nil];
+//        });
         
     
     //3.通过NSNotificationQueue的方式,但process方法还是在主线程中,可以在方法里边去开子线程处理
@@ -44,10 +44,12 @@
     //NSPostNow:现在立刻发送
     NSNotification *notification = [NSNotification notificationWithName:MyNotificationTestName object:nil];
     [[NSNotificationQueue defaultQueue] enqueueNotification:notification postingStyle:NSPostASAP];
-    NSLog(@"发出通知的下一条代码");
+    NSLog(@"发出通知的下一条代码,观察是否阻塞");
 }
 
 - (void)process {
     sleep(10);
     NSLog(@"通知处理结束 %@",[NSThread currentThread]);
 }
+
+@end

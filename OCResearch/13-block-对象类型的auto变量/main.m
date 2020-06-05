@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
             //此时的block在arc环境下,已经是在堆区了
             block1 = ^{ //block引用了对象类型auto变量,会持有这个person对象,所以在42行出了大括号的时候,person对象并不会释放,只有当block1这个强指针释放时,block才会释放,相应的person对象才会释放,所以会先打印'------',然后再打印'FHPerson - dealloc'
                 //假如换成weakP,block其实是弱引用这person对象,所以过了42行后,person对象会马上释放
-                NSLog(@"---------%d",weakP.age);
+                NSLog(@"---------%d",p.age);
             };
         }
         NSLog(@"------");

@@ -15,7 +15,7 @@
 //    _NSSetIntValueAndNotify();
 }
 
-// 屏幕内部实现，隐藏了NSKVONotifying_FHPerson类的存在
+// 屏蔽内部实现，隐藏了NSKVONotifying_FHPerson类的存在
 - (Class)class
 {
     return [FHPerson class];

@@ -15,7 +15,7 @@
     //这里的self也会被block捕获,因为self其实也是局部变量
     void (^block)(void) = ^ {
         NSLog(@"%p",self);
-    }
+    };
     block();
 }
 

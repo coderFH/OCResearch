@@ -48,18 +48,18 @@ int main(int argc, const char * argv[]) {
         block2();
         
         //一个面试题,a的地址会不会变
-//        __block int a = 1;
-//        NSLog(@"%d %p",a,&a);
-//
-//        void (^block)(void) = ^{
-//            a = 3;
-//            NSLog(@"%d %p",a,&a);
-//        };
-//
-//        a = 2;
-//        NSLog(@"%d %p",a,&a);
-//        block();
-//        NSLog(@"%d %p",a,&a);
+        __block int a = 1;
+        NSLog(@"%d %p",a,&a);
+
+        void (^block)(void) = ^{
+            a = 3;
+            NSLog(@"%d %p",a,&a);
+        };
+
+        a = 2;
+        NSLog(@"%d %p",a,&a);
+        block();
+        NSLog(@"%d %p",a,&a);
     }
     return 0;
 }
