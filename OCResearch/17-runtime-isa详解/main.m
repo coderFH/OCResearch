@@ -37,7 +37,7 @@ void setOptions(FHOptions options) {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //位运算
-        setOptions(FHOptionsOne + FHOptionsTwo + FHOptionsFour);
+        setOptions(FHOptionsOne + FHOptionsTwo + FHOptionsFour); // 01011
     }
     return 0;
 }

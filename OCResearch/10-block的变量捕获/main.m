@@ -39,7 +39,7 @@ int main(int argc, const char * argv[]) {
         struct __main_block_impl_0 { //block的内部结构其实就是该结构体
             struct __block_impl impl;
             struct __main_block_desc_0 *Desc;
-            //以下还有一个方法,会对__block_impl进行一个赋值操作
+            //以下还有一个构造方法,会对__block_impl进行一个赋值操作
         };
         struct __main_block_desc_0 {
             size_t reserved;

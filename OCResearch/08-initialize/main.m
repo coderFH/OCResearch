@@ -63,8 +63,9 @@ int main(int argc, const char * argv[]) {
          如果分类实现了+initialize，就覆盖类本身的+initialize调用
          */
         [FHCat alloc];
-        [FHStudent alloc];//如果子类没有实现+initialize，会调用父类的+initialize（所以父类的+initialize可能会被调用多次）
         [FHDog alloc];
+        [FHStudent alloc];//如果子类没有实现+initialize，会调用父类的+initialize（所以父类的+initialize可能会被调用多次）
+        
     }
     return 0;
 }

@@ -3136,7 +3136,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FH;
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = wangfh;
 				TargetAttributes = {

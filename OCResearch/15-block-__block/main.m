@@ -31,21 +31,21 @@ typedef void (^FHBlock)(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        __block __weak int age = 10;
-
-        FHBlock block1 = ^{
-            __strong int myage = age;
-            age = 20;
-            NSLog(@"age1 is %d", age);
-        };
-
-        FHBlock block2 = ^{
-            age = 30;
-            NSLog(@"age2 is %d", age);
-        };
-
-        block1();
-        block2();
+//        __block __weak int age = 10;
+//
+//        FHBlock block1 = ^{
+//            __strong int myage = age;
+//            age = 20;
+//            NSLog(@"age1 is %d", age);
+//        };
+//
+//        FHBlock block2 = ^{
+//            age = 30;
+//            NSLog(@"age2 is %d", age);
+//        };
+//
+//        block1();
+//        block2();
         
         //一个面试题,a的地址会不会变
         __block int a = 1;
