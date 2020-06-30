@@ -31,8 +31,8 @@ void test(){
     NSMutableString *str1 = [NSMutableString stringWithFormat:@"test111111111"];
     NSString *str2 = [str1 copy]; //深拷贝
     NSMutableString *str3 = [str1 mutableCopy];//深拷贝
-    
-    NSLog(@"%@ %@ %@", str1, str2, str3);
+    NSLog(@"%@ %@ %@",str1,str2,str3);
+    NSLog(@"%p %p %p",str1,str2,str3);
 }
 
 void test2() {
@@ -81,7 +81,7 @@ void test7() {
 #pragma mark --自定义copy
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        test7();
+        test6();
         
         FHPerson *p1 = [[FHPerson alloc] init];
         p1.age = 20;
