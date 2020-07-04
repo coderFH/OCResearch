@@ -60,6 +60,22 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d %p",a,&a);
         block();
         NSLog(@"%d %p",a,&a);
+        
+        
+        
+        // 下面一个问题,在block中,对可变数组追加元素,需要用__block修饰么?
+        // 不需要? 因为addObject本质是向数组中添加元素,并没有修改array,所以不需要使用__block修饰
+        NSMutableArray *array = [[NSMutableArray alloc] init];
+        FHBlock block1 = ^{
+            [array addObject:@"1"];
+            [array addObject:@"2"];
+            NSLog(@"%lu",(unsigned long)array.count);
+        };
+        
+        NSLog(@"%lu",(unsigned long)array.count);
+        block1();
+        NSLog(@"%lu",(unsigned long)array.count);
+        
     }
     return 0;
 }
