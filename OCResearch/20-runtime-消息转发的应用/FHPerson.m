@@ -24,7 +24,7 @@
     return [NSMethodSignature signatureWithObjCTypes:"v@:"];
 }
 
-// 找不到的方法，都会来到这里
+// 找不到的方法，都会来到这里,就可以收集找不到的方法,上传到公司服务器,去查找问题,或者可以写一个NSObject的分类,去收集找不到的方法
 - (void)forwardInvocation:(NSInvocation *)anInvocation
 {
     NSLog(@"找不到%@方法", NSStringFromSelector(anInvocation.selector));

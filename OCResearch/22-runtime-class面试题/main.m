@@ -19,12 +19,15 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d", [[FHPerson class] isMemberOfClass:[FHPerson class]]);
         
         //所以对上边的进行简化 就是
+        // 虽然左边是元类,右边是类对象,貌似应该是0,但是NSObject的元类一直往上查,其实会查到NSObject的类对象,所以还是1
         NSLog(@"%d", [NSObject isKindOfClass:[NSObject class]]);
+        // 左边是元类 != 右边是类对象  所以是0
         NSLog(@"%d", [NSObject isMemberOfClass:[NSObject class]]);
+        // 下边两个因为调用的是类方法,所以右边一定要是元类对象,所以肯定都是 0
         NSLog(@"%d", [FHPerson isKindOfClass:[FHPerson class]]);
         NSLog(@"%d", [FHPerson isMemberOfClass:[FHPerson class]]);
         
-        NSLog(@"=======================探索研究(对象方法)=============");
+        NSLog(@"=======================isMemberOfClass,isKindOfClass(对象方法)=============");
         id person = [[FHPerson alloc] init];
         //isMemberOfClass : 本质就是 你 传进去的person的类对象 是不是 传进去的类对象
         //所以很明显  就是 1,0
@@ -36,11 +39,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d",[person isKindOfClass:[FHPerson class]]); //1
         NSLog(@"%d",[person isKindOfClass:[NSObject class]]); //1
         
-        NSLog(@"=======================探索研究(类方法)=============");
+        NSLog(@"=======================isMemberOfClass,isKindOfClass(类方法)=============");
         //类方法 可以理解为  左边传进去对象的元类对象 是否是 右边的元类对象
         //也就是 FHPerson的元类对象 是否是 传进去的元类对象
         //很显然[FHPerson class] 是类对象 所是0
         NSLog(@"%d",[FHPerson isMemberOfClass:[FHPerson class]]); //0
+        
         //这种情况下objc_getClass([FHPerson class] 获取元类
         //即 FHPerson的元类对象 是 传进去的元类对象 所以是1
         NSLog(@"%d",[FHPerson isMemberOfClass:object_getClass([FHPerson class])]);//1
