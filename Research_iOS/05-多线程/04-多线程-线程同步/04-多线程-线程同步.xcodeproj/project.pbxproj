@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F799D4524C984CB00526B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D4424C984CB00526B14 /* AppDelegate.m */; };
+		7F799D4824C984CB00526B14 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D4724C984CB00526B14 /* SceneDelegate.m */; };
+		7F799D5024C984CD00526B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F799D4F24C984CD00526B14 /* Assets.xcassets */; };
+		7F799D5324C984CD00526B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F799D5124C984CD00526B14 /* LaunchScreen.storyboard */; };
+		7F799D5624C984CD00526B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D5524C984CD00526B14 /* main.m */; };
+		7F799D7724C984E900526B14 /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D5D24C984E800526B14 /* SemaphoreDemo.m */; };
+		7F799D7824C984E900526B14 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D5E24C984E800526B14 /* MutexDemo.m */; };
+		7F799D7924C984E900526B14 /* MutexDemoTiaoJian.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D5F24C984E800526B14 /* MutexDemoTiaoJian.m */; };
+		7F799D7A24C984E900526B14 /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6024C984E800526B14 /* SynchronizedDemo.m */; };
+		7F799D7B24C984E900526B14 /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6124C984E800526B14 /* NSConditionDemo.m */; };
+		7F799D7C24C984E900526B14 /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6224C984E800526B14 /* NSConditionLockDemo.m */; };
+		7F799D7D24C984E900526B14 /* FHBaseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6424C984E800526B14 /* FHBaseDemo.m */; };
+		7F799D7E24C984E900526B14 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6524C984E800526B14 /* NSLockDemo.m */; };
+		7F799D7F24C984E900526B14 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6824C984E800526B14 /* OSUnfairLockDemo.m */; };
+		7F799D8024C984E900526B14 /* FHOSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D6E24C984E800526B14 /* FHOSSpinLockDemo.m */; };
+		7F799D8124C984E900526B14 /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D7224C984E800526B14 /* SerialQueueDemo.m */; };
+		7F799D8224C984E900526B14 /* MutexDemoDiGui.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D7324C984E800526B14 /* MutexDemoDiGui.m */; };
+		7F799D8324C984E900526B14 /* FHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D7624C984E900526B14 /* FHViewController.m */; };
+		7F799D8624C9850000526B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F799D8424C9850000526B14 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F799D4024C984CB00526B14 /* 04-多线程-线程同步.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-多线程-线程同步.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F799D4324C984CB00526B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F799D4424C984CB00526B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F799D4624C984CB00526B14 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7F799D4724C984CB00526B14 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7F799D4F24C984CD00526B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F799D5224C984CD00526B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F799D5424C984CD00526B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F799D5524C984CD00526B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F799D5D24C984E800526B14 /* SemaphoreDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
+		7F799D5E24C984E800526B14 /* MutexDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
+		7F799D5F24C984E800526B14 /* MutexDemoTiaoJian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutexDemoTiaoJian.m; sourceTree = "<group>"; };
+		7F799D6024C984E800526B14 /* SynchronizedDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
+		7F799D6124C984E800526B14 /* NSConditionDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		7F799D6224C984E800526B14 /* NSConditionLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		7F799D6324C984E800526B14 /* FHOSSpinLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHOSSpinLockDemo.h; sourceTree = "<group>"; };
+		7F799D6424C984E800526B14 /* FHBaseDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHBaseDemo.m; sourceTree = "<group>"; };
+		7F799D6524C984E800526B14 /* NSLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		7F799D6624C984E800526B14 /* MutexDemoDiGui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexDemoDiGui.h; sourceTree = "<group>"; };
+		7F799D6724C984E800526B14 /* SerialQueueDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		7F799D6824C984E800526B14 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
+		7F799D6924C984E800526B14 /* SynchronizedDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
+		7F799D6A24C984E800526B14 /* MutexDemoTiaoJian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexDemoTiaoJian.h; sourceTree = "<group>"; };
+		7F799D6B24C984E800526B14 /* MutexDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexDemo.h; sourceTree = "<group>"; };
+		7F799D6C24C984E800526B14 /* SemaphoreDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemaphoreDemo.h; sourceTree = "<group>"; };
+		7F799D6D24C984E800526B14 /* FHBaseDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHBaseDemo.h; sourceTree = "<group>"; };
+		7F799D6E24C984E800526B14 /* FHOSSpinLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHOSSpinLockDemo.m; sourceTree = "<group>"; };
+		7F799D6F24C984E800526B14 /* NSConditionLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
+		7F799D7024C984E800526B14 /* NSConditionDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		7F799D7124C984E800526B14 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
+		7F799D7224C984E800526B14 /* SerialQueueDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
+		7F799D7324C984E800526B14 /* MutexDemoDiGui.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutexDemoDiGui.m; sourceTree = "<group>"; };
+		7F799D7424C984E800526B14 /* NSLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		7F799D7524C984E800526B14 /* FHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHViewController.h; sourceTree = "<group>"; };
+		7F799D7624C984E900526B14 /* FHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHViewController.m; sourceTree = "<group>"; };
+		7F799D8524C9850000526B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F799D3D24C984CB00526B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F799D3724C984CB00526B14 = {
+			isa = PBXGroup;
+			children = (
+				7F799D4224C984CB00526B14 /* 04-多线程-线程同步 */,
+				7F799D4124C984CB00526B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F799D4124C984CB00526B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F799D4024C984CB00526B14 /* 04-多线程-线程同步.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F799D4224C984CB00526B14 /* 04-多线程-线程同步 */ = {
+			isa = PBXGroup;
+			children = (
+				7F799D8424C9850000526B14 /* Main.storyboard */,
+				7F799D5C24C984E800526B14 /* Lock */,
+				7F799D4324C984CB00526B14 /* AppDelegate.h */,
+				7F799D4424C984CB00526B14 /* AppDelegate.m */,
+				7F799D7524C984E800526B14 /* FHViewController.h */,
+				7F799D7624C984E900526B14 /* FHViewController.m */,
+				7F799D4624C984CB00526B14 /* SceneDelegate.h */,
+				7F799D4724C984CB00526B14 /* SceneDelegate.m */,
+				7F799D4F24C984CD00526B14 /* Assets.xcassets */,
+				7F799D5124C984CD00526B14 /* LaunchScreen.storyboard */,
+				7F799D5424C984CD00526B14 /* Info.plist */,
+				7F799D5524C984CD00526B14 /* main.m */,
+			);
+			path = "04-多线程-线程同步";
+			sourceTree = "<group>";
+		};
+		7F799D5C24C984E800526B14 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				7F799D5D24C984E800526B14 /* SemaphoreDemo.m */,
+				7F799D5E24C984E800526B14 /* MutexDemo.m */,
+				7F799D5F24C984E800526B14 /* MutexDemoTiaoJian.m */,
+				7F799D6024C984E800526B14 /* SynchronizedDemo.m */,
+				7F799D6124C984E800526B14 /* NSConditionDemo.m */,
+				7F799D6224C984E800526B14 /* NSConditionLockDemo.m */,
+				7F799D6324C984E800526B14 /* FHOSSpinLockDemo.h */,
+				7F799D6424C984E800526B14 /* FHBaseDemo.m */,
+				7F799D6524C984E800526B14 /* NSLockDemo.m */,
+				7F799D6624C984E800526B14 /* MutexDemoDiGui.h */,
+				7F799D6724C984E800526B14 /* SerialQueueDemo.h */,
+				7F799D6824C984E800526B14 /* OSUnfairLockDemo.m */,
+				7F799D6924C984E800526B14 /* SynchronizedDemo.h */,
+				7F799D6A24C984E800526B14 /* MutexDemoTiaoJian.h */,
+				7F799D6B24C984E800526B14 /* MutexDemo.h */,
+				7F799D6C24C984E800526B14 /* SemaphoreDemo.h */,
+				7F799D6D24C984E800526B14 /* FHBaseDemo.h */,
+				7F799D6E24C984E800526B14 /* FHOSSpinLockDemo.m */,
+				7F799D6F24C984E800526B14 /* NSConditionLockDemo.h */,
+				7F799D7024C984E800526B14 /* NSConditionDemo.h */,
+				7F799D7124C984E800526B14 /* OSUnfairLockDemo.h */,
+				7F799D7224C984E800526B14 /* SerialQueueDemo.m */,
+				7F799D7324C984E800526B14 /* MutexDemoDiGui.m */,
+				7F799D7424C984E800526B14 /* NSLockDemo.h */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F799D3F24C984CB00526B14 /* 04-多线程-线程同步 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F799D5924C984CD00526B14 /* Build configuration list for PBXNativeTarget "04-多线程-线程同步" */;
+			buildPhases = (
+				7F799D3C24C984CB00526B14 /* Sources */,
+				7F799D3D24C984CB00526B14 /* Frameworks */,
+				7F799D3E24C984CB00526B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-多线程-线程同步";
+			productName = "04-多线程-线程同步";
+			productReference = 7F799D4024C984CB00526B14 /* 04-多线程-线程同步.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F799D3824C984CB00526B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "wa\b\bngfh";
+				TargetAttributes = {
+					7F799D3F24C984CB00526B14 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F799D3B24C984CB00526B14 /* Build configuration list for PBXProject "04-多线程-线程同步" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F799D3724C984CB00526B14;
+			productRefGroup = 7F799D4124C984CB00526B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F799D3F24C984CB00526B14 /* 04-多线程-线程同步 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F799D3E24C984CB00526B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F799D8624C9850000526B14 /* Main.storyboard in Resources */,
+				7F799D5324C984CD00526B14 /* LaunchScreen.storyboard in Resources */,
+				7F799D5024C984CD00526B14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F799D3C24C984CB00526B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F799D8124C984E900526B14 /* SerialQueueDemo.m in Sources */,
+				7F799D7824C984E900526B14 /* MutexDemo.m in Sources */,
+				7F799D7D24C984E900526B14 /* FHBaseDemo.m in Sources */,
+				7F799D7F24C984E900526B14 /* OSUnfairLockDemo.m in Sources */,
+				7F799D8224C984E900526B14 /* MutexDemoDiGui.m in Sources */,
+				7F799D7B24C984E900526B14 /* NSConditionDemo.m in Sources */,
+				7F799D7A24C984E900526B14 /* SynchronizedDemo.m in Sources */,
+				7F799D4524C984CB00526B14 /* AppDelegate.m in Sources */,
+				7F799D5624C984CD00526B14 /* main.m in Sources */,
+				7F799D4824C984CB00526B14 /* SceneDelegate.m in Sources */,
+				7F799D8324C984E900526B14 /* FHViewController.m in Sources */,
+				7F799D7C24C984E900526B14 /* NSConditionLockDemo.m in Sources */,
+				7F799D7724C984E900526B14 /* SemaphoreDemo.m in Sources */,
+				7F799D8024C984E900526B14 /* FHOSSpinLockDemo.m in Sources */,
+				7F799D7924C984E900526B14 /* MutexDemoTiaoJian.m in Sources */,
+				7F799D7E24C984E900526B14 /* NSLockDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F799D5124C984CD00526B14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F799D5224C984CD00526B14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F799D8424C9850000526B14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F799D8524C9850000526B14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F799D5724C984CD00526B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F799D5824C984CD00526B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F799D5A24C984CD00526B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-多线程-线程同步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F799D5B24C984CD00526B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-多线程-线程同步/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dongyin.-4---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F799D3B24C984CB00526B14 /* Build configuration list for PBXProject "04-多线程-线程同步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F799D5724C984CD00526B14 /* Debug */,
+				7F799D5824C984CD00526B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F799D5924C984CD00526B14 /* Build configuration list for PBXNativeTarget "04-多线程-线程同步" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F799D5A24C984CD00526B14 /* Debug */,
+				7F799D5B24C984CD00526B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F799D3824C984CB00526B14 /* Project object */;
+}

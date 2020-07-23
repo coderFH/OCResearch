@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="7SY-uC-Rso">
+                                <rect key="frame" x="166.5" y="262" width="81" height="372"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haa-el-7Hm">
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                        <state key="normal" title="interview01"/>
+                                        <connections>
+                                            <action selector="interView01" destination="BYZ-38-t0r" eventType="touchUpInside" id="lO4-8b-bZM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4i-PB-gsD">
+                                        <rect key="frame" x="0.0" y="57" width="80" height="30"/>
+                                        <state key="normal" title="interview02"/>
+                                        <connections>
+                                            <action selector="interview02" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtR-3d-4Ls"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESD-ng-pCo">
+                                        <rect key="frame" x="0.0" y="114" width="81" height="30"/>
+                                        <state key="normal" title="interview03"/>
+                                        <connections>
+                                            <action selector="interview03" destination="BYZ-38-t0r" eventType="touchUpInside" id="5be-GE-7wM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUq-sS-npa">
+                                        <rect key="frame" x="0.0" y="171" width="81" height="30"/>
+                                        <state key="normal" title="interview04"/>
+                                        <connections>
+                                            <action selector="interview04" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Dv-9F-6Z6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K20-FY-4ZR">
+                                        <rect key="frame" x="0.0" y="228" width="81" height="30"/>
+                                        <state key="normal" title="interview05"/>
+                                        <connections>
+                                            <action selector="interview05" destination="BYZ-38-t0r" eventType="touchUpInside" id="WGu-3h-MA0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-Sl-Uki">
+                                        <rect key="frame" x="0.0" y="285" width="81" height="30"/>
+                                        <state key="normal" title="interview06"/>
+                                        <connections>
+                                            <action selector="interview06" destination="BYZ-38-t0r" eventType="touchUpInside" id="GT5-i2-4bk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ho1-05-8w8">
+                                        <rect key="frame" x="0.0" y="342" width="80" height="30"/>
+                                        <state key="normal" title="interview07"/>
+                                        <connections>
+                                            <action selector="interview07" destination="BYZ-38-t0r" eventType="touchUpInside" id="3b4-Fa-zKf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7SY-uC-Rso" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dnt-MS-N9U"/>
+                            <constraint firstItem="7SY-uC-Rso" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gIq-He-yyv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
