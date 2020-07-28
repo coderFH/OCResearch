@@ -30,7 +30,7 @@
     // 初始化属性
     pthread_mutexattr_t attr;
     pthread_mutexattr_init(&attr);
-    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE); // 属性改为递归锁
     // 初始化锁
     pthread_mutex_init(mutex, &attr);
     // 销毁属性
@@ -38,6 +38,11 @@
 }
 
 - (void)otherTest {
+    /*
+     既然使用递归锁可以重复加锁?那我多个线程访问的时候,不也重复加锁了,这不失去了锁的意义了吗?
+     因为递归锁,只允许同一个线程对一把锁进行重复加锁
+     而默认的锁,默认只能加一次锁,不管你是不是同一个线程
+     */
     pthread_mutex_lock(&_mutex);
     
     NSLog(@"%s", __func__);
@@ -45,7 +50,7 @@
     static int count = 0;
     if (count < 10) {
         count++;
-        [self otherTest];
+        [self otherTest]; // 因为是递归调用,再次调用otherTest时,发现加锁了,如果不是递归锁,会产生死锁(因为我锁并没有解,而发现已经加锁了),而如果是递归锁,就不会产生这个问题,因为递归锁可以重复加锁
     }
     
     pthread_mutex_unlock(&_mutex);

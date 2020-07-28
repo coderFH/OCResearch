@@ -8,6 +8,7 @@
 
 #import "RWViewController.h"
 #import <pthread.h>
+#import "FHPerson.h"
 
 @interface RWViewController ()
 
@@ -20,6 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //=============================atomic是线程安全的么================================
+    // 使用atomic只是保证了属性内部get,set方法的安全,但他并不能保证操作的安全,比如下列代码 p.array这个get的过程是安全的
+    // 但是当有多个线程进行添加元素的时候,addObject这个是不安全的
+    FHPerson *p = [[FHPerson alloc] init];
+    [p.array addObject:@"1"];
+    [p.array addObject:@"2"];
+    [p.array addObject:@"3"];
 }
 
 //===============================pthread_rwlock：读写锁==============================
@@ -63,7 +71,10 @@
 
 //===============================dispatch_barrier_async：异步栅栏调用===============================
 - (IBAction)dispatch_barrier_async:(id)sender {
+    // 这里传入的并发队列必须是自己通过dispatch_queue_create创建的
+    // 如果传入的是串行或者全局的并发队列,那么dispatch_barrier_async等同于dispatch_async的效果
     self.queue = dispatch_queue_create("rw_queue", DISPATCH_QUEUE_CONCURRENT);
+//    self.queue = dispatch_get_global_queue(0, 0);
     
     for (int i = 0; i < 10; i++) {
         dispatch_async(self.queue, ^{

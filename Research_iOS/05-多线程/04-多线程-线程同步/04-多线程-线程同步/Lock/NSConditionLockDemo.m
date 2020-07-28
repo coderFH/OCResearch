@@ -23,6 +23,7 @@
 }
 
 - (void)otherTest {
+    // one two three的任务依次执行 相当于设置了线程的依赖
     [[[NSThread alloc] initWithTarget:self selector:@selector(__one) object:nil] start];
     [[[NSThread alloc] initWithTarget:self selector:@selector(__two) object:nil] start];
     [[[NSThread alloc] initWithTarget:self selector:@selector(__three) object:nil] start];
@@ -34,7 +35,7 @@
     NSLog(@"__one");
     sleep(1);
     
-    [self.conditionLock unlockWithCondition:2];
+    [self.conditionLock unlockWithCondition:2]; // 设置锁的条件值为2,并且解锁
 }
 
 - (void)__two {

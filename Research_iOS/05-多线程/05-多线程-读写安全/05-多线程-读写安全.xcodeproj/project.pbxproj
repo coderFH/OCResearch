@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F67753724CFD8E200392232 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67753624CFD8E200392232 /* FHPerson.m */; };
 		7F799D9524C9853500526B14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D9424C9853500526B14 /* AppDelegate.m */; };
 		7F799D9824C9853500526B14 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799D9724C9853500526B14 /* SceneDelegate.m */; };
 		7F799DA024C9853700526B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F799D9F24C9853700526B14 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F67753524CFD8E200392232 /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F67753624CFD8E200392232 /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 		7F799D9024C9853500526B14 /* 05-多线程-读写安全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-多线程-读写安全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F799D9324C9853500526B14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F799D9424C9853500526B14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				7F799DA124C9853700526B14 /* LaunchScreen.storyboard */,
 				7F799DA424C9853700526B14 /* Info.plist */,
 				7F799DA524C9853700526B14 /* main.m */,
+				7F67753524CFD8E200392232 /* FHPerson.h */,
+				7F67753624CFD8E200392232 /* FHPerson.m */,
 			);
 			path = "05-多线程-读写安全";
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			files = (
 				7F799D9524C9853500526B14 /* AppDelegate.m in Sources */,
 				7F799DAE24C9855900526B14 /* RWViewController.m in Sources */,
+				7F67753724CFD8E200392232 /* FHPerson.m in Sources */,
 				7F799DA624C9853700526B14 /* main.m in Sources */,
 				7F799D9824C9853500526B14 /* SceneDelegate.m in Sources */,
 			);

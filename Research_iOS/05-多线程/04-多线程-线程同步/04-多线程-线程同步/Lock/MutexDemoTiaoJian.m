@@ -40,9 +40,9 @@
 
 - (void)otherTest {
     [[[NSThread alloc] initWithTarget:self selector:@selector(__remove) object:nil] start];
-    
     [[[NSThread alloc] initWithTarget:self selector:@selector(__add) object:nil] start];
 }
+
 // 生产者-消费者模式
 
 // 线程1
@@ -53,6 +53,9 @@
     
     if (self.data.count == 0) {
         // 等待 它会让线程先睡眠,并且解锁,当收到唤醒的消息的时候,会加锁,并继续往下执行
+        //1.他会解锁
+        //2.他会等待
+        //3.传入的条件是给别人唤醒的
         pthread_cond_wait(&_cond, &_mutex);
     }
     
@@ -72,7 +75,7 @@
     [self.data addObject:@"Test"];
     NSLog(@"添加了元素");
     
-    // 信号
+    // 信号,通知告诉说数组有东西了
     pthread_cond_signal(&_cond);
     
     // 广播  通知所有睡眠的线程,并且加锁

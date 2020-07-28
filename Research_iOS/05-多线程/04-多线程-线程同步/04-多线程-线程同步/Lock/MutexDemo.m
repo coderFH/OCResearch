@@ -29,7 +29,7 @@
 - (void)__initMutex:(pthread_mutex_t *)mutex
 {
     // 静态初始化
-    //        pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+//            pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
     
     //    // 初始化属性
     //    pthread_mutexattr_t attr;
@@ -40,12 +40,7 @@
     //    // 销毁属性
     //    pthread_mutexattr_destroy(&attr);
     
-    // 初始化属性
-    //    pthread_mutexattr_t attr;
-    //    pthread_mutexattr_init(&attr);
-    //    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_DEFAULT);
-    
-    // 初始化锁
+    // 初始化锁 这里传NULL 就相当于37行属性传PTHREAD_MUTEX_DEFAULT
     pthread_mutex_init(mutex, NULL);
     
     // 销毁属性
@@ -76,6 +71,7 @@
     pthread_mutex_unlock(&_moneyMutex);
 }
 
+// 记得销毁锁
 - (void)dealloc {
     pthread_mutex_destroy(&_moneyMutex);
     pthread_mutex_destroy(&_ticketMutex);

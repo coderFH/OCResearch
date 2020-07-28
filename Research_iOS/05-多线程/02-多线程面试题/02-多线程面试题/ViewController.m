@@ -181,6 +181,13 @@
     }];
     [thread start];
     
+    /*
+     考虑,如果我用一个强指针指向这个thread,是不是一样可以保着线程的命?
+         其实把线程添加到runloop准确的说法应该是保证线程处于激活状态
+         虽然你使用强指针指着这个thread,保证的命还在,但是在执行了一次之后,该线程的任务就已经结束了,所以当你再次调用,其实是没有效果的,虽然还在内存中,但他该做的事已经做完了
+        所以需要把改thread添加到runloop中,使其一直处于激活的状态
+     */
+    
     //如果上述线程不添加到runloop中,程序会崩溃,因为线程在执行完block后,就退出了,利用runloop使他不能退出
     [self performSelector:@selector(test) onThread:thread withObject:nil waitUntilDone:YES];
 }

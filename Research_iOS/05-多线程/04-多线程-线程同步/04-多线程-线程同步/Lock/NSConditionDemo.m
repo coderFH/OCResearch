@@ -57,7 +57,7 @@
     [self.data addObject:@"Test"];
     NSLog(@"添加了元素");
     // 信号
-    [self.condition signal];
+    [self.condition signal]; // 他只是唤醒等待这个条件的线程,他一唤醒,41行会对当前锁进行加锁,因为60代码还没有往下执行,所以锁还没解开,导致41行会等待解锁后再继续执行下边的代码,其实也就是41行,不能马上的加锁成功
     
     // 广播
     //    [self.condition broadcast];

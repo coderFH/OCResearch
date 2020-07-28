@@ -17,7 +17,7 @@
 }
 
 - (void)__saveMoney {
-    //可以对类对象加锁,也可以直接对self加锁
+    //可以对类对象加锁,也可以直接对self加锁,前提是对象是同一个
     @synchronized([self class]) { // objc_sync_enter
         [super __saveMoney];
     } // objc_sync_exit
