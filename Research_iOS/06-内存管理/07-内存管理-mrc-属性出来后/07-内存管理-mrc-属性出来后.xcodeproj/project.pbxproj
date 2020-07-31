@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F1D7E7E24D29C750056626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7E7D24D29C750056626E /* main.m */; };
-		7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799E4C24C986FC00526B14 /* FHPerson.m */; };
+		7F1D7DD324D17CF30056626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7DD224D17CF30056626E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7F799E4024C986E200526B14 /* CopyFiles */ = {
+		7F1D7DCD24D17CF30056626E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F1D7E7D24D29C750056626E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F799E4224C986E200526B14 /* 04-内存管理-copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-内存管理-copy"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F799E4C24C986FC00526B14 /* FHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
-		7F799E4E24C986FC00526B14 /* FHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F1D7DCF24D17CF30056626E /* 07-内存管理-mrc-属性出来后 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-内存管理-mrc-属性出来后"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D7DD224D17CF30056626E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F799E3F24C986E200526B14 /* Frameworks */ = {
+		7F1D7DCC24D17CF30056626E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F799E3924C986E200526B14 = {
+		7F1D7DC624D17CF30056626E = {
 			isa = PBXGroup;
 			children = (
-				7F799E4424C986E200526B14 /* 04-内存管理-copy */,
-				7F799E4324C986E200526B14 /* Products */,
+				7F1D7DD124D17CF30056626E /* 07-内存管理-mrc-属性出来后 */,
+				7F1D7DD024D17CF30056626E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7F799E4324C986E200526B14 /* Products */ = {
+		7F1D7DD024D17CF30056626E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F799E4224C986E200526B14 /* 04-内存管理-copy */,
+				7F1D7DCF24D17CF30056626E /* 07-内存管理-mrc-属性出来后 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F799E4424C986E200526B14 /* 04-内存管理-copy */ = {
+		7F1D7DD124D17CF30056626E /* 07-内存管理-mrc-属性出来后 */ = {
 			isa = PBXGroup;
 			children = (
-				7F1D7E7D24D29C750056626E /* main.m */,
-				7F799E4E24C986FC00526B14 /* FHPerson.h */,
-				7F799E4C24C986FC00526B14 /* FHPerson.m */,
+				7F1D7DD224D17CF30056626E /* main.m */,
 			);
-			path = "04-内存管理-copy";
+			path = "07-内存管理-mrc-属性出来后";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F799E4124C986E200526B14 /* 04-内存管理-copy */ = {
+		7F1D7DCE24D17CF30056626E /* 07-内存管理-mrc-属性出来后 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */;
+			buildConfigurationList = 7F1D7DD624D17CF30056626E /* Build configuration list for PBXNativeTarget "07-内存管理-mrc-属性出来后" */;
 			buildPhases = (
-				7F799E3E24C986E200526B14 /* Sources */,
-				7F799E3F24C986E200526B14 /* Frameworks */,
-				7F799E4024C986E200526B14 /* CopyFiles */,
+				7F1D7DCB24D17CF30056626E /* Sources */,
+				7F1D7DCC24D17CF30056626E /* Frameworks */,
+				7F1D7DCD24D17CF30056626E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "04-内存管理-copy";
-			productName = "04-内存管理-copy";
-			productReference = 7F799E4224C986E200526B14 /* 04-内存管理-copy */;
+			name = "07-内存管理-mrc-属性出来后";
+			productName = "07-内存管理-mrc-属性出来后";
+			productReference = 7F1D7DCF24D17CF30056626E /* 07-内存管理-mrc-属性出来后 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7F799E3A24C986E200526B14 /* Project object */ = {
+		7F1D7DC724D17CF30056626E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "wa\b\bngfh";
 				TargetAttributes = {
-					7F799E4124C986E200526B14 = {
-						CreatedOnToolsVersion = 11.4.1;
+					7F1D7DCE24D17CF30056626E = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */;
+			buildConfigurationList = 7F1D7DCA24D17CF30056626E /* Build configuration list for PBXProject "07-内存管理-mrc-属性出来后" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 7F799E3924C986E200526B14;
-			productRefGroup = 7F799E4324C986E200526B14 /* Products */;
+			mainGroup = 7F1D7DC624D17CF30056626E;
+			productRefGroup = 7F1D7DD024D17CF30056626E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F799E4124C986E200526B14 /* 04-内存管理-copy */,
+				7F1D7DCE24D17CF30056626E /* 07-内存管理-mrc-属性出来后 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F799E3E24C986E200526B14 /* Sources */ = {
+		7F1D7DCB24D17CF30056626E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1D7E7E24D29C750056626E /* main.m in Sources */,
-				7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */,
+				7F1D7DD324D17CF30056626E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7F799E4724C986E200526B14 /* Debug */ = {
+		7F1D7DD424D17CF30056626E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		7F799E4824C986E200526B14 /* Release */ = {
+		7F1D7DD524D17CF30056626E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,17 +235,19 @@
 			};
 			name = Release;
 		};
-		7F799E4A24C986E200526B14 /* Debug */ = {
+		7F1D7DD724D17CF30056626E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		7F799E4B24C986E200526B14 /* Release */ = {
+		7F1D7DD824D17CF30056626E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -260,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */ = {
+		7F1D7DCA24D17CF30056626E /* Build configuration list for PBXProject "07-内存管理-mrc-属性出来后" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4724C986E200526B14 /* Debug */,
-				7F799E4824C986E200526B14 /* Release */,
+				7F1D7DD424D17CF30056626E /* Debug */,
+				7F1D7DD524D17CF30056626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */ = {
+		7F1D7DD624D17CF30056626E /* Build configuration list for PBXNativeTarget "07-内存管理-mrc-属性出来后" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4A24C986E200526B14 /* Debug */,
-				7F799E4B24C986E200526B14 /* Release */,
+				7F1D7DD724D17CF30056626E /* Debug */,
+				7F1D7DD824D17CF30056626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7F799E3A24C986E200526B14 /* Project object */;
+	rootObject = 7F1D7DC724D17CF30056626E /* Project object */;
 }

@@ -17,7 +17,7 @@
     return proxy;
 }
 
-//使用消息转发,当找不到方式时候,转发出去让控制器处理
+//使用消息转发,当找不到方式时候,转发出去让控制器处理,让外部每隔一秒可以去调用外部的timerTest方法
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {
     return self.target;

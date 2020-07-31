@@ -29,6 +29,12 @@
     //上边两行代码执行后,可以看到返回的时候并没有调用delloc方法,说明产生了相互吸引
     //控制器拥有Timer对象或者link对象,而这两个对象中的target又引用控制器,就形成了相互引用
     
+    /*
+        那我把上边的self使用weakSelf代替可以么?
+        首先要明白weakSelf是在block中使用的,block中使用weakSelf就不会对引用的外部变量进行强引用
+        然后,weakSelf本质还是一个内存地址,跟self没有区别,上述代码,通过参数把weakSelf传递给Timer内部,Timer内部完全可以有个属性去保存你这个weakSelf(内存地址),所以根本解决不了循环引用的问题
+    */
+    
     //如何解决上边循环利用的问题
     //方式1:通过block
 //    __weak typeof(self) weakSelf = self;
@@ -42,12 +48,19 @@
     
     //我们让FHProxy1继承NSProxy
 //    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:[FHProxy1 proxyWithTarget:self] selector:@selector(timerTest) userInfo:nil repeats:YES];
-    //其实继承NSProxy,更加好,因为这个类就是苹果提供给我们专门做消息转发的类
+    
+    /*
+     为什么继承NSProxy更加好?
+     1. 因为这个类就是苹果提供给我们专门做消息转发的类
+     2. 首先像FHProxy继承自NSObject,在调用方法的时候,会走消息流程那一套,先看缓存啊,动态方法解析啊,最后才会走转发
+        而继承NSProxy,如果他自己没有实现,不会去父类查找啥的,也不会动态方法解析,会直接走消息转发,效率会更高
+     */
+    
 //    TimerViewController *vc = [[TimerViewController alloc] init];
 //    FHProxy *proxy = [FHProxy proxyWithTarget:vc];
 //    FHProxy1 *proxy1 = [FHProxy1 proxyWithTarget:vc];
-//    NSLog(@"%d",[proxy isKindOfClass:[UIViewController class]]);//0
-//    NSLog(@"%d",[proxy1 isKindOfClass:[UIViewController class]]);//1
+//    NSLog(@"%d",[proxy isKindOfClass:[UIViewController class]]);//0 因为proxy是NSObject类型
+//    NSLog(@"%d",[proxy1 isKindOfClass:[UIViewController class]]);//1 而继承NSProxy的,会把大部分方法进行了转发比如isKindOfClass
     //通过上边0,1的打印,也可以看出区别,继承自NSProxy的也可以转发vc的isKindofClass方法,所以我们完全可以拿proxy1当vc去用,很完美
     
     //注意:link和timer其实都是添加到runloop中,所以时间并不会非常准确,因为runloop是一直循环做事情,比如runloop跑一圈需要0.04秒

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F1D7E7E24D29C750056626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7E7D24D29C750056626E /* main.m */; };
-		7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799E4C24C986FC00526B14 /* FHPerson.m */; };
+		7F1D7EB124D2ACE00056626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7EB024D2ACE00056626E /* main.m */; };
+		7F1D7EB924D2AD110056626E /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7EB824D2AD110056626E /* FHPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7F799E4024C986E200526B14 /* CopyFiles */ = {
+		7F1D7EAB24D2ACE00056626E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F1D7E7D24D29C750056626E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F799E4224C986E200526B14 /* 04-内存管理-copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-内存管理-copy"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F799E4C24C986FC00526B14 /* FHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
-		7F799E4E24C986FC00526B14 /* FHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F1D7EAD24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09-内存管理-copy一些常问的问题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D7EB024D2ACE00056626E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1D7EB724D2AD110056626E /* FHPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F1D7EB824D2AD110056626E /* FHPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F799E3F24C986E200526B14 /* Frameworks */ = {
+		7F1D7EAA24D2ACE00056626E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F799E3924C986E200526B14 = {
+		7F1D7EA424D2ACE00056626E = {
 			isa = PBXGroup;
 			children = (
-				7F799E4424C986E200526B14 /* 04-内存管理-copy */,
-				7F799E4324C986E200526B14 /* Products */,
+				7F1D7EAF24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */,
+				7F1D7EAE24D2ACE00056626E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7F799E4324C986E200526B14 /* Products */ = {
+		7F1D7EAE24D2ACE00056626E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F799E4224C986E200526B14 /* 04-内存管理-copy */,
+				7F1D7EAD24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F799E4424C986E200526B14 /* 04-内存管理-copy */ = {
+		7F1D7EAF24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */ = {
 			isa = PBXGroup;
 			children = (
-				7F1D7E7D24D29C750056626E /* main.m */,
-				7F799E4E24C986FC00526B14 /* FHPerson.h */,
-				7F799E4C24C986FC00526B14 /* FHPerson.m */,
+				7F1D7EB024D2ACE00056626E /* main.m */,
+				7F1D7EB724D2AD110056626E /* FHPerson.h */,
+				7F1D7EB824D2AD110056626E /* FHPerson.m */,
 			);
-			path = "04-内存管理-copy";
+			path = "09-内存管理-copy一些常问的问题";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F799E4124C986E200526B14 /* 04-内存管理-copy */ = {
+		7F1D7EAC24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */;
+			buildConfigurationList = 7F1D7EB424D2ACE00056626E /* Build configuration list for PBXNativeTarget "09-内存管理-copy一些常问的问题" */;
 			buildPhases = (
-				7F799E3E24C986E200526B14 /* Sources */,
-				7F799E3F24C986E200526B14 /* Frameworks */,
-				7F799E4024C986E200526B14 /* CopyFiles */,
+				7F1D7EA924D2ACE00056626E /* Sources */,
+				7F1D7EAA24D2ACE00056626E /* Frameworks */,
+				7F1D7EAB24D2ACE00056626E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "04-内存管理-copy";
-			productName = "04-内存管理-copy";
-			productReference = 7F799E4224C986E200526B14 /* 04-内存管理-copy */;
+			name = "09-内存管理-copy一些常问的问题";
+			productName = "09-内存管理-copy一些常问的问题";
+			productReference = 7F1D7EAD24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7F799E3A24C986E200526B14 /* Project object */ = {
+		7F1D7EA524D2ACE00056626E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "wa\b\bngfh";
 				TargetAttributes = {
-					7F799E4124C986E200526B14 = {
-						CreatedOnToolsVersion = 11.4.1;
+					7F1D7EAC24D2ACE00056626E = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */;
+			buildConfigurationList = 7F1D7EA824D2ACE00056626E /* Build configuration list for PBXProject "09-内存管理-copy一些常问的问题" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 7F799E3924C986E200526B14;
-			productRefGroup = 7F799E4324C986E200526B14 /* Products */;
+			mainGroup = 7F1D7EA424D2ACE00056626E;
+			productRefGroup = 7F1D7EAE24D2ACE00056626E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F799E4124C986E200526B14 /* 04-内存管理-copy */,
+				7F1D7EAC24D2ACE00056626E /* 09-内存管理-copy一些常问的问题 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F799E3E24C986E200526B14 /* Sources */ = {
+		7F1D7EA924D2ACE00056626E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1D7E7E24D29C750056626E /* main.m in Sources */,
-				7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */,
+				7F1D7EB924D2AD110056626E /* FHPerson.m in Sources */,
+				7F1D7EB124D2ACE00056626E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7F799E4724C986E200526B14 /* Debug */ = {
+		7F1D7EB224D2ACE00056626E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		7F799E4824C986E200526B14 /* Release */ = {
+		7F1D7EB324D2ACE00056626E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,17 +241,19 @@
 			};
 			name = Release;
 		};
-		7F799E4A24C986E200526B14 /* Debug */ = {
+		7F1D7EB524D2ACE00056626E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		7F799E4B24C986E200526B14 /* Release */ = {
+		7F1D7EB624D2ACE00056626E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -260,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */ = {
+		7F1D7EA824D2ACE00056626E /* Build configuration list for PBXProject "09-内存管理-copy一些常问的问题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4724C986E200526B14 /* Debug */,
-				7F799E4824C986E200526B14 /* Release */,
+				7F1D7EB224D2ACE00056626E /* Debug */,
+				7F1D7EB324D2ACE00056626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */ = {
+		7F1D7EB424D2ACE00056626E /* Build configuration list for PBXNativeTarget "09-内存管理-copy一些常问的问题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4A24C986E200526B14 /* Debug */,
-				7F799E4B24C986E200526B14 /* Release */,
+				7F1D7EB524D2ACE00056626E /* Debug */,
+				7F1D7EB624D2ACE00056626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7F799E3A24C986E200526B14 /* Project object */;
+	rootObject = 7F1D7EA524D2ACE00056626E /* Project object */;
 }

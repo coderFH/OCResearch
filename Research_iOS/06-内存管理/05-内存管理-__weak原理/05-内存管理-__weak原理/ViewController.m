@@ -20,17 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    __strong FHPerson *person1;
+    __strong FHPerson *person1; // 默认就是强指向
     __weak FHPerson *person2;
     __unsafe_unretained FHPerson *person3;
-    
+    NSLog(@"111111");
     {
         FHPerson *person = [[FHPerson alloc] init];
 //        person1 = person;
         person2 = person;
-//        person3 = person;
+        person3 = person;
     }
     NSLog(@"222--- %@",person2);
+//    NSLog(@"222--- %@",person3);//__unsafe_unretained会造成坏内存访问
 }
 
 

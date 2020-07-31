@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F1D7E7E24D29C750056626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D7E7D24D29C750056626E /* main.m */; };
-		7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F799E4C24C986FC00526B14 /* FHPerson.m */; };
+		7F7E5ACF24D40F4D00EB301B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E5ACE24D40F4D00EB301B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7F799E4024C986E200526B14 /* CopyFiles */ = {
+		7F7E5AC924D40F4D00EB301B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F1D7E7D24D29C750056626E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F799E4224C986E200526B14 /* 04-内存管理-copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-内存管理-copy"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F799E4C24C986FC00526B14 /* FHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPerson.m; sourceTree = "<group>"; };
-		7F799E4E24C986FC00526B14 /* FHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPerson.h; sourceTree = "<group>"; };
+		7F7E5ACB24D40F4D00EB301B /* 10-内存管理-autorelease */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-内存管理-autorelease"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7E5ACE24D40F4D00EB301B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F799E3F24C986E200526B14 /* Frameworks */ = {
+		7F7E5AC824D40F4D00EB301B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F799E3924C986E200526B14 = {
+		7F7E5AC224D40F4D00EB301B = {
 			isa = PBXGroup;
 			children = (
-				7F799E4424C986E200526B14 /* 04-内存管理-copy */,
-				7F799E4324C986E200526B14 /* Products */,
+				7F7E5ACD24D40F4D00EB301B /* 10-内存管理-autorelease */,
+				7F7E5ACC24D40F4D00EB301B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7F799E4324C986E200526B14 /* Products */ = {
+		7F7E5ACC24D40F4D00EB301B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F799E4224C986E200526B14 /* 04-内存管理-copy */,
+				7F7E5ACB24D40F4D00EB301B /* 10-内存管理-autorelease */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F799E4424C986E200526B14 /* 04-内存管理-copy */ = {
+		7F7E5ACD24D40F4D00EB301B /* 10-内存管理-autorelease */ = {
 			isa = PBXGroup;
 			children = (
-				7F1D7E7D24D29C750056626E /* main.m */,
-				7F799E4E24C986FC00526B14 /* FHPerson.h */,
-				7F799E4C24C986FC00526B14 /* FHPerson.m */,
+				7F7E5ACE24D40F4D00EB301B /* main.m */,
 			);
-			path = "04-内存管理-copy";
+			path = "10-内存管理-autorelease";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F799E4124C986E200526B14 /* 04-内存管理-copy */ = {
+		7F7E5ACA24D40F4D00EB301B /* 10-内存管理-autorelease */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */;
+			buildConfigurationList = 7F7E5AD224D40F4D00EB301B /* Build configuration list for PBXNativeTarget "10-内存管理-autorelease" */;
 			buildPhases = (
-				7F799E3E24C986E200526B14 /* Sources */,
-				7F799E3F24C986E200526B14 /* Frameworks */,
-				7F799E4024C986E200526B14 /* CopyFiles */,
+				7F7E5AC724D40F4D00EB301B /* Sources */,
+				7F7E5AC824D40F4D00EB301B /* Frameworks */,
+				7F7E5AC924D40F4D00EB301B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "04-内存管理-copy";
-			productName = "04-内存管理-copy";
-			productReference = 7F799E4224C986E200526B14 /* 04-内存管理-copy */;
+			name = "10-内存管理-autorelease";
+			productName = "10-内存管理-autorelease";
+			productReference = 7F7E5ACB24D40F4D00EB301B /* 10-内存管理-autorelease */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7F799E3A24C986E200526B14 /* Project object */ = {
+		7F7E5AC324D40F4D00EB301B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "wa\b\bngfh";
 				TargetAttributes = {
-					7F799E4124C986E200526B14 = {
-						CreatedOnToolsVersion = 11.4.1;
+					7F7E5ACA24D40F4D00EB301B = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */;
+			buildConfigurationList = 7F7E5AC624D40F4D00EB301B /* Build configuration list for PBXProject "10-内存管理-autorelease" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 7F799E3924C986E200526B14;
-			productRefGroup = 7F799E4324C986E200526B14 /* Products */;
+			mainGroup = 7F7E5AC224D40F4D00EB301B;
+			productRefGroup = 7F7E5ACC24D40F4D00EB301B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F799E4124C986E200526B14 /* 04-内存管理-copy */,
+				7F7E5ACA24D40F4D00EB301B /* 10-内存管理-autorelease */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F799E3E24C986E200526B14 /* Sources */ = {
+		7F7E5AC724D40F4D00EB301B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1D7E7E24D29C750056626E /* main.m in Sources */,
-				7F799E4F24C986FC00526B14 /* FHPerson.m in Sources */,
+				7F7E5ACF24D40F4D00EB301B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7F799E4724C986E200526B14 /* Debug */ = {
+		7F7E5AD024D40F4D00EB301B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		7F799E4824C986E200526B14 /* Release */ = {
+		7F7E5AD124D40F4D00EB301B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,17 +235,19 @@
 			};
 			name = Release;
 		};
-		7F799E4A24C986E200526B14 /* Debug */ = {
+		7F7E5AD324D40F4D00EB301B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		7F799E4B24C986E200526B14 /* Release */ = {
+		7F7E5AD424D40F4D00EB301B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -260,25 +256,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F799E3D24C986E200526B14 /* Build configuration list for PBXProject "04-内存管理-copy" */ = {
+		7F7E5AC624D40F4D00EB301B /* Build configuration list for PBXProject "10-内存管理-autorelease" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4724C986E200526B14 /* Debug */,
-				7F799E4824C986E200526B14 /* Release */,
+				7F7E5AD024D40F4D00EB301B /* Debug */,
+				7F7E5AD124D40F4D00EB301B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F799E4924C986E200526B14 /* Build configuration list for PBXNativeTarget "04-内存管理-copy" */ = {
+		7F7E5AD224D40F4D00EB301B /* Build configuration list for PBXNativeTarget "10-内存管理-autorelease" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F799E4A24C986E200526B14 /* Debug */,
-				7F799E4B24C986E200526B14 /* Release */,
+				7F7E5AD324D40F4D00EB301B /* Debug */,
+				7F7E5AD424D40F4D00EB301B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7F799E3A24C986E200526B14 /* Project object */;
+	rootObject = 7F7E5AC324D40F4D00EB301B /* Project object */;
 }

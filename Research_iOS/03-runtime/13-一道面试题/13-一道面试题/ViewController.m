@@ -61,7 +61,7 @@
         objc_msgsendSuper2(abc,sel_registerName("viewDidLoad"))
     2. 因为是最先调用,所以在栈空间中,就有了abc这个结构体(self,ViewController)
     3. 然后往下走 是cls最后是obj
-    4. 所以栈空间存放从低地址->高地址就是 obj-cls-self\ViewController
+    4. 所以栈空间实际存放从 低地址->高地址 就是 obj-cls-self\ViewController
     5. 因为把obj当成了p使用,在调用[(__bridge id)obj print] 时 走到 NSLog(@"my name is %@",self.name);
        如果类比成p调用_name,其实是偏移8个字节(就是跳过isa),然后取自己的成员变量_name
        同样obj 偏移8个字节 也就是略过cls  就会走到abc这个结构体中的self.
