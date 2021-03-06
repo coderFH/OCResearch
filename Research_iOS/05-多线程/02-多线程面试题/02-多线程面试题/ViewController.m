@@ -64,7 +64,7 @@
 /*
  问题：以下代码是在主线程执行的，会不会产生死锁？
  不会！
- dispatch_async不要求立马在当前线程同步执行任务
+ dispatch_async不要求立马在当前线程同步执行任务 1,3,2
  */
 - (IBAction)interview02 {
     NSLog(@"执行任务1");

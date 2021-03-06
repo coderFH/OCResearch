@@ -33,7 +33,10 @@ int main(int argc, const char * argv[]) {
             FHPerson *p = [[FHPerson alloc] init];
             p.age = 10;
             __weak FHPerson *weakP = p;
-            //此时的block在arc环境下,已经是在堆区了
+            // 下边这一句block1=... 在mrc环境下,block因为是在栈上,并不会对该block进行copy操作
+            // 而此前的环境是arc,并且block1是一个强引用,所以默认会对指向的block进行一次copy操作
+            // 此时的block在arc环境下,已经是在堆区了
+            // 当block自动进行copy的时候,block就自动调用自己对象内部的copy方法
             block1 = ^{ //block引用了对象类型auto变量,会持有这个person对象,所以在42行出了大括号的时候,person对象并不会释放,只有当block1这个强指针释放时,block才会释放,相应的person对象才会释放,所以会先打印'------',然后再打印'FHPerson - dealloc'
                 //假如换成weakP,block其实是弱引用这person对象,所以过了42行后,person对象会马上释放
                 NSLog(@"---------%d",p.age);

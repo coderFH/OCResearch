@@ -49,17 +49,17 @@ int main(int argc, const char * argv[]) {
         
         //一个面试题,a的地址会不会变
         __block int a = 1;
-        NSLog(@"%d %p",a,&a);
+        NSLog(@"%d %p",a,&a); //1 0x7ffeefbff438
 
         void (^block)(void) = ^{
             a = 3;
-            NSLog(@"%d %p",a,&a);
+            NSLog(@"%d %p",a,&a); //3 0x10053d328
         };
 
         a = 2;
-        NSLog(@"%d %p",a,&a);
+        NSLog(@"%d %p",a,&a); //2 0x10053d328
         block();
-        NSLog(@"%d %p",a,&a);
+        NSLog(@"%d %p",a,&a); //3 0x10053d328
         
         
         

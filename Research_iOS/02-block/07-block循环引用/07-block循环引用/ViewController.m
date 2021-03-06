@@ -57,7 +57,6 @@
     };
     //所以 在延迟执行的Block内部 为了保住 Person对象不被销毁 我们需要使用一个强引用来保住 Person对象的命
     person1.dosomethingBlock();
-
 }
 
 @end

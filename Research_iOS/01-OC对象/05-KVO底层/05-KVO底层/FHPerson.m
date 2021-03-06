@@ -15,8 +15,9 @@
     NSLog(@"setAge:");
 }
 
+// 这里写两个方法的原因是要验证NSKVONotifying_FHPerson内部的_NSSetIntValueAndNotify确实调用了这两个方法
 - (void)willChangeValueForKey:(NSString *)key {
-    [super willChangeValueForKey:key];
+    [super willChangeValueForKey:key]; // 验证确实调用,所以super一下,如果真的NSKVONotifying_FHPerson调用了这个方法,通过父类打印出来
     NSLog(@"willChangeValueForKey");
 }
 
@@ -24,6 +25,7 @@
     NSLog(@"didChangeValueForKey - begin");
     [super didChangeValueForKey:key];
     NSLog(@"didChangeValueForKey - end");
-    
 }
+
+
 @end

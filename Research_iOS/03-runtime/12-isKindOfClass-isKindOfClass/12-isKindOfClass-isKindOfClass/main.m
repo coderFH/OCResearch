@@ -18,10 +18,23 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d", [[FHPerson class] isKindOfClass:[FHPerson class]]);
         NSLog(@"%d", [[FHPerson class] isMemberOfClass:[FHPerson class]]);
         
+        /*
+         - (BOOL)isKindOfClass:(Class)cls {
+             for (Class tcls = [self class]; tcls; tcls = tcls->superclass) {
+                 if (tcls == cls) return YES;
+             }
+             return NO;
+         }
+         */
         //所以对上边的进行简化 就是
-        // 虽然左边是元类,右边是类对象,貌似应该是0,但是NSObject的元类一直往上查,其实会查到NSObject的类对象,所以还是1
+        // 虽然左边是元类,右边是类对象,貌似应该是0,但是NSObject的元类一直沿着superclass往上查,其实会查到NSObject的类对象,所以还是1
         NSLog(@"%d", [NSObject isKindOfClass:[NSObject class]]);
         // 左边是元类 != 右边是类对象  所以是0
+        /*
+         - (BOOL)isMemberOfClass:(Class)cls {
+             return [self class] == cls;
+         }
+         */
         NSLog(@"%d", [NSObject isMemberOfClass:[NSObject class]]);
         // 下边两个因为调用的是类方法,所以右边一定要是元类对象,所以肯定都是 0
         NSLog(@"%d", [FHPerson isKindOfClass:[FHPerson class]]);

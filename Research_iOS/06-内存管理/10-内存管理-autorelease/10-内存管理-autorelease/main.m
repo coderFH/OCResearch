@@ -17,7 +17,7 @@
 @end
 
 //苹果暴露给开发者的一个私有函数,可以查看自动释放池的情况
-extern void _objc_autoreleasePoolPrint(void);
+extern void g(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {  //  r1 = push()

@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface FHPerson : NSObject
-
+{
+    @public
+    int _sex;
+}
 @property (nonatomic,assign) int age;
 
 @end

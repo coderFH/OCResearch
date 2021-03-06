@@ -14,7 +14,6 @@
 		7FDCCDFF24C81EA200C5069E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCCDFE24C81EA200C5069E /* Assets.xcassets */; };
 		7FDCCE0224C81EA200C5069E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCCE0024C81EA200C5069E /* LaunchScreen.storyboard */; };
 		7FDCCE0524C81EA200C5069E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCCE0424C81EA200C5069E /* main.m */; };
-		7FDCCE0F24C81EBF00C5069E /* NSKVONotifying_FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCCE0D24C81EBF00C5069E /* NSKVONotifying_FHPerson.m */; };
 		7FDCCE1024C81EBF00C5069E /* FHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCCE0E24C81EBF00C5069E /* FHPerson.m */; };
 /* End PBXBuildFile section */
 
@@ -158,7 +157,6 @@
 			files = (
 				7FDCCE1024C81EBF00C5069E /* FHPerson.m in Sources */,
 				7FDCCDFA24C81EA100C5069E /* ViewController.m in Sources */,
-				7FDCCE0F24C81EBF00C5069E /* NSKVONotifying_FHPerson.m in Sources */,
 				7FDCCDF424C81EA100C5069E /* AppDelegate.m in Sources */,
 				7FDCCE0524C81EA200C5069E /* main.m in Sources */,
 				7FDCCDF724C81EA100C5069E /* SceneDelegate.m in Sources */,
