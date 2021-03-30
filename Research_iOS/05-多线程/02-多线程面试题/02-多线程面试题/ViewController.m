@@ -105,7 +105,7 @@
 
 /*
  问题：以下代码是在主线程执行的，会不会产生死锁？不会！
- 虽然是串行队列,但两个任务是在不同的队列中,并不会互相等待
+ 虽然是串行队列,但两个任务是在不同的队列中,并不会互相等待 1 5 2 3 4
  */
 - (IBAction)interview04 {
     NSLog(@"执行任务1");
@@ -128,7 +128,7 @@
 
 /*
  问题：以下代码是在主线程执行的，会不会产生死锁？不会！
- 因为是并发队列
+ 因为是并发队列 1 5 2 3 4
  */
 - (IBAction)interview05 {
     NSLog(@"执行任务1");
@@ -164,7 +164,7 @@
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
         
         //这个方法的本质就是一个消息方法,跟Runloop没有关系
-//        [self performSelector:<#(SEL)#> withObject:<#(id)#>]
+//        [self performSelector:@selector(test) withObject:nil];
         
         NSLog(@"3");
     });
