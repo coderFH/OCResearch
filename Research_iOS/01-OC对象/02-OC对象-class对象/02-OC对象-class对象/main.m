@@ -49,6 +49,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"-----------------元类对象------------------");
         Class objectMetaClass = object_getClass([NSObject class]);
+        objc_getMetaClass(class_getName([NSObject class])) // 也能或者元类对象,传入的是字符串
         NSLog(@"%p",objectMetaClass);
         
         NSLog(@"-----------------注意------------------");
