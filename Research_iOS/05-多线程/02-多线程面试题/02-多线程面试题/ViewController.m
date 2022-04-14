@@ -170,6 +170,28 @@
     });
 }
 
+- (void)meiTuanMianShi {
+    dispatch_queue_t serialQueue = dispatch_queue_create(nil,DISPATCH_QUEUE_SERIAL);
+    dispatch_async(serialQueue,^{
+        sleep(3);
+        NSLog(@"1--%@",[NSThread currentThread]);
+    });
+    dispatch_sync(serialQueue,^{
+        sleep(1);
+        NSLog(@"2--%@",[NSThread currentThread]);
+    });
+    dispatch_async(serialQueue,^{
+        NSLog(@"3--%@",[NSThread currentThread]);
+    });
+    dispatch_sync(serialQueue,^{
+        sleep(5);
+        NSLog(@"4--%@",[NSThread currentThread]);
+    });
+    dispatch_async(serialQueue,^{
+        NSLog(@"5--%@",[NSThread currentThread]);
+    });
+}
+
 - (IBAction)interview07 {
     NSLog(@"interview07");
     NSThread *thread = [[NSThread alloc] initWithBlock:^{
